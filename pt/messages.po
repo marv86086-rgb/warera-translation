@@ -416,11 +416,11 @@ msgstr "<0/> saiu da conversa"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:756
 msgid "<0/> liked your article <1/>"
-msgstr "<0/> curtiu seu artigo <1/>"
+msgstr "<0/> gostou do seu artigo <1/>"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:819
 msgid "<0/> liked your message <1/>"
-msgstr "<0/> curtiu sua mensagem <1/>"
+msgstr "<0/> gostou da sua mensagem <1/>"
 
 #: src/components/_political/event/event.frontConfig.tsx:241
 msgid "<0/> made peace with <1/>"
@@ -428,7 +428,7 @@ msgstr "<0/> fez as pazes com <1/>"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1190
 msgid "<0/> mentioned you in a message <1/>"
-msgstr "<0/> mencionou você em uma mensagem <1/>"
+msgstr "<0/> mencionou-te numa mensagem <1/>"
 
 #: src/components/_military/mercenaryContract/MercenaryContractItemContent.tsx:221
 msgid "<0/> paid fee"
@@ -536,7 +536,7 @@ msgstr "<0/><1>Debuff</1> termina <2/>"
 
 #: src/components/_user/user/UserHeader.tsx:351
 msgid "<0/>Last connection was <1><2/></1>"
-msgstr "<0/>A última conexão foi <1><2/></1>"
+msgstr "<0/>A última conexão foi há <1><2/></1>"
 
 #: src/pages/war/[warId]/index.tsx:55
 msgid "<0/>Priority ends in <1/>"
@@ -698,11 +698,11 @@ msgstr "<0>{depositBonus}</0> de bônus de depósitos de recursos em <1/>."
 
 #: src/components/_economy/company/CompanyProductionBonusTag.tsx:86
 msgid "<0>{ethicDepositBonus}</0> from <1/> agrarian ethics deposit bonus."
-msgstr "<0>{ethicDepositBonus}</0> Bônus de depósito de ética agrária de <1/>."
+msgstr "<0>{ethicDepositBonus}</0> Bónus de depósito de ética agrária de <1/>."
 
 #: src/components/_economy/company/CompanyProductionBonusTag.tsx:64
 msgid "<0>{ethicSpecializationBonus}</0> from <1/> industrialist ethics specialization bonus."
-msgstr "<0>{ethicSpecializationBonus}</0> Bônus de especialização de éticas indtrustialisticas de <1/>."
+msgstr "<0>{ethicSpecializationBonus}</0> Bónus de especialização de éticas indtrustialisticas de <1/>."
 
 #: src/components/_economy/company/CompanyProductionBonusTag.tsx:53
 msgid "<0>{strategicBonus}</0> from <1/> strategic resources production bonus."
@@ -715,7 +715,7 @@ msgstr "Recurso <0>#{key}</0> de cada tipo = <1>{value}</1>"
 
 #: src/components/_user/user/UserTooltip.tsx:131
 msgid "<0>Buff</0> ends <1/>"
-msgstr "<0>Bônus</0> termina <1/>"
+msgstr "<0>Buff</0> termina <1/>"
 
 #: src/components/_user/user/UserTooltip.tsx:140
 msgid "<0>Debuff</0> ends <1/>"
@@ -1291,7 +1291,7 @@ msgstr "Ações"
 #: src/pages/events/index.tsx:94
 #: src/utils/translations.tsx:258
 msgid "Active"
-msgstr "Ativas"
+msgstr "Em curso"
 
 #: src/pages/region/[regionId]/index.tsx:206
 msgid "Active battle"
@@ -1870,7 +1870,7 @@ msgstr "Melhor que nada, né?"
 
 #: src/components/_military/mercenaryContract/MercenaryAuctionItem.tsx:292
 msgid "Bid"
-msgstr "Lance"
+msgstr "Licitar"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:8
 msgid "Birthday Hat for 1st year of Beta"
@@ -2129,7 +2129,7 @@ msgstr "Probabilidade de obter recompensas instantaneamente por cada tiro certei
 
 #: src/components/_user/user/skills.frontConfig.tsx:138
 msgid "Chance to dodge all incoming damage when fighting in battles.<0/>Dodging also prevents equipment durability from being consumed."
-msgstr "Chance de esquivar de todo o dano recebido em batalhas.<0/>Esquivar também evita o consumo da durabilidade do equipamento."
+msgstr "Chance de esquivar todo o dano recebido em batalhas.<0/>Evasão também evita o consumo da durabilidade do equipamento."
 
 #: src/components/_user/user/skills.frontConfig.tsx:124
 msgid "Chance to hit the target.<0/>Misses cannot crit, and deal half damage."
@@ -2274,7 +2274,7 @@ msgstr "Clique várias vezes para aumentar esta habilidade. Mais habilidade = ma
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:139
 msgid "Click on a battle to see what's happening and join in."
-msgstr "Clique em uma batalha para ver o que está acontecendo e participar."
+msgstr "Clique numa batalha para ver o que está a acontecer e participar."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:213
 msgid "Click on your country's conversation to chat with fellow citizens."
@@ -2603,7 +2603,7 @@ msgstr "País"
 
 #: src/pages/country/[countryId]/index.tsx:483
 msgid "Country development income bonus"
-msgstr "Bônus de renda por desenvolvimento do país"
+msgstr "Bónus de renda por desenvolvimento do país"
 
 #: src/components/_military/battle/BattleSideOrdersModal.tsx:40
 msgid "Country Orders"
@@ -2620,7 +2620,7 @@ msgstr "Presidente do País"
 
 #: src/pages/country/[countryId]/index.tsx:434
 msgid "Country production bonus"
-msgstr "Bônus de produção do país"
+msgstr "Bónus de produção do país"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:181
 msgid "Country Tournament Winner"
@@ -2907,7 +2907,7 @@ msgstr "Declarar um inimigo jurado"
 
 #: src/pages/user/[userId]/settings.tsx:94
 msgid "Delete account"
-msgstr "Excluir conta"
+msgstr "Apagar conta"
 
 #: src/components/_military/mercenaryContract/MercenaryContractItem.tsx:100
 msgid "Delete contract"
@@ -2916,7 +2916,7 @@ msgstr "Eliminar contrato"
 #: src/pages/index.tsx:146
 #: src/pages/rules.tsx:40
 msgid "Delete your account"
-msgstr "Excluir sua conta"
+msgstr "Apagar conta"
 
 #: src/components/_military/mu/MuMemberList.tsx:153
 msgid "Demote Commander"
@@ -3048,7 +3048,7 @@ msgstr "Você sabe o que é sorte?"
 #: src/components/_user/user/skills.frontConfig.tsx:144
 #: src/components/_user/user/skills.frontConfig.tsx:145
 msgid "Dodge"
-msgstr "Esquiva"
+msgstr "Evasão"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:276
 msgid "Dodge <0>{count}</0> attacks"
@@ -3132,11 +3132,11 @@ msgstr "Modo Eco"
 
 #: src/components/_political/law/LawTypeSelect.tsx:108
 msgid "Economic laws"
-msgstr "Leis econômicas"
+msgstr "Leis económicas"
 
 #: src/components/_user/user/skills.frontConfig.tsx:216
 msgid "Economic skills"
-msgstr "Habilidades econômicas"
+msgstr "Habilidades económicas"
 
 #: src/components/_user/notification/notificationPrefs.categories.ts:154
 msgid "Economy & Companies"
@@ -3461,11 +3461,11 @@ msgstr "Feed"
 
 #: src/components/_user/worker/WorkerItem.tsx:110
 msgid "Fidelity Bonus"
-msgstr "Bônus de fidelidade"
+msgstr "Bónus de fidelidade"
 
 #: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:164
 msgid "Fidelity bonus:"
-msgstr "Bônus de fidelidade:"
+msgstr "Bónus de fidelidade:"
 
 #: src/components/_military/mercenaryContract/MercenaryAuctionItem.tsx:155
 msgid "Fight for <0/> in <1/>"
@@ -3535,7 +3535,7 @@ msgstr "Encontrar emprego"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:430
 msgid "Find a job at a company"
-msgstr "Encontrar um emprego em uma empresa"
+msgstr "Encontrar emprego numa empresa"
 
 #: src/components/_military/mu/MuJobItem.tsx:26
 msgid "Find a military unit"
@@ -4144,7 +4144,7 @@ msgstr "Entrou"
 
 #: src/components/_economy/workOffer/WorkOfferList.tsx:130
 msgid "Joining a new job will make you leave your current one!"
-msgstr "Entrar em um novo emprego fará você deixar o atual!"
+msgstr "Ao aceitar um novo emprego, irá sair do seu emprego atual!"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:22
 msgid "Just 1 more..."
@@ -5414,11 +5414,11 @@ msgstr "Calças"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:222
 msgid "Participate in <0>{count}</0> battles"
-msgstr "Participar de <0>{count}</0> batalhas"
+msgstr "Participar em <0>{count}</0> batalhas"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:220
 msgid "Participate in Battle"
-msgstr "Participar de batalha"
+msgstr "Participar na batalha"
 
 #: src/pages/parties.tsx:13
 msgid "Parties"
@@ -5723,21 +5723,21 @@ msgstr "Item produzido alterado!"
 #: src/components/_user/user/skills.frontConfig.tsx:104
 #: src/pages/company/[companyId]/index.tsx:49
 msgid "Production"
-msgstr "Produção"
+msgstr "Produtividade"
 
 #: src/components/_economy/company/CompanyProductionBonusTag.tsx:48
 #: src/components/_economy/company/RecommendedCompanyRegions.tsx:116
 #: src/pages/region/[regionId]/index.tsx:69
 msgid "Production bonus"
-msgstr "Bônus de produção"
+msgstr "Bónus de produção"
 
 #: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:156
 msgid "Production bonus:"
-msgstr "Bônus de Produção:"
+msgstr "Bónus de Produção:"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:575
 msgid "Production in<0/> is full, you should start production!"
-msgstr "O armazenamento de<0/> está cheio, você deveria iniciar a produção!"
+msgstr "O armazenamento de<0/> está cheio, inicie a produção!"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1935
 msgid "Production is full"
@@ -5970,7 +5970,7 @@ msgstr "Cajado Vermelho"
 
 #: src/components/_user/user/skills.frontConfig.tsx:70
 msgid "Reduces health lost when fighting in battles"
-msgstr "Reduz a saúde perdida ao lutar em batalhas"
+msgstr "Reduzir a saúde perdida ao lutar em batalhas"
 
 #: src/pages/user/[userId]/referrals.tsx:87
 msgid "Referral link copied to clipboard"
@@ -6208,7 +6208,7 @@ msgstr "Sobrevivente do reset"
 
 #: src/pages/user/[userId]/settings.tsx:74
 msgid "Reset tutorials"
-msgstr "Resetar tutoriais"
+msgstr "Repor tutoriais"
 
 #: src/components/_user/user/UserDropdown.tsx:406
 msgid "Reset Username"
@@ -6464,7 +6464,7 @@ msgstr "Trabalho próprio"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:64
 msgid "Self work <0>{count}</0> times in your companies"
-msgstr "Trabalhar para si <0>{count}</0> vezes em suas empresas"
+msgstr "Trabalhar <0>{count}</0> vezes nas suas empresas"
 
 #: src/components/_economy/company/CompanyDropdown.tsx:253
 msgid "Sell company?"
@@ -6586,7 +6586,7 @@ msgstr "Definir item de especialização"
 #. placeholder {0}: ts[law.data.itemCode]
 #: src/components/_political/law/law.frontConfig.tsx:533
 msgid "Set the country's specialized item to <0>{0}</0>.<1/>The country strategic resources <2>Production Bonus</2> will be available for local companies producing this item."
-msgstr "Definir o item de especialização do país para <0>{0}</0>.<1/>O <2>Bônus de Produção</2> dos recursos estratégicos do país estará disponível para empresas locais que produzem este item."
+msgstr "Definir o item de especialização do país para <0>{0}</0>.<1/>O <2>Bónus de Produção</2> dos recursos estratégicos do país estará disponível para empresas locais que produzem este item."
 
 #: src/components/_political/law/law.frontConfig.tsx:528
 msgid "Set the country's specialized production item"
@@ -8182,7 +8182,7 @@ msgstr "Você ajudou a traduzir o jogo para outra língua"
 #. placeholder {1}: staticGameConfig.referral.lifeTimeBadgeMoneySharePercent
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:34
 msgid "You invited a friend or spammed forum posts. After they reach level {0}, you will get the badge + {1}% of all your referrals' badge rewards"
-msgstr "Você convidou um amigo ou publicou num fórum. Depois que ele atingir o nível {0}, você receberá a insígnia + {1}% de todas as recompensas de medalha dos seus indicados"
+msgstr "Você convidou um amigo ou publicou num fórum. Quando ele atingir o nível {0}, você receberá a insígnia e {1}% dos ganhos gerados pelas próprias indicações desse utilizador"
 
 #: src/components/_user/worker/WageReductionAlert.tsx:44
 msgid "You left the company."
@@ -8266,7 +8266,7 @@ msgstr "Você é muito sortudo"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:104
 msgid "You voted in a major election"
-msgstr "Você votou em uma eleição importante"
+msgstr "Você votou numa eleição importante"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:536
 msgid "You was fired from the government by <0/>"
@@ -8274,7 +8274,7 @@ msgstr "Você foi demitido do governo por <0/>"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:117
 msgid "You were an alpha tester (user before 20 march 2025)"
-msgstr "Você foi testou a versão alpha (utilizador antes de 20 de Março de 2025)"
+msgstr "Você testou a versão alpha (utilizador antes de 20 de Março de 2025)"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1954
 #: src/components/_user/notification/notification.frontConfig.tsx:1971
@@ -8287,7 +8287,7 @@ msgstr "Você foi eleito membro do congresso do seu País"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:52
 msgid "You were elected as president of your country"
-msgstr "Você foi eleito Presidente do seu País"
+msgstr "Você foi eleito Presidente do País"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:46
 msgid "You were here at the beginning of War Era"
@@ -8295,11 +8295,11 @@ msgstr "Você esteve aqui no começo do War Era"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:236
 msgid "You were nominated as a government member of a country"
-msgstr "Você foi indicado como membro do governo de um país"
+msgstr "Você foi nomeado membro do governo de um país"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:67
 msgid "You were nominated as vice president of your country"
-msgstr "Você foi nominado vice presidente do seu país"
+msgstr "Você foi nominado vice presidente do país"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:21
 msgid "You were so close"
@@ -8308,7 +8308,7 @@ msgstr "Você estava tão perto"
 #. placeholder {0}: gameConfig?.referral.lifeTimeBadgeMoneySharePercent
 #: src/components/_user/referral/ReferralList.tsx:116
 msgid "You win money for the badge + {0}% of the badge income of all your referrals"
-msgstr "Você ganha dinheiro pela insígnia + {0}% da renda de insígnias de todas as suas indicações"
+msgstr "Você recebe +{0}% por cada referido dos seus referidos que alcancem o nível 15"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:182
 msgid "You won a country tournament"
