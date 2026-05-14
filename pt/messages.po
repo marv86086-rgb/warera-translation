@@ -34,7 +34,7 @@ msgid " - Low-wage labor (lower than 0.7x and above 1.3x the normal salary)"
 msgstr " - Empregar ou trabalhar com salários desajustados (inferiores a 0,7x ou superiores a 1,3x do salário normal)"
 
 #. placeholder {0}: user.data.mute.reason
-#: src/components/_user/user/UserHeader.tsx:412
+#: src/components/_user/user/UserHeader.tsx:421
 msgid " - Reason: {0}"
 msgstr " - Motivo: {0}"
 
@@ -526,15 +526,15 @@ msgstr "<0/> venceu a ronda <1>#{0}</1> em <2/>"
 msgid "<0/> won the round <1>#{0}</1> in <2/>!"
 msgstr "<0/> venceu a ronda <1>#{0}</1> em <2/>!"
 
-#: src/components/_user/user/UserHeader.tsx:279
+#: src/components/_user/user/UserHeader.tsx:288
 msgid "<0/><1>Buff</1> ends <2/>"
 msgstr "<0/><1>Buff</1> termina <2/>"
 
-#: src/components/_user/user/UserHeader.tsx:288
+#: src/components/_user/user/UserHeader.tsx:297
 msgid "<0/><1>Debuff</1> ends <2/>"
 msgstr "<0/><1>Debuff</1> termina <2/>"
 
-#: src/components/_user/user/UserHeader.tsx:351
+#: src/components/_user/user/UserHeader.tsx:360
 msgid "<0/>Last connection was <1><2/></1>"
 msgstr "<0/>A última conexão foi há <1><2/></1>"
 
@@ -1269,7 +1269,7 @@ msgid "Access war"
 msgstr "Acesse a guerra"
 
 #: src/components/_political/country/CountryHeader.tsx:75
-#: src/components/_user/user/UserHeader.tsx:165
+#: src/components/_user/user/UserHeader.tsx:167
 #: src/pages/country/[countryId]/account.tsx:43
 #: src/pages/country/[countryId]/index.tsx:341
 #: src/pages/user/[userId]/account.tsx:32
@@ -1643,7 +1643,7 @@ msgstr "Gorjeta de artigo"
 msgid "Article tipped"
 msgstr "Gorjeta no artigo"
 
-#: src/components/_user/user/UserHeader.tsx:205
+#: src/components/_user/user/UserHeader.tsx:214
 #: src/pages/user/[userId]/index.tsx:208
 msgid "Articles"
 msgstr "Artigos"
@@ -1759,7 +1759,7 @@ msgstr "Equilibrado - Sem modificadores"
 msgid "Bankruptcy"
 msgstr "Falência"
 
-#: src/components/_user/user/UserHeader.tsx:400
+#: src/components/_user/user/UserHeader.tsx:409
 msgid "Banned"
 msgstr "Banido"
 
@@ -1779,8 +1779,8 @@ msgstr "Presente de banner enviado"
 msgid "Banners"
 msgstr "Banners"
 
-#: src/components/_user/user/UserHeader.tsx:183
-#: src/components/_user/user/UserHeader.tsx:224
+#: src/components/_user/user/UserHeader.tsx:185
+#: src/components/_user/user/UserHeader.tsx:233
 msgid "Bans"
 msgstr "Banimentos"
 
@@ -2202,7 +2202,7 @@ msgstr "Escolha seu país"
 msgid "Choose your side and click to deal <0>Damages</0>! Keep hitting to help your team win."
 msgstr "Escolha seu lado e clique para causar <0>Dano</0>! Continue atacando para ajudar seu time a vencer."
 
-#: src/components/_user/user/UserHeader.tsx:272
+#: src/components/_user/user/UserHeader.tsx:281
 msgid "Citizen since <0><1/></0>"
 msgstr "Cidadão desde <0><1/></0>"
 
@@ -2340,7 +2340,7 @@ msgstr "Comunidade"
 
 #: src/components/_layout/LayoutMenu.tsx:184
 #: src/components/_user/user/MyAvatar.tsx:48
-#: src/components/_user/user/UserHeader.tsx:197
+#: src/components/_user/user/UserHeader.tsx:206
 #: src/components/_user/user/WealthPanel.tsx:42
 #: src/pages/companies.tsx:96
 msgid "Companies"
@@ -3907,7 +3907,7 @@ msgstr "Atacar pelo seu próprio país enquanto estiver no governo resulta em {0
 
 #: src/components/_other/shop/ShopHeader.tsx:16
 #: src/components/_political/country/CountryHeader.tsx:62
-#: src/components/_user/user/UserHeader.tsx:151
+#: src/components/_user/user/UserHeader.tsx:153
 msgid "Home"
 msgstr "Início"
 
@@ -4056,7 +4056,7 @@ msgstr "Infrações intencionais ou repetidas desta política resultarão em sus
 
 #: src/components/_layout/LayoutMenu.tsx:125
 #: src/components/_user/user/MyAvatar.tsx:35
-#: src/components/_user/user/UserHeader.tsx:157
+#: src/components/_user/user/UserHeader.tsx:159
 #: src/pages/companies.tsx:83
 #: src/pages/country/[countryId]/account.tsx:25
 #: src/pages/market/index.tsx:49
@@ -5980,7 +5980,7 @@ msgstr "Reduzir a saúde perdida ao lutar em batalhas"
 msgid "Referral link copied to clipboard"
 msgstr "Link de indicação copiado para a área de transferência"
 
-#: src/components/_user/user/UserHeader.tsx:211
+#: src/components/_user/user/UserHeader.tsx:220
 #: src/components/_user/user/UserRankingsPanel.tsx:50
 #: src/pages/user/[userId]/index.tsx:219
 #: src/pages/user/[userId]/referrals.tsx:67
@@ -6172,6 +6172,10 @@ msgstr "Denunciar"
 #: src/components/_user/user/UserDropdown.tsx:268
 msgid "Report user"
 msgstr "Denunciar utilizador"
+
+#: src/components/_user/user/UserHeader.tsx:192
+msgid "Reports"
+msgstr ""
 
 #: src/components/_political/party/party.frontConfig.tsx:217
 #: src/components/_political/party/party.frontConfig.tsx:232
@@ -6614,7 +6618,7 @@ msgid "Set your username"
 msgstr "Defina seu nome de utilizador"
 
 #: src/components/_user/user/MyAvatar.tsx:54
-#: src/components/_user/user/UserHeader.tsx:217
+#: src/components/_user/user/UserHeader.tsx:226
 msgid "Settings"
 msgstr "Configurações"
 
@@ -6671,7 +6675,7 @@ msgid "Skill upgrade:"
 msgstr "Melhoria de habilidade:"
 
 #: src/components/_user/user/MyAvatar.tsx:41
-#: src/components/_user/user/UserHeader.tsx:172
+#: src/components/_user/user/UserHeader.tsx:174
 #: src/pages/user/[userId]/index.tsx:157
 msgid "Skills"
 msgstr "Habilidades"
@@ -7401,7 +7405,7 @@ msgstr "Transação comercial"
 msgid "Trainee"
 msgstr "Aprendiz"
 
-#: src/components/_user/user/UserHeader.tsx:191
+#: src/components/_user/user/UserHeader.tsx:200
 msgid "Transac."
 msgstr "Transac."
 
@@ -7486,7 +7490,7 @@ msgstr "Desbloqueie o botão Produzir tudo"
 msgid "Unlocked pack"
 msgstr "Conjunto desbloqueado"
 
-#: src/components/_user/user/UserHeader.tsx:408
+#: src/components/_user/user/UserHeader.tsx:417
 msgid "Unmuted <0/>"
 msgstr "Desilenciado <0/>"
 
