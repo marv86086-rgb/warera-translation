@@ -6713,7 +6713,7 @@ msgstr "Trgovina"
 #. placeholder {0}: Math.min(step, remaining)
 #: src/components/_political/party/PartyMembers.tsx:217
 msgid "Show {0} more ({remaining} remaining)"
-msgstr ""
+msgstr "Prikaži sljedećih {0} ({remaining} preostalih)"
 
 #. placeholder {0}: auction.bids.length
 #: src/components/_military/mercenaryContract/MercenaryAuctionItem.tsx:273
