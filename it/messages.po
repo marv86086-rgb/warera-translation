@@ -2172,6 +2172,7 @@ msgid "Build a company"
 msgstr "Crea un'azienda"
 
 #: src/components/_military/mu/MuList.tsx:80
+#: src/pages/mus.tsx:39
 msgid "Build a military unit"
 msgstr "Crea un'unità militare"
 
@@ -2356,6 +2357,10 @@ msgstr "Cambia il colore"
 #: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:149
 msgid "Change color to <0>{0}</0>"
 msgstr "Cambia il colore in <0>{0}</0>"
+
+#: src/components/_military/mu/MuSettings.tsx:89
+msgid "Change nationality"
+msgstr ""
 
 #: src/components/_economy/company/CompanyChangeItemFormModal.tsx:67
 #: src/components/_economy/company/CompanyChangeItemFormModal.tsx:82
@@ -2969,6 +2974,10 @@ msgstr "Sviluppo attuale"
 #: src/pages/user/[userId]/index.tsx:163
 msgid "Current Military Unit"
 msgstr "Unità militare attuale"
+
+#: src/components/_military/mu/MuSettings.tsx:63
+msgid "Current nationality"
+msgstr ""
 
 #: src/components/_military/battle/BattleSystem.tsx:634
 msgid "Current tick:"
@@ -5418,6 +5427,10 @@ msgstr "Gli ordini nazionali danno bonus priorità <0>doppio</0> (<1>+10%</1> / 
 msgid "National bounty"
 msgstr "Taglia nazionale"
 
+#: src/components/_military/mu/MuSettings.tsx:31
+msgid "Nationality updated"
+msgstr ""
+
 #: src/components/_other/tour/tuto.frontConfig.tsx:56
 msgid "Need a job?"
 msgstr "Ti serve un lavoro?"
@@ -5505,6 +5518,10 @@ msgstr "Nuova richiesta UM"
 #: src/components/_economy/company/CompanyRenameFormModal.tsx:71
 msgid "New name"
 msgstr "Nuovo nome"
+
+#: src/components/_military/mu/MuSettings.tsx:76
+msgid "New nationality"
+msgstr ""
 
 #: src/components/_user/notification/notification.frontConfig.tsx:2020
 msgid "New Party Application"
@@ -5788,6 +5805,10 @@ msgstr "Non impressionante, ma neanche vergognoso"
 msgid "Not in any alliance"
 msgstr "In nessuna alleanza"
 
+#: src/components/_military/mu/MuSettings.tsx:69
+msgid "Not set"
+msgstr ""
+
 #: src/pages/notifications.tsx:38
 #: src/pages/user/[userId]/settings.tsx:79
 msgid "Notification preferences"
@@ -5857,6 +5878,10 @@ msgstr "Solo i presidenti possono registrare il loro paese"
 #: src/components/_economy/inventoryAccount/InventoryAccount.tsx:55
 msgid "Only supporters can see their spending and income breakdown."
 msgstr "Solo i supporter possono vedere la suddivisione di spese e entrate."
+
+#: src/components/_military/mu/MuSettings.tsx:104
+msgid "Only the owner and commanders can change the nationality."
+msgstr ""
 
 #: src/components/_political/party/party.frontConfig.tsx:264
 msgid "Only your core regions generate development income."
@@ -7093,6 +7118,10 @@ msgstr "Vedi le statistiche di tutti i tuoi lavoratori e aziende"
 #: src/components/_user/premium/PremiumFeatureList.tsx:136
 msgid "See your spending and income breakdown"
 msgstr "Vedi la ripartizione di spese e entrate"
+
+#: src/components/_military/mu/MuSettings.tsx:79
+msgid "Select a country"
+msgstr ""
 
 #: src/components/_military/mu/MuFormModal.tsx:114
 msgid "Select a location"
@@ -9286,6 +9315,10 @@ msgstr "La tua fortuna è in vacanza"
 #: src/components/_military/mu/MuFormModal.tsx:108
 msgid "Your military unit name"
 msgstr "Nome della tua unità militare"
+
+#: src/components/_military/mu/MuSettings.tsx:55
+msgid "Your military unit nationality is the country it represents. Changing it costs concrete and can only be done once every {cooldownDays} days."
+msgstr ""
 
 #: src/components/_military/mercenaryContract/BuyMercenaryReputationButton.tsx:50
 msgid "Your MU has <0/> reputation and cannot bid on mercenary contracts. Pay to buy back reputation (once per day)."
