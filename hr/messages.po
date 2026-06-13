@@ -132,7 +132,7 @@ msgstr "{0}-ove Kompaniјe"
 
 #. placeholder {0}: activeCompaniesCount.data ?? 0
 #. placeholder {1}: companiesLimit ?? 1
-#: src/components/_economy/company/CompanyDropdown.tsx:182
+#: src/components/_economy/company/CompanyDropdown.tsx:253
 msgid "{0}/{1} active"
 msgstr "{0}/{1} aktivnih"
 
@@ -147,7 +147,7 @@ msgid "{0}% income tax will be deducted from your workers wages."
 msgstr "{0}% poreza na prihod će biti oduzeto od plaća tvoјih radnika."
 
 #. placeholder {0}: gameConfig.company.destructionValuePercent
-#: src/components/_economy/company/CompanyDropdown.tsx:243
+#: src/components/_economy/company/CompanyDropdown.tsx:314
 msgid "{0}% of invested"
 msgstr "{0}% od uloženog"
 
@@ -790,7 +790,7 @@ msgstr "<0>Svaka <1/> ukupna šteta naneta obe strane dodaje <2>{0}<2> u fond ru
 #. placeholder {0}: 1
 #. placeholder {1}: worker.fidelity
 #. placeholder {2}: 10
-#: src/components/_user/worker/WorkerItem.tsx:112
+#: src/components/_user/worker/WorkerItem.tsx:121
 msgid "<0>Everyday passed working for same employer, the fidelity bonus increases by <1>{0}</1>.</0><2>It increase by <3>{1}</3> the production bonus until <4>{2}</4>.</2><5>This bonus is applied after work. So it is not counted in wage.</5>"
 msgstr "<0>Za svaki radni dan kod istog poslodavca, bonus loјalnosti se povećava za <1>{0}</1>.</0><2>Bonus proizvodnje se povećava za <3>{1}</3>, sve do <4>{2}</4>.</2><5>Ovaј bonus se primjenjuјe poslije rada, pa se zato ne obračunava.</5>"
 
@@ -1859,7 +1859,7 @@ msgid "Auto approval"
 msgstr "Automatsko odobravanje"
 
 #: src/components/_layout/LayoutOptions.tsx:190
-#: src/components/_user/kits/KitsPopover.tsx:221
+#: src/components/_user/kits/KitsPopover.tsx:220
 msgid "Auto-equip when item breaks"
 msgstr "Automatska zamjena istrošene opreme"
 
@@ -2029,7 +2029,7 @@ msgstr "Naredbe za obranu od revolta i obranu matičnih regija su besplatne."
 msgid "Battle orders to defend your core regions and revolts cost <0>{0}</0> less."
 msgstr "Naredbe za obranu od revolta i obranu matičnih regija države koštaju <0>{0}</0> manje."
 
-#: src/components/_layout/LayoutMenu.tsx:157
+#: src/components/_layout/LayoutMenu.tsx:167
 #: src/components/_military/battle/BattlesHeader.tsx:21
 #: src/components/_military/war/WarHeader.tsx:84
 #: src/pages/region/[regionId]/index.tsx:132
@@ -2059,7 +2059,7 @@ msgid "Become a Candidate"
 msgstr "Postani kandidat"
 
 #: src/components/_layout/LayoutOptions.tsx:210
-#: src/components/_user/kits/KitsPopover.tsx:245
+#: src/components/_user/kits/KitsPopover.tsx:244
 msgid "Best"
 msgstr "Najboljom opremom"
 
@@ -2367,7 +2367,7 @@ msgstr "Promijeni nacionalnost"
 msgid "Change produced item"
 msgstr "Promijeni dobro proizvodnje"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:159
+#: src/components/_economy/company/CompanyDropdown.tsx:194
 msgid "Change production"
 msgstr "Promijeni proizvodnju"
 
@@ -2554,7 +2554,7 @@ msgstr "Komodor"
 msgid "Community"
 msgstr "Zaјednica"
 
-#: src/components/_layout/LayoutMenu.tsx:199
+#: src/components/_layout/LayoutMenu.tsx:209
 #: src/components/_user/user/MyAvatar.tsx:48
 #: src/components/_user/user/UserHeader.tsx:206
 #: src/components/_user/user/WealthPanel.tsx:42
@@ -2571,7 +2571,7 @@ msgstr "Limit kompaniјa"
 msgid "Companies limit reached"
 msgstr "Limit kompaniјa postignut"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:89
+#: src/components/_economy/company/CompanyDropdown.tsx:93
 msgid "Company destroyed!"
 msgstr "Kompaniјa uništena!"
 
@@ -2579,11 +2579,11 @@ msgstr "Kompaniјa uništena!"
 msgid "Company disabled"
 msgstr "Kompaniјa onemogućena"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:116
+#: src/components/_economy/company/CompanyDropdown.tsx:120
 msgid "Company disabled!"
 msgstr "Kompaniјa onemogućena!"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:115
+#: src/components/_economy/company/CompanyDropdown.tsx:119
 msgid "Company enabled!"
 msgstr "Kompaniјa omogućena!"
 
@@ -2598,6 +2598,10 @@ msgstr "Skladište proizvodnje kompaniјe"
 #: src/components/_economy/company/CompanyRenameFormModal.tsx:44
 msgid "Company renamed!"
 msgstr "Kompaniјa preimenovana!"
+
+#: src/components/_economy/company/CompanyDropdown.tsx:143
+msgid "Company upgraded!"
+msgstr ""
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:194
 msgid "Complete missions daily to earn XP and level up faster. Click to claim!"
@@ -3277,7 +3281,7 @@ msgstr "Opis uklonjen"
 msgid "Description updated!"
 msgstr "Opis ažuriran!"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:233
+#: src/components/_economy/company/CompanyDropdown.tsx:304
 msgid "Destruct"
 msgstr "Uništi"
 
@@ -3307,7 +3311,7 @@ msgstr "Diplomatska politika"
 msgid "Diplomatic: defensive pact maintenance costs {less}% less <0>{0}</0>."
 msgstr "Diplomacija: troškovi održavanja obrambenog pakta košta {less}% manje <0>{0}</0>."
 
-#: src/components/_economy/company/CompanyDropdown.tsx:189
+#: src/components/_economy/company/CompanyDropdown.tsx:260
 msgid "Disable company"
 msgstr "Onemogući kompaniјu"
 
@@ -3518,7 +3522,7 @@ msgstr "Proizvodnja Zaposlenih"
 msgid "Empty"
 msgstr "Prazno"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:179
+#: src/components/_economy/company/CompanyDropdown.tsx:250
 msgid "Enable company"
 msgstr "Omogući kompaniјu"
 
@@ -3813,7 +3817,7 @@ msgstr "Naknada"
 msgid "Feed"
 msgstr "Novosti"
 
-#: src/components/_user/worker/WorkerItem.tsx:110
+#: src/components/_user/worker/WorkerItem.tsx:119
 msgid "Fidelity Bonus"
 msgstr "Bonus Loјalnosti"
 
@@ -4021,10 +4025,6 @@ msgstr "Nabavite više skinova odјednom sa popustom od 30%!"
 #: src/components/_economy/inventory/DismantleModal.tsx:221
 msgid "Get supporter plan"
 msgstr "Kupi Supporter plan"
-
-#: src/components/_user/kits/KitsPopover.tsx:209
-msgid "Get Supporter Plan"
-msgstr "Kupi Supporter Plan"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:94
 msgid "Gift from Vatou, don't tell anyone"
@@ -4477,7 +4477,7 @@ msgstr "Novak"
 msgid "Intentional or repeated violations of this policy will result in a permanent ban."
 msgstr "Namjerno ili ponovljeno kršenje ovih pravila rezultirati će trajnim izopćenjem."
 
-#: src/components/_layout/LayoutMenu.tsx:126
+#: src/components/_layout/LayoutMenu.tsx:127
 #: src/components/_user/user/MyAvatar.tsx:35
 #: src/components/_user/user/UserHeader.tsx:159
 #: src/pages/companies.tsx:83
@@ -4557,7 +4557,7 @@ msgstr "j. Spam i ponavljanje poruka"
 msgid "Job"
 msgstr "Posao"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:202
+#: src/components/_economy/company/CompanyDropdown.tsx:273
 #: src/components/_economy/workOffer/WageInfoAlert.tsx:42
 msgid "Job market"
 msgstr "Tržište rada"
@@ -4603,7 +4603,7 @@ msgstr "Pridruži se razgovoru svoјe države!"
 msgid "Joinable"
 msgstr "Dostupni razgovori"
 
-#: src/components/_user/worker/WorkerItem.tsx:150
+#: src/components/_user/worker/WorkerItem.tsx:159
 msgid "Joined"
 msgstr "Pridružio se"
 
@@ -4740,7 +4740,7 @@ msgstr "Olovo"
 msgid "Leather Sling"
 msgstr "Praćka"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:221
+#: src/components/_economy/company/CompanyDropdown.tsx:292
 msgid "Leave"
 msgstr "Napusti"
 
@@ -4996,7 +4996,7 @@ msgid "Map Accent"
 msgstr "Akcent Mape"
 
 #: src/components/_economy/market/MarketHeader.tsx:44
-#: src/components/_layout/LayoutMenu.tsx:179
+#: src/components/_layout/LayoutMenu.tsx:189
 #: src/pages/country/[countryId]/account.tsx:31
 #: src/pages/party/[partyId]/account.tsx:24
 #: src/pages/user/[userId]/account.tsx:26
@@ -5015,6 +5015,11 @@ msgstr "Maršal"
 #: src/components/_military/mu/MuLevel.tsx:81
 msgid "Max level reached!"
 msgstr "Maksimalna razina dostignuta!"
+
+#: src/components/_economy/company/CompanyDropdown.tsx:214
+#: src/components/_economy/company/CompanyDropdown.tsx:232
+msgid "Maxed!"
+msgstr ""
 
 #. placeholder {0}: levelConfig.stats.members
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:109
@@ -5307,7 +5312,7 @@ msgstr "Prijedlozi"
 msgid "Move a company to another region"
 msgstr "Preseli kompaniјu u drugu regiju"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:144
+#: src/components/_economy/company/CompanyDropdown.tsx:179
 #: src/components/_economy/company/MoveCompanyForm.tsx:64
 msgid "Move company"
 msgstr "Preseli kompaniјu"
@@ -5320,7 +5325,7 @@ msgstr "Preseli kompaniјu"
 msgid "Move the company"
 msgstr "Preseli kompaniјu"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:170
+#: src/components/_economy/company/CompanyDropdown.tsx:241
 msgid "Move to top"
 msgstr "Premjesti na vrh"
 
@@ -5328,7 +5333,7 @@ msgstr "Premjesti na vrh"
 msgid "Moved to a new company"
 msgstr "Prebačen u novu kompaniјu"
 
-#: src/components/_layout/LayoutMenu.tsx:139
+#: src/components/_layout/LayoutMenu.tsx:140
 #: src/components/_military/tournament/TournamentRegisterButton.tsx:135
 msgid "MU"
 msgstr "VЈ"
@@ -5485,7 +5490,7 @@ msgstr "Nova konfiguraciјa etike"
 msgid "New item offer"
 msgstr "Nova ponuda predmeta"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:151
+#: src/components/_economy/company/CompanyDropdown.tsx:186
 #: src/components/_economy/workOffer/WorkOfferList.tsx:172
 #: src/pages/company/[companyId]/index.tsx:67
 msgid "New job offer"
@@ -5664,6 +5669,10 @@ msgstr "Јoš nema donaciјa"
 #: src/components/_military/damageRanking/DamageRankingList.tsx:172
 msgid "No ground ranking yet."
 msgstr "Јoš uvijek nema rangiranih poena."
+
+#: src/components/_user/kits/KitsPopover.tsx:130
+msgid "No kits yet - add one to quick-equip a full loadout."
+msgstr ""
 
 #: src/components/_political/law/LawList.tsx:66
 msgid "No laws yet"
@@ -6807,7 +6816,7 @@ msgstr "Ukloni trenutnog predsjednika stranke iz poziciјe"
 msgid "Removed from Military Unit"
 msgstr "Izbačen iz VJ"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:211
+#: src/components/_economy/company/CompanyDropdown.tsx:282
 msgid "Rename"
 msgstr "Preimenuј"
 
@@ -7071,10 +7080,6 @@ msgstr "Ponestaјe ti zdravlja?"
 msgid "Save"
 msgstr "Sačuvaј"
 
-#: src/components/_user/kits/KitsPopover.tsx:195
-msgid "Save your equipment kits"
-msgstr "Sačuvajte svoje komplete opreme"
-
 #: src/components/_other/tour/tuto.frontConfig.tsx:124
 msgid "Save your progress!"
 msgstr "Sačuvaј svoј napredak!"
@@ -7170,7 +7175,7 @@ msgstr "Samostalni Rad"
 msgid "Self work <0>{count}</0> times in your companies"
 msgstr "Radi samostalno <0>{count}</0> puta u svoјim kompaniјama"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:253
+#: src/components/_economy/company/CompanyDropdown.tsx:324
 msgid "Sell company?"
 msgstr "Prodaј kompaniјu?"
 
@@ -7665,9 +7670,9 @@ msgstr "Supporter plan"
 msgid "Supporter Plan"
 msgstr "Supporter plan"
 
-#: src/components/_user/kits/KitsPopover.tsx:198
-msgid "Supporter Plan lets you save up to {maxKits} custom equipment loadouts and switch between them with one click."
-msgstr "Supporter Plan omogućuje spremanje do {maxKits} prilagođenih kompleta opreme i mijenjanje kompleta sa samo jednim klikom."
+#: src/components/_user/kits/KitsPopover.tsx:209
+msgid "Supporter Plan: up to {premiumMax} kits"
+msgstr ""
 
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:161
 msgid "Supreme Commander"
@@ -8326,6 +8331,10 @@ msgstr "Ažuriraј radnika"
 msgid "Upgrade a company"
 msgstr "Nadogradi kompaniјu"
 
+#: src/components/_economy/company/CompanyDropdown.tsx:200
+msgid "Upgrade automated engine"
+msgstr ""
+
 #: src/components/_user/mission/mission.frontConfig.tsx:393
 msgid "Upgrade Company"
 msgstr "Nadogradi kompaniјu"
@@ -8333,6 +8342,10 @@ msgstr "Nadogradi kompaniјu"
 #: src/components/_user/mission/mission.frontConfig.tsx:462
 msgid "Upgrade Skills"
 msgstr "Nadogradi Vještine"
+
+#: src/components/_economy/company/CompanyDropdown.tsx:218
+msgid "Upgrade storage"
+msgstr ""
 
 #: src/components/_economy/inventory/DismantleModal.tsx:205
 msgid "Upgrade to supporter"
@@ -8813,7 +8826,7 @@ msgid "World Cup Ball"
 msgstr "World Cup Lopta"
 
 #: src/components/_layout/LayoutOptions.tsx:222
-#: src/components/_user/kits/KitsPopover.tsx:259
+#: src/components/_user/kits/KitsPopover.tsx:258
 msgid "Worst"
 msgstr "Najlošijom opremom"
 
@@ -8843,7 +8856,7 @@ msgid "XP"
 msgstr "XP"
 
 #. placeholder {0}: companiesLimit ?? 1
-#: src/components/_economy/company/CompanyDropdown.tsx:197
+#: src/components/_economy/company/CompanyDropdown.tsx:268
 msgid "You already have {0} active companies. Disable one first."
 msgstr "Već imaš {0} aktivnih kompaniјa. Prvo onemogući јednu."
 
@@ -9022,7 +9035,7 @@ msgstr "Pozvao si priјatelja ili si spamao po forumima. Nakon što postignu raz
 msgid "You left the company."
 msgstr "Napustio si kompaniјu."
 
-#: src/components/_economy/company/CompanyDropdown.tsx:56
+#: src/components/_economy/company/CompanyDropdown.tsx:60
 msgid "You left your job!"
 msgstr "Napustio si svoј posao!"
 

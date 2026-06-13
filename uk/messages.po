@@ -132,7 +132,7 @@ msgstr "Фабрики {0}"
 
 #. placeholder {0}: activeCompaniesCount.data ?? 0
 #. placeholder {1}: companiesLimit ?? 1
-#: src/components/_economy/company/CompanyDropdown.tsx:182
+#: src/components/_economy/company/CompanyDropdown.tsx:253
 msgid "{0}/{1} active"
 msgstr "{0}/{1} активні"
 
@@ -147,7 +147,7 @@ msgid "{0}% income tax will be deducted from your workers wages."
 msgstr "{0}% зарплати робітників буде відраховано у вигляді податку."
 
 #. placeholder {0}: gameConfig.company.destructionValuePercent
-#: src/components/_economy/company/CompanyDropdown.tsx:243
+#: src/components/_economy/company/CompanyDropdown.tsx:314
 msgid "{0}% of invested"
 msgstr "{0}% інвестицій"
 
@@ -790,7 +790,7 @@ msgstr ""
 #. placeholder {0}: 1
 #. placeholder {1}: worker.fidelity
 #. placeholder {2}: 10
-#: src/components/_user/worker/WorkerItem.tsx:112
+#: src/components/_user/worker/WorkerItem.tsx:121
 msgid "<0>Everyday passed working for same employer, the fidelity bonus increases by <1>{0}</1>.</0><2>It increase by <3>{1}</3> the production bonus until <4>{2}</4>.</2><5>This bonus is applied after work. So it is not counted in wage.</5>"
 msgstr "<0>Бонус за вірність зростає на <1>{0}</1> за кожен відпрацьований день.</0><2>Він збільшує бонус виробництва на <3>{1}</3>, поки не досягне <4>{2}</4>.</2><5>Цей бонус застосовується після роботи, тому він не буде врахований у зарплаті.</5>"
 
@@ -1859,7 +1859,7 @@ msgid "Auto approval"
 msgstr "Автоматичне схвалення"
 
 #: src/components/_layout/LayoutOptions.tsx:190
-#: src/components/_user/kits/KitsPopover.tsx:221
+#: src/components/_user/kits/KitsPopover.tsx:220
 msgid "Auto-equip when item breaks"
 msgstr ""
 
@@ -2029,7 +2029,7 @@ msgstr "Накази на захист ваших рідних регіонів 
 msgid "Battle orders to defend your core regions and revolts cost <0>{0}</0> less."
 msgstr "Накази на захист ваших рідних регіонів та повстань коштують на <0>{0}</0> менше."
 
-#: src/components/_layout/LayoutMenu.tsx:157
+#: src/components/_layout/LayoutMenu.tsx:167
 #: src/components/_military/battle/BattlesHeader.tsx:21
 #: src/components/_military/war/WarHeader.tsx:84
 #: src/pages/region/[regionId]/index.tsx:132
@@ -2059,7 +2059,7 @@ msgid "Become a Candidate"
 msgstr "Стати кандидатом"
 
 #: src/components/_layout/LayoutOptions.tsx:210
-#: src/components/_user/kits/KitsPopover.tsx:245
+#: src/components/_user/kits/KitsPopover.tsx:244
 msgid "Best"
 msgstr "Краще"
 
@@ -2367,7 +2367,7 @@ msgstr ""
 msgid "Change produced item"
 msgstr "Змінити продукт"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:159
+#: src/components/_economy/company/CompanyDropdown.tsx:194
 msgid "Change production"
 msgstr "Змінити продукт"
 
@@ -2554,7 +2554,7 @@ msgstr "Коммодор"
 msgid "Community"
 msgstr "Спільнота"
 
-#: src/components/_layout/LayoutMenu.tsx:199
+#: src/components/_layout/LayoutMenu.tsx:209
 #: src/components/_user/user/MyAvatar.tsx:48
 #: src/components/_user/user/UserHeader.tsx:206
 #: src/components/_user/user/WealthPanel.tsx:42
@@ -2571,7 +2571,7 @@ msgstr "Ліміт фабрик"
 msgid "Companies limit reached"
 msgstr "Досягнуто ліміту фабрик"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:89
+#: src/components/_economy/company/CompanyDropdown.tsx:93
 msgid "Company destroyed!"
 msgstr "Фабрику знищено!"
 
@@ -2579,11 +2579,11 @@ msgstr "Фабрику знищено!"
 msgid "Company disabled"
 msgstr "Фабрику зупинено"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:116
+#: src/components/_economy/company/CompanyDropdown.tsx:120
 msgid "Company disabled!"
 msgstr "Фабрику зупинено!"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:115
+#: src/components/_economy/company/CompanyDropdown.tsx:119
 msgid "Company enabled!"
 msgstr "Фабрику запущено!"
 
@@ -2598,6 +2598,10 @@ msgstr "Склад фабрики"
 #: src/components/_economy/company/CompanyRenameFormModal.tsx:44
 msgid "Company renamed!"
 msgstr "Фабрику перейменовано!"
+
+#: src/components/_economy/company/CompanyDropdown.tsx:143
+msgid "Company upgraded!"
+msgstr ""
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:194
 msgid "Complete missions daily to earn XP and level up faster. Click to claim!"
@@ -3277,7 +3281,7 @@ msgstr "Опис видалено"
 msgid "Description updated!"
 msgstr "Опис оновлено!"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:233
+#: src/components/_economy/company/CompanyDropdown.tsx:304
 msgid "Destruct"
 msgstr "Знищити"
 
@@ -3307,7 +3311,7 @@ msgstr "Дипломатизм"
 msgid "Diplomatic: defensive pact maintenance costs {less}% less <0>{0}</0>."
 msgstr "Дипломатизм: утримання договорів про захист коштує на {less}% менше <0>{0}</0>."
 
-#: src/components/_economy/company/CompanyDropdown.tsx:189
+#: src/components/_economy/company/CompanyDropdown.tsx:260
 msgid "Disable company"
 msgstr "Зупинити фабрику"
 
@@ -3518,7 +3522,7 @@ msgstr "Виробіток працівника"
 msgid "Empty"
 msgstr "Порожньо"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:179
+#: src/components/_economy/company/CompanyDropdown.tsx:250
 msgid "Enable company"
 msgstr "Запустити фабрику"
 
@@ -3813,7 +3817,7 @@ msgstr "Завдаток"
 msgid "Feed"
 msgstr "Стрічка"
 
-#: src/components/_user/worker/WorkerItem.tsx:110
+#: src/components/_user/worker/WorkerItem.tsx:119
 msgid "Fidelity Bonus"
 msgstr "Бонус вірності"
 
@@ -4021,10 +4025,6 @@ msgstr "Отримайте відразу кілька скінів зі зни�
 #: src/components/_economy/inventory/DismantleModal.tsx:221
 msgid "Get supporter plan"
 msgstr "Стати підписником"
-
-#: src/components/_user/kits/KitsPopover.tsx:209
-msgid "Get Supporter Plan"
-msgstr "Отримати підписку"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:94
 msgid "Gift from Vatou, don't tell anyone"
@@ -4477,7 +4477,7 @@ msgstr "Новобранець"
 msgid "Intentional or repeated violations of this policy will result in a permanent ban."
 msgstr "Навмисні або повторювані порушення цієї політики призведуть до постійного бану."
 
-#: src/components/_layout/LayoutMenu.tsx:126
+#: src/components/_layout/LayoutMenu.tsx:127
 #: src/components/_user/user/MyAvatar.tsx:35
 #: src/components/_user/user/UserHeader.tsx:159
 #: src/pages/companies.tsx:83
@@ -4557,7 +4557,7 @@ msgstr "j. Спам та повторювані повідомлення"
 msgid "Job"
 msgstr "Робота"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:202
+#: src/components/_economy/company/CompanyDropdown.tsx:273
 #: src/components/_economy/workOffer/WageInfoAlert.tsx:42
 msgid "Job market"
 msgstr "Ринок праці"
@@ -4603,7 +4603,7 @@ msgstr "Приєднайся до чату своєї країни!"
 msgid "Joinable"
 msgstr "Публічні"
 
-#: src/components/_user/worker/WorkerItem.tsx:150
+#: src/components/_user/worker/WorkerItem.tsx:159
 msgid "Joined"
 msgstr "Приєднався"
 
@@ -4740,7 +4740,7 @@ msgstr "Свинець"
 msgid "Leather Sling"
 msgstr ""
 
-#: src/components/_economy/company/CompanyDropdown.tsx:221
+#: src/components/_economy/company/CompanyDropdown.tsx:292
 msgid "Leave"
 msgstr "Покинути"
 
@@ -4996,7 +4996,7 @@ msgid "Map Accent"
 msgstr "Відтінок мапи"
 
 #: src/components/_economy/market/MarketHeader.tsx:44
-#: src/components/_layout/LayoutMenu.tsx:179
+#: src/components/_layout/LayoutMenu.tsx:189
 #: src/pages/country/[countryId]/account.tsx:31
 #: src/pages/party/[partyId]/account.tsx:24
 #: src/pages/user/[userId]/account.tsx:26
@@ -5015,6 +5015,11 @@ msgstr "Маршал"
 #: src/components/_military/mu/MuLevel.tsx:81
 msgid "Max level reached!"
 msgstr "Досягнуто максимального рівня!"
+
+#: src/components/_economy/company/CompanyDropdown.tsx:214
+#: src/components/_economy/company/CompanyDropdown.tsx:232
+msgid "Maxed!"
+msgstr ""
 
 #. placeholder {0}: levelConfig.stats.members
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:109
@@ -5307,7 +5312,7 @@ msgstr "Резолюції"
 msgid "Move a company to another region"
 msgstr "Перемістіть фабрику в інший регіон"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:144
+#: src/components/_economy/company/CompanyDropdown.tsx:179
 #: src/components/_economy/company/MoveCompanyForm.tsx:64
 msgid "Move company"
 msgstr "Перемістити фабрику"
@@ -5320,7 +5325,7 @@ msgstr "Перемістіть фабрику"
 msgid "Move the company"
 msgstr "Перемістити фабрику"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:170
+#: src/components/_economy/company/CompanyDropdown.tsx:241
 msgid "Move to top"
 msgstr "Перемістити нагору"
 
@@ -5328,7 +5333,7 @@ msgstr "Перемістити нагору"
 msgid "Moved to a new company"
 msgstr "Переміщено до нової фабрики"
 
-#: src/components/_layout/LayoutMenu.tsx:139
+#: src/components/_layout/LayoutMenu.tsx:140
 #: src/components/_military/tournament/TournamentRegisterButton.tsx:135
 msgid "MU"
 msgstr "ВП"
@@ -5485,7 +5490,7 @@ msgstr "Новий набір принципів"
 msgid "New item offer"
 msgstr "Нова пропозиція"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:151
+#: src/components/_economy/company/CompanyDropdown.tsx:186
 #: src/components/_economy/workOffer/WorkOfferList.tsx:172
 #: src/pages/company/[companyId]/index.tsx:67
 msgid "New job offer"
@@ -5664,6 +5669,10 @@ msgstr "Пожертв ще немає"
 #: src/components/_military/damageRanking/DamageRankingList.tsx:172
 msgid "No ground ranking yet."
 msgstr "Рейтингу за балами контролю ще немає."
+
+#: src/components/_user/kits/KitsPopover.tsx:130
+msgid "No kits yet - add one to quick-equip a full loadout."
+msgstr ""
 
 #: src/components/_political/law/LawList.tsx:66
 msgid "No laws yet"
@@ -6807,7 +6816,7 @@ msgstr "Вилучити чинного лідера партії з обійм�
 msgid "Removed from Military Unit"
 msgstr "Вилучений з підрозділу"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:211
+#: src/components/_economy/company/CompanyDropdown.tsx:282
 msgid "Rename"
 msgstr "Перейменувати"
 
@@ -7071,10 +7080,6 @@ msgstr "Мало здоров'я?"
 msgid "Save"
 msgstr "Зберегти"
 
-#: src/components/_user/kits/KitsPopover.tsx:195
-msgid "Save your equipment kits"
-msgstr ""
-
 #: src/components/_other/tour/tuto.frontConfig.tsx:124
 msgid "Save your progress!"
 msgstr "Збережіть свій прогрес!"
@@ -7170,7 +7175,7 @@ msgstr "Самостійна робота"
 msgid "Self work <0>{count}</0> times in your companies"
 msgstr "Попрацюйте <0>{count}</0> разів у своїй фабриці"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:253
+#: src/components/_economy/company/CompanyDropdown.tsx:324
 msgid "Sell company?"
 msgstr "Продати фабрику?"
 
@@ -7665,8 +7670,8 @@ msgstr "План підписки"
 msgid "Supporter Plan"
 msgstr "План підписки"
 
-#: src/components/_user/kits/KitsPopover.tsx:198
-msgid "Supporter Plan lets you save up to {maxKits} custom equipment loadouts and switch between them with one click."
+#: src/components/_user/kits/KitsPopover.tsx:209
+msgid "Supporter Plan: up to {premiumMax} kits"
 msgstr ""
 
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:161
@@ -8326,6 +8331,10 @@ msgstr "Оновити робітника"
 msgid "Upgrade a company"
 msgstr "Покращте фабрику"
 
+#: src/components/_economy/company/CompanyDropdown.tsx:200
+msgid "Upgrade automated engine"
+msgstr ""
+
 #: src/components/_user/mission/mission.frontConfig.tsx:393
 msgid "Upgrade Company"
 msgstr "Покращте фабрику"
@@ -8333,6 +8342,10 @@ msgstr "Покращте фабрику"
 #: src/components/_user/mission/mission.frontConfig.tsx:462
 msgid "Upgrade Skills"
 msgstr "Покращте навички"
+
+#: src/components/_economy/company/CompanyDropdown.tsx:218
+msgid "Upgrade storage"
+msgstr ""
 
 #: src/components/_economy/inventory/DismantleModal.tsx:205
 msgid "Upgrade to supporter"
@@ -8813,7 +8826,7 @@ msgid "World Cup Ball"
 msgstr ""
 
 #: src/components/_layout/LayoutOptions.tsx:222
-#: src/components/_user/kits/KitsPopover.tsx:259
+#: src/components/_user/kits/KitsPopover.tsx:258
 msgid "Worst"
 msgstr ""
 
@@ -8843,7 +8856,7 @@ msgid "XP"
 msgstr "XP"
 
 #. placeholder {0}: companiesLimit ?? 1
-#: src/components/_economy/company/CompanyDropdown.tsx:197
+#: src/components/_economy/company/CompanyDropdown.tsx:268
 msgid "You already have {0} active companies. Disable one first."
 msgstr "У вас вже є {0} активних фабрик. Спочатку зупиніть якусь."
 
@@ -9022,7 +9035,7 @@ msgstr "Ви запросили друга або займались спамо�
 msgid "You left the company."
 msgstr "Ви покинули фабрику."
 
-#: src/components/_economy/company/CompanyDropdown.tsx:56
+#: src/components/_economy/company/CompanyDropdown.tsx:60
 msgid "You left your job!"
 msgstr "Ви звільнились!"
 

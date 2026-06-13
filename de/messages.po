@@ -132,7 +132,7 @@ msgstr "Unternehmen von {0}"
 
 #. placeholder {0}: activeCompaniesCount.data ?? 0
 #. placeholder {1}: companiesLimit ?? 1
-#: src/components/_economy/company/CompanyDropdown.tsx:182
+#: src/components/_economy/company/CompanyDropdown.tsx:253
 msgid "{0}/{1} active"
 msgstr "{0}/{1} aktiv"
 
@@ -147,7 +147,7 @@ msgid "{0}% income tax will be deducted from your workers wages."
 msgstr "{0}% Einkommensteuer wird vom Lohn deiner Arbeiter abgezogen."
 
 #. placeholder {0}: gameConfig.company.destructionValuePercent
-#: src/components/_economy/company/CompanyDropdown.tsx:243
+#: src/components/_economy/company/CompanyDropdown.tsx:314
 msgid "{0}% of invested"
 msgstr "{0}% des Investierten"
 
@@ -790,7 +790,7 @@ msgstr "<0>Jeder verursachte <1/> Gesamtschaden (beide Seiten) fügt dem Schlach
 #. placeholder {0}: 1
 #. placeholder {1}: worker.fidelity
 #. placeholder {2}: 10
-#: src/components/_user/worker/WorkerItem.tsx:112
+#: src/components/_user/worker/WorkerItem.tsx:121
 msgid "<0>Everyday passed working for same employer, the fidelity bonus increases by <1>{0}</1>.</0><2>It increase by <3>{1}</3> the production bonus until <4>{2}</4>.</2><5>This bonus is applied after work. So it is not counted in wage.</5>"
 msgstr "<0>Mit jedem Tag, den man für denselben Arbeitgeber arbeitet, erhöht sich der Treuebonus um <1>{0}</1>.</0><2>Dies erhöht den Produktionsbonus um <3>{1}</3> bis maximal <4>{2}</4>.</2><5>Dieser Bonus wird nach der Arbeit angewendet. Er wird also nicht im Lohn mitgezählt.</5>"
 
@@ -1859,7 +1859,7 @@ msgid "Auto approval"
 msgstr "Automatische Genehmigung"
 
 #: src/components/_layout/LayoutOptions.tsx:190
-#: src/components/_user/kits/KitsPopover.tsx:221
+#: src/components/_user/kits/KitsPopover.tsx:220
 msgid "Auto-equip when item breaks"
 msgstr "Automatisch ausrüsten, wenn Gegenstand zerbricht"
 
@@ -2029,7 +2029,7 @@ msgstr "Kampfbefehle zur Verteidigung deiner Kernregionen sowie Aufstände sind 
 msgid "Battle orders to defend your core regions and revolts cost <0>{0}</0> less."
 msgstr "Kampfbefehle zur Verteidigung deiner Kernregionen sowie Aufstände kosten <0>{0}</0> weniger."
 
-#: src/components/_layout/LayoutMenu.tsx:157
+#: src/components/_layout/LayoutMenu.tsx:167
 #: src/components/_military/battle/BattlesHeader.tsx:21
 #: src/components/_military/war/WarHeader.tsx:84
 #: src/pages/region/[regionId]/index.tsx:132
@@ -2059,7 +2059,7 @@ msgid "Become a Candidate"
 msgstr "Kandidat werden"
 
 #: src/components/_layout/LayoutOptions.tsx:210
-#: src/components/_user/kits/KitsPopover.tsx:245
+#: src/components/_user/kits/KitsPopover.tsx:244
 msgid "Best"
 msgstr "Beste"
 
@@ -2367,7 +2367,7 @@ msgstr ""
 msgid "Change produced item"
 msgstr "Produzierten Gegenstand ändern"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:159
+#: src/components/_economy/company/CompanyDropdown.tsx:194
 msgid "Change production"
 msgstr "Produktion ändern"
 
@@ -2554,7 +2554,7 @@ msgstr "Kommodore"
 msgid "Community"
 msgstr "Community"
 
-#: src/components/_layout/LayoutMenu.tsx:199
+#: src/components/_layout/LayoutMenu.tsx:209
 #: src/components/_user/user/MyAvatar.tsx:48
 #: src/components/_user/user/UserHeader.tsx:206
 #: src/components/_user/user/WealthPanel.tsx:42
@@ -2571,7 +2571,7 @@ msgstr "Unternehmenslimit"
 msgid "Companies limit reached"
 msgstr "Unternehmenslimit erreicht"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:89
+#: src/components/_economy/company/CompanyDropdown.tsx:93
 msgid "Company destroyed!"
 msgstr "Unternehmen zerstört!"
 
@@ -2579,11 +2579,11 @@ msgstr "Unternehmen zerstört!"
 msgid "Company disabled"
 msgstr "Unternehmen deaktiviert"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:116
+#: src/components/_economy/company/CompanyDropdown.tsx:120
 msgid "Company disabled!"
 msgstr "Unternehmen deaktiviert!"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:115
+#: src/components/_economy/company/CompanyDropdown.tsx:119
 msgid "Company enabled!"
 msgstr "Unternehmen aktiviert!"
 
@@ -2598,6 +2598,10 @@ msgstr "Produktionslager des Unternehmens"
 #: src/components/_economy/company/CompanyRenameFormModal.tsx:44
 msgid "Company renamed!"
 msgstr "Unternehmen umbenannt!"
+
+#: src/components/_economy/company/CompanyDropdown.tsx:143
+msgid "Company upgraded!"
+msgstr ""
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:194
 msgid "Complete missions daily to earn XP and level up faster. Click to claim!"
@@ -3277,7 +3281,7 @@ msgstr "Beschreibung entfernt"
 msgid "Description updated!"
 msgstr "Beschreibung aktualisiert!"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:233
+#: src/components/_economy/company/CompanyDropdown.tsx:304
 msgid "Destruct"
 msgstr "Zerstören"
 
@@ -3307,7 +3311,7 @@ msgstr "Diplomatisch"
 msgid "Diplomatic: defensive pact maintenance costs {less}% less <0>{0}</0>."
 msgstr ""
 
-#: src/components/_economy/company/CompanyDropdown.tsx:189
+#: src/components/_economy/company/CompanyDropdown.tsx:260
 msgid "Disable company"
 msgstr "Unternehmen deaktivieren"
 
@@ -3518,7 +3522,7 @@ msgstr "Mitarbeiter-Produktion"
 msgid "Empty"
 msgstr "Leer"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:179
+#: src/components/_economy/company/CompanyDropdown.tsx:250
 msgid "Enable company"
 msgstr "Unternehmen aktivieren"
 
@@ -3813,7 +3817,7 @@ msgstr "Kaution"
 msgid "Feed"
 msgstr "Feed"
 
-#: src/components/_user/worker/WorkerItem.tsx:110
+#: src/components/_user/worker/WorkerItem.tsx:119
 msgid "Fidelity Bonus"
 msgstr "Treuebonus"
 
@@ -4020,10 +4024,6 @@ msgstr "Hol dir mehrere Skins auf einmal mit 30% Rabatt!"
 
 #: src/components/_economy/inventory/DismantleModal.tsx:221
 msgid "Get supporter plan"
-msgstr "Supporter-Plan holen"
-
-#: src/components/_user/kits/KitsPopover.tsx:209
-msgid "Get Supporter Plan"
 msgstr "Supporter-Plan holen"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:94
@@ -4477,7 +4477,7 @@ msgstr "Initiant"
 msgid "Intentional or repeated violations of this policy will result in a permanent ban."
 msgstr "Absichtliche oder wiederholte Verstöße gegen diese Regel führen zu einem permanenten Ban."
 
-#: src/components/_layout/LayoutMenu.tsx:126
+#: src/components/_layout/LayoutMenu.tsx:127
 #: src/components/_user/user/MyAvatar.tsx:35
 #: src/components/_user/user/UserHeader.tsx:159
 #: src/pages/companies.tsx:83
@@ -4557,7 +4557,7 @@ msgstr "j. Spam und wiederholte Nachrichten"
 msgid "Job"
 msgstr "Job"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:202
+#: src/components/_economy/company/CompanyDropdown.tsx:273
 #: src/components/_economy/workOffer/WageInfoAlert.tsx:42
 msgid "Job market"
 msgstr "Arbeitsmarkt"
@@ -4603,7 +4603,7 @@ msgstr "Tritt dem Chat deines Landes bei!"
 msgid "Joinable"
 msgstr ""
 
-#: src/components/_user/worker/WorkerItem.tsx:150
+#: src/components/_user/worker/WorkerItem.tsx:159
 msgid "Joined"
 msgstr "Beigetreten"
 
@@ -4740,7 +4740,7 @@ msgstr "Blei"
 msgid "Leather Sling"
 msgstr ""
 
-#: src/components/_economy/company/CompanyDropdown.tsx:221
+#: src/components/_economy/company/CompanyDropdown.tsx:292
 msgid "Leave"
 msgstr "Verlassen"
 
@@ -4996,7 +4996,7 @@ msgid "Map Accent"
 msgstr "Karten-Akzent"
 
 #: src/components/_economy/market/MarketHeader.tsx:44
-#: src/components/_layout/LayoutMenu.tsx:179
+#: src/components/_layout/LayoutMenu.tsx:189
 #: src/pages/country/[countryId]/account.tsx:31
 #: src/pages/party/[partyId]/account.tsx:24
 #: src/pages/user/[userId]/account.tsx:26
@@ -5015,6 +5015,11 @@ msgstr "Marschall"
 #: src/components/_military/mu/MuLevel.tsx:81
 msgid "Max level reached!"
 msgstr "Maximales Level erreicht!"
+
+#: src/components/_economy/company/CompanyDropdown.tsx:214
+#: src/components/_economy/company/CompanyDropdown.tsx:232
+msgid "Maxed!"
+msgstr ""
 
 #. placeholder {0}: levelConfig.stats.members
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:109
@@ -5307,7 +5312,7 @@ msgstr "Anträge"
 msgid "Move a company to another region"
 msgstr "Verschiebe ein Unternehmen in eine andere Region"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:144
+#: src/components/_economy/company/CompanyDropdown.tsx:179
 #: src/components/_economy/company/MoveCompanyForm.tsx:64
 msgid "Move company"
 msgstr "Unternehmen verschieben"
@@ -5320,7 +5325,7 @@ msgstr "Unternehmen verschieben"
 msgid "Move the company"
 msgstr "Unternehmen verschieben"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:170
+#: src/components/_economy/company/CompanyDropdown.tsx:241
 msgid "Move to top"
 msgstr "Nach oben verschieben"
 
@@ -5328,7 +5333,7 @@ msgstr "Nach oben verschieben"
 msgid "Moved to a new company"
 msgstr "In ein neues Unternehmen gewechselt"
 
-#: src/components/_layout/LayoutMenu.tsx:139
+#: src/components/_layout/LayoutMenu.tsx:140
 #: src/components/_military/tournament/TournamentRegisterButton.tsx:135
 msgid "MU"
 msgstr "ME"
@@ -5485,7 +5490,7 @@ msgstr "Neue Ethik-Konfiguration"
 msgid "New item offer"
 msgstr "Neues Gegenstandsangebot"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:151
+#: src/components/_economy/company/CompanyDropdown.tsx:186
 #: src/components/_economy/workOffer/WorkOfferList.tsx:172
 #: src/pages/company/[companyId]/index.tsx:67
 msgid "New job offer"
@@ -5664,6 +5669,10 @@ msgstr "Noch keine Spenden"
 #: src/components/_military/damageRanking/DamageRankingList.tsx:172
 msgid "No ground ranking yet."
 msgstr "Noch keine Boden-Rangliste."
+
+#: src/components/_user/kits/KitsPopover.tsx:130
+msgid "No kits yet - add one to quick-equip a full loadout."
+msgstr ""
 
 #: src/components/_political/law/LawList.tsx:66
 msgid "No laws yet"
@@ -6807,7 +6816,7 @@ msgstr "Den aktuellen Parteivorsitzenden von seiner Position entfernen"
 msgid "Removed from Military Unit"
 msgstr "Aus der Militäreinheit entfernt"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:211
+#: src/components/_economy/company/CompanyDropdown.tsx:282
 msgid "Rename"
 msgstr "Umbenennen"
 
@@ -7071,10 +7080,6 @@ msgstr "Wenig Gesundheit?"
 msgid "Save"
 msgstr "Speichern"
 
-#: src/components/_user/kits/KitsPopover.tsx:195
-msgid "Save your equipment kits"
-msgstr "Ausrüstungs-Sets speichern"
-
 #: src/components/_other/tour/tuto.frontConfig.tsx:124
 msgid "Save your progress!"
 msgstr "Speichere deinen Fortschritt!"
@@ -7170,7 +7175,7 @@ msgstr "Selbst arbeitend"
 msgid "Self work <0>{count}</0> times in your companies"
 msgstr "<0>{count}</0> Mal in deinen Unternehmen selbst arbeiten"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:253
+#: src/components/_economy/company/CompanyDropdown.tsx:324
 msgid "Sell company?"
 msgstr "Unternehmen verkaufen?"
 
@@ -7665,9 +7670,9 @@ msgstr "Supporter-Plan"
 msgid "Supporter Plan"
 msgstr "Supporter-Plan"
 
-#: src/components/_user/kits/KitsPopover.tsx:198
-msgid "Supporter Plan lets you save up to {maxKits} custom equipment loadouts and switch between them with one click."
-msgstr "Mit dem Supporter-Plan kannst du bis zu {maxKits} individuelle Ausrüstungs-Sets speichern und mit einem Klick zwischen ihnen wechseln."
+#: src/components/_user/kits/KitsPopover.tsx:209
+msgid "Supporter Plan: up to {premiumMax} kits"
+msgstr ""
 
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:161
 msgid "Supreme Commander"
@@ -8326,6 +8331,10 @@ msgstr "Arbeiter aktualisieren"
 msgid "Upgrade a company"
 msgstr "Ein Unternehmen verbessern"
 
+#: src/components/_economy/company/CompanyDropdown.tsx:200
+msgid "Upgrade automated engine"
+msgstr ""
+
 #: src/components/_user/mission/mission.frontConfig.tsx:393
 msgid "Upgrade Company"
 msgstr "Unternehmen verbessern"
@@ -8333,6 +8342,10 @@ msgstr "Unternehmen verbessern"
 #: src/components/_user/mission/mission.frontConfig.tsx:462
 msgid "Upgrade Skills"
 msgstr "Fähigkeiten verbessern"
+
+#: src/components/_economy/company/CompanyDropdown.tsx:218
+msgid "Upgrade storage"
+msgstr ""
 
 #: src/components/_economy/inventory/DismantleModal.tsx:205
 msgid "Upgrade to supporter"
@@ -8813,7 +8826,7 @@ msgid "World Cup Ball"
 msgstr ""
 
 #: src/components/_layout/LayoutOptions.tsx:222
-#: src/components/_user/kits/KitsPopover.tsx:259
+#: src/components/_user/kits/KitsPopover.tsx:258
 msgid "Worst"
 msgstr "Schlechteste"
 
@@ -8843,7 +8856,7 @@ msgid "XP"
 msgstr "XP"
 
 #. placeholder {0}: companiesLimit ?? 1
-#: src/components/_economy/company/CompanyDropdown.tsx:197
+#: src/components/_economy/company/CompanyDropdown.tsx:268
 msgid "You already have {0} active companies. Disable one first."
 msgstr "Du hast bereits {0} aktive Unternehmen. Deaktiviere zuerst eines."
 
@@ -9022,7 +9035,7 @@ msgstr "Du hast einen Freund eingeladen oder Forenbeiträge gespammt. Sobald sie
 msgid "You left the company."
 msgstr "Du hast das Unternehmen verlassen."
 
-#: src/components/_economy/company/CompanyDropdown.tsx:56
+#: src/components/_economy/company/CompanyDropdown.tsx:60
 msgid "You left your job!"
 msgstr "Du hast deinen Job gekündigt!"
 

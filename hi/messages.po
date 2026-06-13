@@ -132,7 +132,7 @@ msgstr "{0} की कंपनियाँ"
 
 #. placeholder {0}: activeCompaniesCount.data ?? 0
 #. placeholder {1}: companiesLimit ?? 1
-#: src/components/_economy/company/CompanyDropdown.tsx:182
+#: src/components/_economy/company/CompanyDropdown.tsx:253
 msgid "{0}/{1} active"
 msgstr "{0}/{1} सक्रिय"
 
@@ -147,7 +147,7 @@ msgid "{0}% income tax will be deducted from your workers wages."
 msgstr "आपके कर्मचारियों के वेतन से {0}% आयकर काटा जाएगा।"
 
 #. placeholder {0}: gameConfig.company.destructionValuePercent
-#: src/components/_economy/company/CompanyDropdown.tsx:243
+#: src/components/_economy/company/CompanyDropdown.tsx:314
 msgid "{0}% of invested"
 msgstr "निवेशित राशि का {0}%"
 
@@ -790,7 +790,7 @@ msgstr "<0>दोनों पक्षों द्वारा किए ग�
 #. placeholder {0}: 1
 #. placeholder {1}: worker.fidelity
 #. placeholder {2}: 10
-#: src/components/_user/worker/WorkerItem.tsx:112
+#: src/components/_user/worker/WorkerItem.tsx:121
 msgid "<0>Everyday passed working for same employer, the fidelity bonus increases by <1>{0}</1>.</0><2>It increase by <3>{1}</3> the production bonus until <4>{2}</4>.</2><5>This bonus is applied after work. So it is not counted in wage.</5>"
 msgstr "<0>एक ही नियोक्ता के लिए काम करने वाले प्रत्येक दिन के साथ निष्ठा बोनस <1>{0}</1> बढ़ जाता है।</0><2>यह उत्पादन बोनस को <3>{1}</3> तक बढ़ाता है, अधिकतम <4>{2}</4> तक।</2><5>यह बोनस कार्य के बाद लागू होता है, इसलिए इसे वेतन में नहीं गिना जाता।</5>"
 
@@ -1859,7 +1859,7 @@ msgid "Auto approval"
 msgstr "स्वचालित स्वीकृति"
 
 #: src/components/_layout/LayoutOptions.tsx:190
-#: src/components/_user/kits/KitsPopover.tsx:221
+#: src/components/_user/kits/KitsPopover.tsx:220
 msgid "Auto-equip when item breaks"
 msgstr "वस्तु टूटने पर स्वचालित रूप से सुसज्जित करें"
 
@@ -2029,7 +2029,7 @@ msgstr ""
 msgid "Battle orders to defend your core regions and revolts cost <0>{0}</0> less."
 msgstr ""
 
-#: src/components/_layout/LayoutMenu.tsx:157
+#: src/components/_layout/LayoutMenu.tsx:167
 #: src/components/_military/battle/BattlesHeader.tsx:21
 #: src/components/_military/war/WarHeader.tsx:84
 #: src/pages/region/[regionId]/index.tsx:132
@@ -2059,7 +2059,7 @@ msgid "Become a Candidate"
 msgstr "उम्मीदवार बनें"
 
 #: src/components/_layout/LayoutOptions.tsx:210
-#: src/components/_user/kits/KitsPopover.tsx:245
+#: src/components/_user/kits/KitsPopover.tsx:244
 msgid "Best"
 msgstr "सर्वश्रेष्ठ"
 
@@ -2367,7 +2367,7 @@ msgstr ""
 msgid "Change produced item"
 msgstr "उत्पादित वस्तु बदलें"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:159
+#: src/components/_economy/company/CompanyDropdown.tsx:194
 msgid "Change production"
 msgstr "उत्पादन बदलें"
 
@@ -2554,7 +2554,7 @@ msgstr "कमोडोर"
 msgid "Community"
 msgstr "समुदाय"
 
-#: src/components/_layout/LayoutMenu.tsx:199
+#: src/components/_layout/LayoutMenu.tsx:209
 #: src/components/_user/user/MyAvatar.tsx:48
 #: src/components/_user/user/UserHeader.tsx:206
 #: src/components/_user/user/WealthPanel.tsx:42
@@ -2571,7 +2571,7 @@ msgstr "कंपनियों की सीमा"
 msgid "Companies limit reached"
 msgstr "कंपनियों की सीमा पूरी हो गई"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:89
+#: src/components/_economy/company/CompanyDropdown.tsx:93
 msgid "Company destroyed!"
 msgstr "कंपनी नष्ट कर दी गई!"
 
@@ -2579,11 +2579,11 @@ msgstr "कंपनी नष्ट कर दी गई!"
 msgid "Company disabled"
 msgstr "कंपनी निष्क्रिय"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:116
+#: src/components/_economy/company/CompanyDropdown.tsx:120
 msgid "Company disabled!"
 msgstr "कंपनी निष्क्रिय कर दी गई!"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:115
+#: src/components/_economy/company/CompanyDropdown.tsx:119
 msgid "Company enabled!"
 msgstr "कंपनी सक्रिय कर दी गई!"
 
@@ -2598,6 +2598,10 @@ msgstr "कंपनी उत्पादन भंडारण"
 #: src/components/_economy/company/CompanyRenameFormModal.tsx:44
 msgid "Company renamed!"
 msgstr "कंपनी का नाम बदल दिया गया!"
+
+#: src/components/_economy/company/CompanyDropdown.tsx:143
+msgid "Company upgraded!"
+msgstr ""
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:194
 msgid "Complete missions daily to earn XP and level up faster. Click to claim!"
@@ -3277,7 +3281,7 @@ msgstr "विवरण हटा दिया गया"
 msgid "Description updated!"
 msgstr "विवरण अपडेट कर दिया गया!"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:233
+#: src/components/_economy/company/CompanyDropdown.tsx:304
 msgid "Destruct"
 msgstr "नष्ट करें"
 
@@ -3307,7 +3311,7 @@ msgstr "कूटनीतिक"
 msgid "Diplomatic: defensive pact maintenance costs {less}% less <0>{0}</0>."
 msgstr ""
 
-#: src/components/_economy/company/CompanyDropdown.tsx:189
+#: src/components/_economy/company/CompanyDropdown.tsx:260
 msgid "Disable company"
 msgstr "कंपनी निष्क्रिय करें"
 
@@ -3518,7 +3522,7 @@ msgstr "कर्मचारी उत्पादन"
 msgid "Empty"
 msgstr "खाली"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:179
+#: src/components/_economy/company/CompanyDropdown.tsx:250
 msgid "Enable company"
 msgstr "कंपनी सक्रिय करें"
 
@@ -3813,7 +3817,7 @@ msgstr "शुल्क"
 msgid "Feed"
 msgstr "फ़ीड"
 
-#: src/components/_user/worker/WorkerItem.tsx:110
+#: src/components/_user/worker/WorkerItem.tsx:119
 msgid "Fidelity Bonus"
 msgstr "निष्ठा बोनस"
 
@@ -4020,10 +4024,6 @@ msgstr "30% छूट के साथ एक साथ कई स्किन �
 
 #: src/components/_economy/inventory/DismantleModal.tsx:221
 msgid "Get supporter plan"
-msgstr "समर्थक योजना प्राप्त करें"
-
-#: src/components/_user/kits/KitsPopover.tsx:209
-msgid "Get Supporter Plan"
 msgstr "समर्थक योजना प्राप्त करें"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:94
@@ -4477,7 +4477,7 @@ msgstr "प्रारंभिक सदस्य"
 msgid "Intentional or repeated violations of this policy will result in a permanent ban."
 msgstr "इस नीति का जानबूझकर या बार-बार उल्लंघन करने पर स्थायी प्रतिबंध लगाया जाएगा।"
 
-#: src/components/_layout/LayoutMenu.tsx:126
+#: src/components/_layout/LayoutMenu.tsx:127
 #: src/components/_user/user/MyAvatar.tsx:35
 #: src/components/_user/user/UserHeader.tsx:159
 #: src/pages/companies.tsx:83
@@ -4557,7 +4557,7 @@ msgstr "j. स्पैम और बार-बार दोहराए गए 
 msgid "Job"
 msgstr "नौकरी"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:202
+#: src/components/_economy/company/CompanyDropdown.tsx:273
 #: src/components/_economy/workOffer/WageInfoAlert.tsx:42
 msgid "Job market"
 msgstr "नौकरी बाज़ार"
@@ -4603,7 +4603,7 @@ msgstr "अपने देश की चैट में शामिल हो
 msgid "Joinable"
 msgstr "शामिल होने योग्य"
 
-#: src/components/_user/worker/WorkerItem.tsx:150
+#: src/components/_user/worker/WorkerItem.tsx:159
 msgid "Joined"
 msgstr "शामिल हुआ"
 
@@ -4740,7 +4740,7 @@ msgstr "सीसा"
 msgid "Leather Sling"
 msgstr "चमड़े की गुलेल"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:221
+#: src/components/_economy/company/CompanyDropdown.tsx:292
 msgid "Leave"
 msgstr "छोड़ें"
 
@@ -4996,7 +4996,7 @@ msgid "Map Accent"
 msgstr "मानचित्र उच्चारण रंग"
 
 #: src/components/_economy/market/MarketHeader.tsx:44
-#: src/components/_layout/LayoutMenu.tsx:179
+#: src/components/_layout/LayoutMenu.tsx:189
 #: src/pages/country/[countryId]/account.tsx:31
 #: src/pages/party/[partyId]/account.tsx:24
 #: src/pages/user/[userId]/account.tsx:26
@@ -5015,6 +5015,11 @@ msgstr "मार्शल"
 #: src/components/_military/mu/MuLevel.tsx:81
 msgid "Max level reached!"
 msgstr "अधिकतम स्तर प्राप्त हो गया!"
+
+#: src/components/_economy/company/CompanyDropdown.tsx:214
+#: src/components/_economy/company/CompanyDropdown.tsx:232
+msgid "Maxed!"
+msgstr ""
 
 #. placeholder {0}: levelConfig.stats.members
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:109
@@ -5307,7 +5312,7 @@ msgstr "प्रस्ताव"
 msgid "Move a company to another region"
 msgstr "किसी कंपनी को दूसरे क्षेत्र में स्थानांतरित करें"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:144
+#: src/components/_economy/company/CompanyDropdown.tsx:179
 #: src/components/_economy/company/MoveCompanyForm.tsx:64
 msgid "Move company"
 msgstr "कंपनी स्थानांतरित करें"
@@ -5320,7 +5325,7 @@ msgstr "कंपनी स्थानांतरित करें"
 msgid "Move the company"
 msgstr "कंपनी को स्थानांतरित करें"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:170
+#: src/components/_economy/company/CompanyDropdown.tsx:241
 msgid "Move to top"
 msgstr "शीर्ष पर ले जाएँ"
 
@@ -5328,7 +5333,7 @@ msgstr "शीर्ष पर ले जाएँ"
 msgid "Moved to a new company"
 msgstr "नई कंपनी में स्थानांतरित किया गया"
 
-#: src/components/_layout/LayoutMenu.tsx:139
+#: src/components/_layout/LayoutMenu.tsx:140
 #: src/components/_military/tournament/TournamentRegisterButton.tsx:135
 msgid "MU"
 msgstr "MU"
@@ -5485,7 +5490,7 @@ msgstr "नई नैतिकता संरचना"
 msgid "New item offer"
 msgstr "नया वस्तु प्रस्ताव"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:151
+#: src/components/_economy/company/CompanyDropdown.tsx:186
 #: src/components/_economy/workOffer/WorkOfferList.tsx:172
 #: src/pages/company/[companyId]/index.tsx:67
 msgid "New job offer"
@@ -5664,6 +5669,10 @@ msgstr "अभी तक कोई दान नहीं"
 #: src/components/_military/damageRanking/DamageRankingList.tsx:172
 msgid "No ground ranking yet."
 msgstr "अभी तक कोई ग्राउंड रैंकिंग नहीं।"
+
+#: src/components/_user/kits/KitsPopover.tsx:130
+msgid "No kits yet - add one to quick-equip a full loadout."
+msgstr ""
 
 #: src/components/_political/law/LawList.tsx:66
 msgid "No laws yet"
@@ -6807,7 +6816,7 @@ msgstr "वर्तमान पार्टी नेता को उनक�
 msgid "Removed from Military Unit"
 msgstr "सैन्य इकाई से हटाया गया"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:211
+#: src/components/_economy/company/CompanyDropdown.tsx:282
 msgid "Rename"
 msgstr "नाम बदलें"
 
@@ -7071,10 +7080,6 @@ msgstr "स्वास्थ्य कम हो रहा है?"
 msgid "Save"
 msgstr "सहेजें"
 
-#: src/components/_user/kits/KitsPopover.tsx:195
-msgid "Save your equipment kits"
-msgstr "अपने उपकरण किट सहेजें"
-
 #: src/components/_other/tour/tuto.frontConfig.tsx:124
 msgid "Save your progress!"
 msgstr "अपनी प्रगति सहेजें!"
@@ -7170,7 +7175,7 @@ msgstr "स्वयं कार्य"
 msgid "Self work <0>{count}</0> times in your companies"
 msgstr "अपनी कंपनियों में <0>{count}</0> बार स्वयं कार्य करें"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:253
+#: src/components/_economy/company/CompanyDropdown.tsx:324
 msgid "Sell company?"
 msgstr "कंपनी बेचें?"
 
@@ -7665,9 +7670,9 @@ msgstr "समर्थक योजना"
 msgid "Supporter Plan"
 msgstr "समर्थक योजना"
 
-#: src/components/_user/kits/KitsPopover.tsx:198
-msgid "Supporter Plan lets you save up to {maxKits} custom equipment loadouts and switch between them with one click."
-msgstr "समर्थक योजना आपको {maxKits} तक कस्टम उपकरण लोडआउट सहेजने और एक क्लिक में उनके बीच स्विच करने की सुविधा देती है।"
+#: src/components/_user/kits/KitsPopover.tsx:209
+msgid "Supporter Plan: up to {premiumMax} kits"
+msgstr ""
 
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:161
 msgid "Supreme Commander"
@@ -8326,6 +8331,10 @@ msgstr "कर्मचारी अपडेट करें"
 msgid "Upgrade a company"
 msgstr "कंपनी अपग्रेड करें"
 
+#: src/components/_economy/company/CompanyDropdown.tsx:200
+msgid "Upgrade automated engine"
+msgstr ""
+
 #: src/components/_user/mission/mission.frontConfig.tsx:393
 msgid "Upgrade Company"
 msgstr "कंपनी अपग्रेड करें"
@@ -8333,6 +8342,10 @@ msgstr "कंपनी अपग्रेड करें"
 #: src/components/_user/mission/mission.frontConfig.tsx:462
 msgid "Upgrade Skills"
 msgstr "कौशल अपग्रेड करें"
+
+#: src/components/_economy/company/CompanyDropdown.tsx:218
+msgid "Upgrade storage"
+msgstr ""
 
 #: src/components/_economy/inventory/DismantleModal.tsx:205
 msgid "Upgrade to supporter"
@@ -8813,7 +8826,7 @@ msgid "World Cup Ball"
 msgstr ""
 
 #: src/components/_layout/LayoutOptions.tsx:222
-#: src/components/_user/kits/KitsPopover.tsx:259
+#: src/components/_user/kits/KitsPopover.tsx:258
 msgid "Worst"
 msgstr "सबसे खराब"
 
@@ -8843,7 +8856,7 @@ msgid "XP"
 msgstr "XP"
 
 #. placeholder {0}: companiesLimit ?? 1
-#: src/components/_economy/company/CompanyDropdown.tsx:197
+#: src/components/_economy/company/CompanyDropdown.tsx:268
 msgid "You already have {0} active companies. Disable one first."
 msgstr "आपके पास पहले से {0} सक्रिय कंपनियाँ हैं। पहले एक को निष्क्रिय करें।"
 
@@ -9022,7 +9035,7 @@ msgstr "आपने किसी मित्र को आमंत्रि�
 msgid "You left the company."
 msgstr "आपने कंपनी छोड़ दी।"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:56
+#: src/components/_economy/company/CompanyDropdown.tsx:60
 msgid "You left your job!"
 msgstr "आपने अपनी नौकरी छोड़ दी!"
 
