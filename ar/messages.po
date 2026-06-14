@@ -1920,7 +1920,7 @@ msgstr "متوازن - لا توجد معدلات"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:359
 msgid "Ball"
-msgstr ""
+msgstr "كرة"
 
 #: src/components/_political/event/EventList.tsx:73
 msgid "Bankruptcy"
