@@ -746,7 +746,7 @@ msgstr "<0>{ethicSpecializationBonus}</0> iš <1/> pramonininko etikos specializ
 
 #: src/components/_economy/company/CompanyProductionBonusTag.tsx:53
 msgid "<0>{strategicBonus}</0> from <1/> strategic resources production bonus."
-msgstr "<0>{strategicBonus}</0> iš strateginių išteklių gamybos bonuso."
+msgstr "<0>{strategicBonus}</0> iš <1/> strateginių išteklių gamybos bonuso."
 
 #: src/pages/country/[countryId]/index.tsx:352
 #: src/pages/country/[countryId]/index.tsx:401
@@ -792,7 +792,7 @@ msgstr "<0>Kas <1/> bendros abiejų pusių padarytos žalos į mūšio fondą pr
 #. placeholder {2}: 10
 #: src/components/_user/worker/WorkerItem.tsx:122
 msgid "<0>Everyday passed working for same employer, the fidelity bonus increases by <1>{0}</1>.</0><2>It increase by <3>{1}</3> the production bonus until <4>{2}</4>.</2><5>This bonus is applied after work. So it is not counted in wage.</5>"
-msgstr "<0>Kiekvieną dieną dirbant tam pačiam darbdaviui, lojalumo bonusas padidėja <1>{0}</1>.</0><2>Ji padidina gamybos bonusą <3>{1}</3> iki <4>{2}</4>.</2><5>Šis bonusas pritaikomas po darbo, todėl į atlyginimą neįskaičiuojama.</5>"
+msgstr "<0>Kiekvieną dieną dirbant tam pačiam darbdaviui, lojalumo bonusas padidėja <1>{0}</1>.</0><2>Jis padidina gamybos bonusą <3>{1}</3> iki <4>{2}</4>.</2><5>Šis bonusas pritaikomas po darbo, todėl į atlyginimą neįskaičiuojama.</5>"
 
 #: src/components/_economy/company/CompanyProduce.tsx:81
 msgid "<0>Filled with <1>Production Points</1> by employees working and from the automated engine.</0><2>Only the company owner can spend it to produce items.</2>"
@@ -7298,7 +7298,7 @@ msgstr "Nustatyti specializacijos daiktą"
 #. placeholder {0}: ts[law.data.itemCode]
 #: src/components/_political/law/law.frontConfig.tsx:596
 msgid "Set the country's specialized item to <0>{0}</0>.<1/>The country strategic resources <2>Production Bonus</2> will be available for local companies producing this item."
-msgstr "Nustatyti šalies specializuotą prekę kaip <0>{0}</0>.<1/>Šalies strateginių išteklių <2>Gamybos bonusas</2> bus taikoma vietinėms įmonėms, gaminančioms šią prekę."
+msgstr "Nustatyti šalies specializuotą prekę kaip <0>{0}</0>.<1/>Šalies strateginių išteklių <2>Gamybos bonusas</2> bus taikomas vietinėms įmonėms, gaminančioms šią prekę."
 
 #: src/components/_political/law/law.frontConfig.tsx:591
 msgid "Set the country's specialized production item"
