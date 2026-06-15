@@ -83,7 +83,7 @@ msgid "{0} & allies"
 msgstr "{0} és szövetségesek"
 
 #. placeholder {0}: lawConfig.minActiveCitizen
-#: src/components/_political/law/Law.tsx:139
+#: src/components/_political/law/Law.tsx:148
 msgid "{0} active citizens required"
 msgstr "{0} aktív állampolgár szükséges"
 
@@ -104,8 +104,8 @@ msgstr "{0} ingyenes"
 
 #. placeholder {0}: lawConfig?.coolDownInHours
 #. placeholder {0}: motionConfig.coolDownInHours
-#: src/components/_political/law/Law.tsx:130
-#: src/components/_political/partyMotion/PartyMotion.tsx:113
+#: src/components/_political/law/Law.tsx:139
+#: src/components/_political/partyMotion/PartyMotion.tsx:130
 msgid "{0} hours"
 msgstr "{0} óra"
 
@@ -728,7 +728,7 @@ msgid "<0>{0}</0> Storage capacity"
 msgstr "<0>{0}</0> Raktárkapacitás"
 
 #. placeholder {0}: lawConfig.maintenanceCost
-#: src/components/_political/law/Law.tsx:115
+#: src/components/_political/law/Law.tsx:124
 msgid "<0>{0}</0>/day"
 msgstr "<0>{0}</0>/nap"
 
@@ -1273,9 +1273,9 @@ msgstr "Ellenőrző kódot küldtünk a(z) {phoneNumber} számra"
 msgid "a. Insults, slurs and targeted harassment"
 msgstr "a. Sértések, gyalázkodás és célzott zaklatás"
 
-#: src/components/_political/allianceLaw/AllianceLaw.tsx:133
-#: src/components/_political/law/Law.tsx:190
-#: src/components/_political/partyMotion/PartyMotion.tsx:173
+#: src/components/_political/allianceLaw/AllianceLaw.tsx:142
+#: src/components/_political/law/Law.tsx:199
+#: src/components/_political/partyMotion/PartyMotion.tsx:190
 msgid "Abstain"
 msgstr "Tartózkodás"
 
@@ -1287,9 +1287,9 @@ msgstr "A jelentési rendszer visszaélésszerű használata vagy spammelése sz
 msgid "Abusing this power to advantage another country will lead to a <0>ban.</0>"
 msgstr "Ezen hatalom visszaélésszerű használata egy másik ország előnyére <0>kitiltáshoz</0> vezet."
 
-#: src/components/_political/allianceLaw/AllianceLaw.tsx:122
-#: src/components/_political/law/Law.tsx:179
-#: src/components/_political/partyMotion/PartyMotion.tsx:162
+#: src/components/_political/allianceLaw/AllianceLaw.tsx:131
+#: src/components/_political/law/Law.tsx:188
+#: src/components/_political/partyMotion/PartyMotion.tsx:179
 #: src/components/_user/worker/WageReductionAlert.tsx:86
 msgid "Accept"
 msgstr "Elfogad"
@@ -1316,9 +1316,7 @@ msgstr "Békekötés elfogadása"
 msgid "Accept to make peace with the other country"
 msgstr "Békekötés elfogadása a másik országgal"
 
-#: src/components/_political/allianceLaw/AllianceLawStatus.tsx:43
-#: src/components/_political/law/LawStatus.tsx:43
-#: src/components/_political/partyMotion/PartyMotionStatus.tsx:52
+#: src/components/_political/law/GenericLawStatus.tsx:40
 msgid "Accepted"
 msgstr "Elfogadva"
 
@@ -1383,9 +1381,9 @@ msgstr "Aktivitás"
 msgid "Add User"
 msgstr "Felhasználó hozzáadása"
 
-#: src/components/_political/law/Law.tsx:101
+#: src/components/_political/law/Law.tsx:110
 #: src/components/_political/law/LawFormModal.tsx:328
-#: src/components/_political/partyMotion/PartyMotion.tsx:99
+#: src/components/_political/partyMotion/PartyMotion.tsx:116
 #: src/components/_political/partyMotion/PartyMotionFormModal.tsx:172
 msgid "Additional cost"
 msgstr "További költség"
@@ -2767,8 +2765,8 @@ msgstr "Szerződések és aukciók"
 msgid "Cooked Fish"
 msgstr "Főtt hal"
 
-#: src/components/_political/law/Law.tsx:127
-#: src/components/_political/partyMotion/PartyMotion.tsx:110
+#: src/components/_political/law/Law.tsx:136
+#: src/components/_political/partyMotion/PartyMotion.tsx:127
 msgid "Cool down"
 msgstr "Lehűlési idő"
 
@@ -3530,12 +3528,12 @@ msgstr "Üres"
 msgid "Enable company"
 msgstr "Vállalat engedélyezése"
 
-#: src/components/_political/allianceLaw/AllianceLaw.tsx:78
+#: src/components/_political/allianceLaw/AllianceLaw.tsx:87
 #: src/components/_political/allianceLaw/AllianceLawTypeSelect.tsx:102
-#: src/components/_political/law/Law.tsx:83
-#: src/components/_political/law/Law.tsx:86
+#: src/components/_political/law/Law.tsx:92
+#: src/components/_political/law/Law.tsx:95
 #: src/components/_political/law/LawTypeSelect.tsx:176
-#: src/components/_political/partyMotion/PartyMotion.tsx:89
+#: src/components/_political/partyMotion/PartyMotion.tsx:106
 #: src/components/_political/partyMotion/PartyMotionTypeSelect.tsx:132
 msgid "Enacting cost"
 msgstr "Elfogadás költsége"
@@ -3607,9 +3605,7 @@ msgstr "Felszerelés:"
 msgid "Equipments"
 msgstr "Felszerelések"
 
-#: src/components/_political/allianceLaw/AllianceLawStatus.tsx:47
-#: src/components/_political/law/LawStatus.tsx:47
-#: src/components/_political/partyMotion/PartyMotionStatus.tsx:56
+#: src/components/_political/law/GenericLawStatus.tsx:44
 msgid "Error"
 msgstr "Hiba"
 
@@ -4719,8 +4715,8 @@ msgstr "Vezetői választás indítása"
 msgid "Launch primary election"
 msgstr "Előválasztás indítása"
 
-#: src/components/_political/allianceLaw/AllianceLaw.tsx:57
-#: src/components/_political/law/Law.tsx:61
+#: src/components/_political/allianceLaw/AllianceLaw.tsx:66
+#: src/components/_political/law/Law.tsx:70
 msgid "Law failed"
 msgstr "Törvény elutasítva"
 
@@ -4964,7 +4960,7 @@ msgstr "A szerencse végre veled van"
 msgid "Mage Robe"
 msgstr "Mágus köpeny"
 
-#: src/components/_political/law/Law.tsx:112
+#: src/components/_political/law/Law.tsx:121
 msgid "Maintenance cost"
 msgstr "Fenntartási költség"
 
@@ -5221,7 +5217,7 @@ msgstr "Katonai egységek"
 msgid "Min reached"
 msgstr "Minimum elérve"
 
-#: src/components/_political/law/Law.tsx:137
+#: src/components/_political/law/Law.tsx:146
 msgid "Min. active citizens"
 msgstr "Min. aktív állampolgár"
 
@@ -5299,7 +5295,7 @@ msgstr "Több"
 msgid "More premium features coming soon!"
 msgstr "Hamarosan több prémium funkció!"
 
-#: src/components/_political/partyMotion/PartyMotion.tsx:74
+#: src/components/_political/partyMotion/PartyMotion.tsx:91
 msgid "Motion failed"
 msgstr "Indítvány elutasítva"
 
@@ -5982,9 +5978,9 @@ msgstr "Megrendelések törölve"
 msgid "Other"
 msgstr "Egyéb"
 
-#: src/components/_political/allianceLaw/AllianceLaw.tsx:63
-#: src/components/_political/law/Law.tsx:68
-#: src/components/_political/partyMotion/PartyMotion.tsx:81
+#: src/components/_political/allianceLaw/AllianceLaw.tsx:72
+#: src/components/_political/law/Law.tsx:77
+#: src/components/_political/partyMotion/PartyMotion.tsx:98
 msgid "Outcome"
 msgstr "Eredmény"
 
@@ -6320,6 +6316,10 @@ msgstr "Az elnökválasztási szavazás most nyitva van itt: <0/>"
 msgid "Presidential elections"
 msgstr "Elnökválasztások"
 
+#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:430
+msgid "Price auto-matches existing orders"
+msgstr ""
+
 #: src/components/_political/election/election.frontConfig.tsx:43
 msgid "Primary election"
 msgstr "Előválasztás"
@@ -6597,9 +6597,9 @@ msgstr "Csatakész!"
 msgid "Rear Admiral"
 msgstr "Ellentengernagy"
 
-#: src/components/_political/allianceLaw/AllianceLaw.tsx:70
+#: src/components/_political/allianceLaw/AllianceLaw.tsx:79
 #: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:135
-#: src/components/_political/law/Law.tsx:75
+#: src/components/_political/law/Law.tsx:84
 #: src/components/_political/law/LawFormModal.tsx:180
 msgid "Reason"
 msgstr "Indoklás"
@@ -6735,15 +6735,13 @@ msgstr "Megerősített sisak"
 msgid "Reinforced Pants"
 msgstr "Megerősített nadrág"
 
-#: src/components/_political/allianceLaw/AllianceLaw.tsx:144
-#: src/components/_political/law/Law.tsx:201
-#: src/components/_political/partyMotion/PartyMotion.tsx:184
+#: src/components/_political/allianceLaw/AllianceLaw.tsx:153
+#: src/components/_political/law/Law.tsx:210
+#: src/components/_political/partyMotion/PartyMotion.tsx:201
 msgid "Reject"
 msgstr "Elutasít"
 
-#: src/components/_political/allianceLaw/AllianceLawStatus.tsx:45
-#: src/components/_political/law/LawStatus.tsx:45
-#: src/components/_political/partyMotion/PartyMotionStatus.tsx:54
+#: src/components/_political/law/GenericLawStatus.tsx:42
 #: src/utils/translations.tsx:271
 msgid "Rejected"
 msgstr "Elutasítva"
@@ -8106,7 +8104,7 @@ msgstr "Összes sebzés"
 msgid "Total Donated:"
 msgstr "Összesen adományozott:"
 
-#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:469
+#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:484
 msgid "Total of <0/>"
 msgstr ""
 

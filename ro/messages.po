@@ -81,7 +81,7 @@ msgid "{0} & allies"
 msgstr "{0} & aliați"
 
 #. placeholder {0}: lawConfig.minActiveCitizen
-#: src/components/_political/law/Law.tsx:139
+#: src/components/_political/law/Law.tsx:148
 msgid "{0} active citizens required"
 msgstr "minim {0} cetățeni activi"
 
@@ -102,8 +102,8 @@ msgstr "{0} Gratis"
 
 #. placeholder {0}: lawConfig?.coolDownInHours
 #. placeholder {0}: motionConfig.coolDownInHours
-#: src/components/_political/law/Law.tsx:130
-#: src/components/_political/partyMotion/PartyMotion.tsx:113
+#: src/components/_political/law/Law.tsx:139
+#: src/components/_political/partyMotion/PartyMotion.tsx:130
 msgid "{0} hours"
 msgstr "{0} ore"
 
@@ -726,7 +726,7 @@ msgid "<0>{0}</0> Storage capacity"
 msgstr "<0>{0}</0> Capacitate magazie"
 
 #. placeholder {0}: lawConfig.maintenanceCost
-#: src/components/_political/law/Law.tsx:115
+#: src/components/_political/law/Law.tsx:124
 msgid "<0>{0}</0>/day"
 msgstr "<0>{0}</0>/zi"
 
@@ -1271,9 +1271,9 @@ msgstr "Un cod de verificare a fost trimis la {phoneNumber}"
 msgid "a. Insults, slurs and targeted harassment"
 msgstr ""
 
-#: src/components/_political/allianceLaw/AllianceLaw.tsx:133
-#: src/components/_political/law/Law.tsx:190
-#: src/components/_political/partyMotion/PartyMotion.tsx:173
+#: src/components/_political/allianceLaw/AllianceLaw.tsx:142
+#: src/components/_political/law/Law.tsx:199
+#: src/components/_political/partyMotion/PartyMotion.tsx:190
 msgid "Abstain"
 msgstr "Abținere"
 
@@ -1285,9 +1285,9 @@ msgstr "Abuzul sau spamarea sistemului de raportare va fi sancționat."
 msgid "Abusing this power to advantage another country will lead to a <0>ban.</0>"
 msgstr "Abuzarea acestei puteri în avantajul altei țări duce la o <0>suspensie.</0>"
 
-#: src/components/_political/allianceLaw/AllianceLaw.tsx:122
-#: src/components/_political/law/Law.tsx:179
-#: src/components/_political/partyMotion/PartyMotion.tsx:162
+#: src/components/_political/allianceLaw/AllianceLaw.tsx:131
+#: src/components/_political/law/Law.tsx:188
+#: src/components/_political/partyMotion/PartyMotion.tsx:179
 #: src/components/_user/worker/WageReductionAlert.tsx:86
 msgid "Accept"
 msgstr "Pro"
@@ -1314,9 +1314,7 @@ msgstr "Acceptă pace"
 msgid "Accept to make peace with the other country"
 msgstr "Acceptă pace între țări"
 
-#: src/components/_political/allianceLaw/AllianceLawStatus.tsx:43
-#: src/components/_political/law/LawStatus.tsx:43
-#: src/components/_political/partyMotion/PartyMotionStatus.tsx:52
+#: src/components/_political/law/GenericLawStatus.tsx:40
 msgid "Accepted"
 msgstr "Acceptată"
 
@@ -1381,9 +1379,9 @@ msgstr "Activitate"
 msgid "Add User"
 msgstr "Adaugă utilizator"
 
-#: src/components/_political/law/Law.tsx:101
+#: src/components/_political/law/Law.tsx:110
 #: src/components/_political/law/LawFormModal.tsx:328
-#: src/components/_political/partyMotion/PartyMotion.tsx:99
+#: src/components/_political/partyMotion/PartyMotion.tsx:116
 #: src/components/_political/partyMotion/PartyMotionFormModal.tsx:172
 msgid "Additional cost"
 msgstr "Cost adițional"
@@ -2765,8 +2763,8 @@ msgstr "Contracte & Licitații"
 msgid "Cooked Fish"
 msgstr "Pește Prăjit"
 
-#: src/components/_political/law/Law.tsx:127
-#: src/components/_political/partyMotion/PartyMotion.tsx:110
+#: src/components/_political/law/Law.tsx:136
+#: src/components/_political/partyMotion/PartyMotion.tsx:127
 msgid "Cool down"
 msgstr "Timp pauză"
 
@@ -3528,12 +3526,12 @@ msgstr "Gol"
 msgid "Enable company"
 msgstr "Activează companie"
 
-#: src/components/_political/allianceLaw/AllianceLaw.tsx:78
+#: src/components/_political/allianceLaw/AllianceLaw.tsx:87
 #: src/components/_political/allianceLaw/AllianceLawTypeSelect.tsx:102
-#: src/components/_political/law/Law.tsx:83
-#: src/components/_political/law/Law.tsx:86
+#: src/components/_political/law/Law.tsx:92
+#: src/components/_political/law/Law.tsx:95
 #: src/components/_political/law/LawTypeSelect.tsx:176
-#: src/components/_political/partyMotion/PartyMotion.tsx:89
+#: src/components/_political/partyMotion/PartyMotion.tsx:106
 #: src/components/_political/partyMotion/PartyMotionTypeSelect.tsx:132
 msgid "Enacting cost"
 msgstr "Cost promulgare"
@@ -3605,9 +3603,7 @@ msgstr "Echipament:"
 msgid "Equipments"
 msgstr "Echipamente"
 
-#: src/components/_political/allianceLaw/AllianceLawStatus.tsx:47
-#: src/components/_political/law/LawStatus.tsx:47
-#: src/components/_political/partyMotion/PartyMotionStatus.tsx:56
+#: src/components/_political/law/GenericLawStatus.tsx:44
 msgid "Error"
 msgstr "Eroare"
 
@@ -4717,8 +4713,8 @@ msgstr "Declanșează alegeri lider"
 msgid "Launch primary election"
 msgstr "Declanșează alegeri pentru candidatul principal la prezidențiale"
 
-#: src/components/_political/allianceLaw/AllianceLaw.tsx:57
-#: src/components/_political/law/Law.tsx:61
+#: src/components/_political/allianceLaw/AllianceLaw.tsx:66
+#: src/components/_political/law/Law.tsx:70
 msgid "Law failed"
 msgstr "Lege eșuată"
 
@@ -4962,7 +4958,7 @@ msgstr "Norocul e în sfârșit de partea ta"
 msgid "Mage Robe"
 msgstr "Mage Robe"
 
-#: src/components/_political/law/Law.tsx:112
+#: src/components/_political/law/Law.tsx:121
 msgid "Maintenance cost"
 msgstr "Cost întreținere"
 
@@ -5219,7 +5215,7 @@ msgstr "Unități Militare"
 msgid "Min reached"
 msgstr "Minimum atins"
 
-#: src/components/_political/law/Law.tsx:137
+#: src/components/_political/law/Law.tsx:146
 msgid "Min. active citizens"
 msgstr "Min. cetățeni activi"
 
@@ -5297,7 +5293,7 @@ msgstr "Mai mult"
 msgid "More premium features coming soon!"
 msgstr "Mai multe funcții premium în curând!"
 
-#: src/components/_political/partyMotion/PartyMotion.tsx:74
+#: src/components/_political/partyMotion/PartyMotion.tsx:91
 msgid "Motion failed"
 msgstr "Moțiune eșuată"
 
@@ -5980,9 +5976,9 @@ msgstr "Comenzi anulate"
 msgid "Other"
 msgstr "Altele"
 
-#: src/components/_political/allianceLaw/AllianceLaw.tsx:63
-#: src/components/_political/law/Law.tsx:68
-#: src/components/_political/partyMotion/PartyMotion.tsx:81
+#: src/components/_political/allianceLaw/AllianceLaw.tsx:72
+#: src/components/_political/law/Law.tsx:77
+#: src/components/_political/partyMotion/PartyMotion.tsx:98
 msgid "Outcome"
 msgstr "Efect"
 
@@ -6318,6 +6314,10 @@ msgstr "Votarea pentru alegerile prezidențiale este deschisă în <0/>"
 msgid "Presidential elections"
 msgstr "Alegeri prezidențiale"
 
+#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:430
+msgid "Price auto-matches existing orders"
+msgstr ""
+
 #: src/components/_political/election/election.frontConfig.tsx:43
 msgid "Primary election"
 msgstr "Alegeri pentru candidatul principal la prezidențiale"
@@ -6595,9 +6595,9 @@ msgstr "Gata de luptă!"
 msgid "Rear Admiral"
 msgstr "Contraamiral"
 
-#: src/components/_political/allianceLaw/AllianceLaw.tsx:70
+#: src/components/_political/allianceLaw/AllianceLaw.tsx:79
 #: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:135
-#: src/components/_political/law/Law.tsx:75
+#: src/components/_political/law/Law.tsx:84
 #: src/components/_political/law/LawFormModal.tsx:180
 msgid "Reason"
 msgstr "Motiv"
@@ -6733,15 +6733,13 @@ msgstr "Cască ranforsată"
 msgid "Reinforced Pants"
 msgstr "Pantaloni ranforsați"
 
-#: src/components/_political/allianceLaw/AllianceLaw.tsx:144
-#: src/components/_political/law/Law.tsx:201
-#: src/components/_political/partyMotion/PartyMotion.tsx:184
+#: src/components/_political/allianceLaw/AllianceLaw.tsx:153
+#: src/components/_political/law/Law.tsx:210
+#: src/components/_political/partyMotion/PartyMotion.tsx:201
 msgid "Reject"
 msgstr "Contra"
 
-#: src/components/_political/allianceLaw/AllianceLawStatus.tsx:45
-#: src/components/_political/law/LawStatus.tsx:45
-#: src/components/_political/partyMotion/PartyMotionStatus.tsx:54
+#: src/components/_political/law/GenericLawStatus.tsx:42
 #: src/utils/translations.tsx:271
 msgid "Rejected"
 msgstr "Respinsă"
@@ -8104,7 +8102,7 @@ msgstr "Daune totale"
 msgid "Total Donated:"
 msgstr "Total donat:"
 
-#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:469
+#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:484
 msgid "Total of <0/>"
 msgstr ""
 

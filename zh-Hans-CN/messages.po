@@ -83,7 +83,7 @@ msgid "{0} & allies"
 msgstr "{0} & 盟友"
 
 #. placeholder {0}: lawConfig.minActiveCitizen
-#: src/components/_political/law/Law.tsx:139
+#: src/components/_political/law/Law.tsx:148
 msgid "{0} active citizens required"
 msgstr "需要 {0} 位活跃公民"
 
@@ -104,8 +104,8 @@ msgstr "{0} 次免费"
 
 #. placeholder {0}: lawConfig?.coolDownInHours
 #. placeholder {0}: motionConfig.coolDownInHours
-#: src/components/_political/law/Law.tsx:130
-#: src/components/_political/partyMotion/PartyMotion.tsx:113
+#: src/components/_political/law/Law.tsx:139
+#: src/components/_political/partyMotion/PartyMotion.tsx:130
 msgid "{0} hours"
 msgstr "{0} 小时"
 
@@ -728,7 +728,7 @@ msgid "<0>{0}</0> Storage capacity"
 msgstr "<0>{0}</0> 容量"
 
 #. placeholder {0}: lawConfig.maintenanceCost
-#: src/components/_political/law/Law.tsx:115
+#: src/components/_political/law/Law.tsx:124
 msgid "<0>{0}</0>/day"
 msgstr "<0>{0}</0>/天"
 
@@ -1273,9 +1273,9 @@ msgstr "验证码已发送至 {phoneNumber}"
 msgid "a. Insults, slurs and targeted harassment"
 msgstr "a. 侮辱、辱骂以及骚扰"
 
-#: src/components/_political/allianceLaw/AllianceLaw.tsx:133
-#: src/components/_political/law/Law.tsx:190
-#: src/components/_political/partyMotion/PartyMotion.tsx:173
+#: src/components/_political/allianceLaw/AllianceLaw.tsx:142
+#: src/components/_political/law/Law.tsx:199
+#: src/components/_political/partyMotion/PartyMotion.tsx:190
 msgid "Abstain"
 msgstr "弃权"
 
@@ -1287,9 +1287,9 @@ msgstr "滥用举报系统可能会受到处罚。"
 msgid "Abusing this power to advantage another country will lead to a <0>ban.</0>"
 msgstr "滥用此权力为其他国家谋取优势将会导致<0>封禁</0>。"
 
-#: src/components/_political/allianceLaw/AllianceLaw.tsx:122
-#: src/components/_political/law/Law.tsx:179
-#: src/components/_political/partyMotion/PartyMotion.tsx:162
+#: src/components/_political/allianceLaw/AllianceLaw.tsx:131
+#: src/components/_political/law/Law.tsx:188
+#: src/components/_political/partyMotion/PartyMotion.tsx:179
 #: src/components/_user/worker/WageReductionAlert.tsx:86
 msgid "Accept"
 msgstr "同意"
@@ -1316,9 +1316,7 @@ msgstr "接受和平"
 msgid "Accept to make peace with the other country"
 msgstr "接受以与其他国家缔结和平"
 
-#: src/components/_political/allianceLaw/AllianceLawStatus.tsx:43
-#: src/components/_political/law/LawStatus.tsx:43
-#: src/components/_political/partyMotion/PartyMotionStatus.tsx:52
+#: src/components/_political/law/GenericLawStatus.tsx:40
 msgid "Accepted"
 msgstr "已通过"
 
@@ -1383,9 +1381,9 @@ msgstr "活跃度"
 msgid "Add User"
 msgstr "新增用户"
 
-#: src/components/_political/law/Law.tsx:101
+#: src/components/_political/law/Law.tsx:110
 #: src/components/_political/law/LawFormModal.tsx:328
-#: src/components/_political/partyMotion/PartyMotion.tsx:99
+#: src/components/_political/partyMotion/PartyMotion.tsx:116
 #: src/components/_political/partyMotion/PartyMotionFormModal.tsx:172
 msgid "Additional cost"
 msgstr "额外费用"
@@ -2767,8 +2765,8 @@ msgstr "合约与拍卖"
 msgid "Cooked Fish"
 msgstr "鱼排"
 
-#: src/components/_political/law/Law.tsx:127
-#: src/components/_political/partyMotion/PartyMotion.tsx:110
+#: src/components/_political/law/Law.tsx:136
+#: src/components/_political/partyMotion/PartyMotion.tsx:127
 msgid "Cool down"
 msgstr "冷却"
 
@@ -3530,12 +3528,12 @@ msgstr "空"
 msgid "Enable company"
 msgstr "启用公司"
 
-#: src/components/_political/allianceLaw/AllianceLaw.tsx:78
+#: src/components/_political/allianceLaw/AllianceLaw.tsx:87
 #: src/components/_political/allianceLaw/AllianceLawTypeSelect.tsx:102
-#: src/components/_political/law/Law.tsx:83
-#: src/components/_political/law/Law.tsx:86
+#: src/components/_political/law/Law.tsx:92
+#: src/components/_political/law/Law.tsx:95
 #: src/components/_political/law/LawTypeSelect.tsx:176
-#: src/components/_political/partyMotion/PartyMotion.tsx:89
+#: src/components/_political/partyMotion/PartyMotion.tsx:106
 #: src/components/_political/partyMotion/PartyMotionTypeSelect.tsx:132
 msgid "Enacting cost"
 msgstr "施行费用"
@@ -3607,9 +3605,7 @@ msgstr "装备:"
 msgid "Equipments"
 msgstr "装备"
 
-#: src/components/_political/allianceLaw/AllianceLawStatus.tsx:47
-#: src/components/_political/law/LawStatus.tsx:47
-#: src/components/_political/partyMotion/PartyMotionStatus.tsx:56
+#: src/components/_political/law/GenericLawStatus.tsx:44
 msgid "Error"
 msgstr "错误"
 
@@ -4719,8 +4715,8 @@ msgstr "开始党主席选举"
 msgid "Launch primary election"
 msgstr "开始初选"
 
-#: src/components/_political/allianceLaw/AllianceLaw.tsx:57
-#: src/components/_political/law/Law.tsx:61
+#: src/components/_political/allianceLaw/AllianceLaw.tsx:66
+#: src/components/_political/law/Law.tsx:70
 msgid "Law failed"
 msgstr "法案失败"
 
@@ -4964,7 +4960,7 @@ msgstr "幸运女神终于眷顾我了"
 msgid "Mage Robe"
 msgstr "Mage Robe"
 
-#: src/components/_political/law/Law.tsx:112
+#: src/components/_political/law/Law.tsx:121
 msgid "Maintenance cost"
 msgstr "维护费"
 
@@ -5221,7 +5217,7 @@ msgstr "军团"
 msgid "Min reached"
 msgstr "已达最低要求"
 
-#: src/components/_political/law/Law.tsx:137
+#: src/components/_political/law/Law.tsx:146
 msgid "Min. active citizens"
 msgstr "最少活跃公民"
 
@@ -5299,7 +5295,7 @@ msgstr "更多"
 msgid "More premium features coming soon!"
 msgstr "更多高级订阅功能即将推出！"
 
-#: src/components/_political/partyMotion/PartyMotion.tsx:74
+#: src/components/_political/partyMotion/PartyMotion.tsx:91
 msgid "Motion failed"
 msgstr "提案失败"
 
@@ -5982,9 +5978,9 @@ msgstr "订单取消"
 msgid "Other"
 msgstr "其它"
 
-#: src/components/_political/allianceLaw/AllianceLaw.tsx:63
-#: src/components/_political/law/Law.tsx:68
-#: src/components/_political/partyMotion/PartyMotion.tsx:81
+#: src/components/_political/allianceLaw/AllianceLaw.tsx:72
+#: src/components/_political/law/Law.tsx:77
+#: src/components/_political/partyMotion/PartyMotion.tsx:98
 msgid "Outcome"
 msgstr "结果"
 
@@ -6320,6 +6316,10 @@ msgstr "<0/> 的总统选举投票开始了"
 msgid "Presidential elections"
 msgstr "总统选举"
 
+#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:430
+msgid "Price auto-matches existing orders"
+msgstr ""
+
 #: src/components/_political/election/election.frontConfig.tsx:43
 msgid "Primary election"
 msgstr "初选"
@@ -6597,9 +6597,9 @@ msgstr "为战斗做准备！"
 msgid "Rear Admiral"
 msgstr "少将"
 
-#: src/components/_political/allianceLaw/AllianceLaw.tsx:70
+#: src/components/_political/allianceLaw/AllianceLaw.tsx:79
 #: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:135
-#: src/components/_political/law/Law.tsx:75
+#: src/components/_political/law/Law.tsx:84
 #: src/components/_political/law/LawFormModal.tsx:180
 msgid "Reason"
 msgstr "原因"
@@ -6735,15 +6735,13 @@ msgstr "强化头盔"
 msgid "Reinforced Pants"
 msgstr "强化裤子"
 
-#: src/components/_political/allianceLaw/AllianceLaw.tsx:144
-#: src/components/_political/law/Law.tsx:201
-#: src/components/_political/partyMotion/PartyMotion.tsx:184
+#: src/components/_political/allianceLaw/AllianceLaw.tsx:153
+#: src/components/_political/law/Law.tsx:210
+#: src/components/_political/partyMotion/PartyMotion.tsx:201
 msgid "Reject"
 msgstr "反对"
 
-#: src/components/_political/allianceLaw/AllianceLawStatus.tsx:45
-#: src/components/_political/law/LawStatus.tsx:45
-#: src/components/_political/partyMotion/PartyMotionStatus.tsx:54
+#: src/components/_political/law/GenericLawStatus.tsx:42
 #: src/utils/translations.tsx:271
 msgid "Rejected"
 msgstr "已否决"
@@ -8106,7 +8104,7 @@ msgstr "总伤害"
 msgid "Total Donated:"
 msgstr "总捐款:"
 
-#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:469
+#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:484
 msgid "Total of <0/>"
 msgstr ""
 

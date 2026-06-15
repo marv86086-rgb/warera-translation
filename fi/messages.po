@@ -84,7 +84,7 @@ msgid "{0} & allies"
 msgstr "{0} ja liittolaiset"
 
 #. placeholder {0}: lawConfig.minActiveCitizen
-#: src/components/_political/law/Law.tsx:139
+#: src/components/_political/law/Law.tsx:148
 msgid "{0} active citizens required"
 msgstr "Tarvitaan {0} aktiivista kansalaista"
 
@@ -105,8 +105,8 @@ msgstr "{0} ilmainen"
 
 #. placeholder {0}: lawConfig?.coolDownInHours
 #. placeholder {0}: motionConfig.coolDownInHours
-#: src/components/_political/law/Law.tsx:130
-#: src/components/_political/partyMotion/PartyMotion.tsx:113
+#: src/components/_political/law/Law.tsx:139
+#: src/components/_political/partyMotion/PartyMotion.tsx:130
 msgid "{0} hours"
 msgstr "{0} tuntia"
 
@@ -729,7 +729,7 @@ msgid "<0>{0}</0> Storage capacity"
 msgstr "<0>{0}</0> Varastointikapasiteetti"
 
 #. placeholder {0}: lawConfig.maintenanceCost
-#: src/components/_political/law/Law.tsx:115
+#: src/components/_political/law/Law.tsx:124
 msgid "<0>{0}</0>/day"
 msgstr "<0>{0}</0>/päivä"
 
@@ -1274,9 +1274,9 @@ msgstr "Vahvistuskoodi on lähetetty osoitteeseen {phoneNumber}"
 msgid "a. Insults, slurs and targeted harassment"
 msgstr ""
 
-#: src/components/_political/allianceLaw/AllianceLaw.tsx:133
-#: src/components/_political/law/Law.tsx:190
-#: src/components/_political/partyMotion/PartyMotion.tsx:173
+#: src/components/_political/allianceLaw/AllianceLaw.tsx:142
+#: src/components/_political/law/Law.tsx:199
+#: src/components/_political/partyMotion/PartyMotion.tsx:190
 msgid "Abstain"
 msgstr "Pidättäytyä äänestämästä"
 
@@ -1288,9 +1288,9 @@ msgstr "Ilmoitusjärjestelmän väärinkäyttö tai roskapostittaminen voi johta
 msgid "Abusing this power to advantage another country will lead to a <0>ban.</0>"
 msgstr "Tämän vallan väärinkäyttö toisen maan hyväksi johtaa <0>kieltoon.</0>"
 
-#: src/components/_political/allianceLaw/AllianceLaw.tsx:122
-#: src/components/_political/law/Law.tsx:179
-#: src/components/_political/partyMotion/PartyMotion.tsx:162
+#: src/components/_political/allianceLaw/AllianceLaw.tsx:131
+#: src/components/_political/law/Law.tsx:188
+#: src/components/_political/partyMotion/PartyMotion.tsx:179
 #: src/components/_user/worker/WageReductionAlert.tsx:86
 msgid "Accept"
 msgstr "Hyväksy"
@@ -1317,9 +1317,7 @@ msgstr "Hyväksy rauha"
 msgid "Accept to make peace with the other country"
 msgstr "Hyväksy rauhan tekeminen toisen maan kanssa"
 
-#: src/components/_political/allianceLaw/AllianceLawStatus.tsx:43
-#: src/components/_political/law/LawStatus.tsx:43
-#: src/components/_political/partyMotion/PartyMotionStatus.tsx:52
+#: src/components/_political/law/GenericLawStatus.tsx:40
 msgid "Accepted"
 msgstr "Hyväksytty"
 
@@ -1384,9 +1382,9 @@ msgstr "Toiminta"
 msgid "Add User"
 msgstr "Lisää käyttäjä"
 
-#: src/components/_political/law/Law.tsx:101
+#: src/components/_political/law/Law.tsx:110
 #: src/components/_political/law/LawFormModal.tsx:328
-#: src/components/_political/partyMotion/PartyMotion.tsx:99
+#: src/components/_political/partyMotion/PartyMotion.tsx:116
 #: src/components/_political/partyMotion/PartyMotionFormModal.tsx:172
 msgid "Additional cost"
 msgstr "Lisäkustannukset"
@@ -2768,8 +2766,8 @@ msgstr ""
 msgid "Cooked Fish"
 msgstr "Keitetty kala"
 
-#: src/components/_political/law/Law.tsx:127
-#: src/components/_political/partyMotion/PartyMotion.tsx:110
+#: src/components/_political/law/Law.tsx:136
+#: src/components/_political/partyMotion/PartyMotion.tsx:127
 msgid "Cool down"
 msgstr "Odotusaika"
 
@@ -3531,12 +3529,12 @@ msgstr "Tyhjä"
 msgid "Enable company"
 msgstr "Ota yritys käyttöön"
 
-#: src/components/_political/allianceLaw/AllianceLaw.tsx:78
+#: src/components/_political/allianceLaw/AllianceLaw.tsx:87
 #: src/components/_political/allianceLaw/AllianceLawTypeSelect.tsx:102
-#: src/components/_political/law/Law.tsx:83
-#: src/components/_political/law/Law.tsx:86
+#: src/components/_political/law/Law.tsx:92
+#: src/components/_political/law/Law.tsx:95
 #: src/components/_political/law/LawTypeSelect.tsx:176
-#: src/components/_political/partyMotion/PartyMotion.tsx:89
+#: src/components/_political/partyMotion/PartyMotion.tsx:106
 #: src/components/_political/partyMotion/PartyMotionTypeSelect.tsx:132
 msgid "Enacting cost"
 msgstr "Toteutuskustannukset"
@@ -3608,9 +3606,7 @@ msgstr "Laitteet:"
 msgid "Equipments"
 msgstr "Varusteet"
 
-#: src/components/_political/allianceLaw/AllianceLawStatus.tsx:47
-#: src/components/_political/law/LawStatus.tsx:47
-#: src/components/_political/partyMotion/PartyMotionStatus.tsx:56
+#: src/components/_political/law/GenericLawStatus.tsx:44
 msgid "Error"
 msgstr "Virhe"
 
@@ -4720,8 +4716,8 @@ msgstr "Aloitetaan johtajan vaalit"
 msgid "Launch primary election"
 msgstr "Aloita esivaalit"
 
-#: src/components/_political/allianceLaw/AllianceLaw.tsx:57
-#: src/components/_political/law/Law.tsx:61
+#: src/components/_political/allianceLaw/AllianceLaw.tsx:66
+#: src/components/_political/law/Law.tsx:70
 msgid "Law failed"
 msgstr "Laki epäonnistui"
 
@@ -4965,7 +4961,7 @@ msgstr "Onni on vihdoin palkalla"
 msgid "Mage Robe"
 msgstr "Velhon viitta"
 
-#: src/components/_political/law/Law.tsx:112
+#: src/components/_political/law/Law.tsx:121
 msgid "Maintenance cost"
 msgstr "Ylläpitokustannukset"
 
@@ -5222,7 +5218,7 @@ msgstr "Sotilasyksiköt"
 msgid "Min reached"
 msgstr ""
 
-#: src/components/_political/law/Law.tsx:137
+#: src/components/_political/law/Law.tsx:146
 msgid "Min. active citizens"
 msgstr "Min. aktiivisia kansalaisia"
 
@@ -5300,7 +5296,7 @@ msgstr "Lisää"
 msgid "More premium features coming soon!"
 msgstr "Lisää premium-ominaisuuksia tulossa pian!"
 
-#: src/components/_political/partyMotion/PartyMotion.tsx:74
+#: src/components/_political/partyMotion/PartyMotion.tsx:91
 msgid "Motion failed"
 msgstr "Liike epäonnistui"
 
@@ -5983,9 +5979,9 @@ msgstr "Tilaukset peruttu"
 msgid "Other"
 msgstr "muu"
 
-#: src/components/_political/allianceLaw/AllianceLaw.tsx:63
-#: src/components/_political/law/Law.tsx:68
-#: src/components/_political/partyMotion/PartyMotion.tsx:81
+#: src/components/_political/allianceLaw/AllianceLaw.tsx:72
+#: src/components/_political/law/Law.tsx:77
+#: src/components/_political/partyMotion/PartyMotion.tsx:98
 msgid "Outcome"
 msgstr "Tulokset"
 
@@ -6321,6 +6317,10 @@ msgstr "Presidentinvaalien äänestys on nyt auki <0/>"
 msgid "Presidential elections"
 msgstr "Presidentinvaalit"
 
+#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:430
+msgid "Price auto-matches existing orders"
+msgstr ""
+
 #: src/components/_political/election/election.frontConfig.tsx:43
 msgid "Primary election"
 msgstr "Esivaalit"
@@ -6598,9 +6598,9 @@ msgstr "Valmiina taisteluun!"
 msgid "Rear Admiral"
 msgstr "Kontra-amiraali"
 
-#: src/components/_political/allianceLaw/AllianceLaw.tsx:70
+#: src/components/_political/allianceLaw/AllianceLaw.tsx:79
 #: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:135
-#: src/components/_political/law/Law.tsx:75
+#: src/components/_political/law/Law.tsx:84
 #: src/components/_political/law/LawFormModal.tsx:180
 msgid "Reason"
 msgstr "Syy"
@@ -6736,15 +6736,13 @@ msgstr "Vahvistettu kypärä"
 msgid "Reinforced Pants"
 msgstr "Vahvistetut housut"
 
-#: src/components/_political/allianceLaw/AllianceLaw.tsx:144
-#: src/components/_political/law/Law.tsx:201
-#: src/components/_political/partyMotion/PartyMotion.tsx:184
+#: src/components/_political/allianceLaw/AllianceLaw.tsx:153
+#: src/components/_political/law/Law.tsx:210
+#: src/components/_political/partyMotion/PartyMotion.tsx:201
 msgid "Reject"
 msgstr "Hylkää"
 
-#: src/components/_political/allianceLaw/AllianceLawStatus.tsx:45
-#: src/components/_political/law/LawStatus.tsx:45
-#: src/components/_political/partyMotion/PartyMotionStatus.tsx:54
+#: src/components/_political/law/GenericLawStatus.tsx:42
 #: src/utils/translations.tsx:271
 msgid "Rejected"
 msgstr "Hylätty"
@@ -8107,7 +8105,7 @@ msgstr "Kokonaisvahingot"
 msgid "Total Donated:"
 msgstr "Lahjoitetut yhteensä:"
 
-#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:469
+#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:484
 msgid "Total of <0/>"
 msgstr ""
 
