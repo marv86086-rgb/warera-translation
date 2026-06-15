@@ -685,12 +685,12 @@ msgstr "<0>{0}</0> aus Vorkommen-Ressourcen."
 #. placeholder {0}: sideBonus.pacificationDefenseBonusPercent
 #: src/components/_military/battle/BattleDamageBonuses.tsx:273
 msgid "<0>{0}</0> from Fanatic Expansionist ethics (Pacification Center)"
-msgstr ""
+msgstr "<0>{0}</0> durch die Ethik Fanatischer Expansionist (Pazifizierungszentrum)"
 
 #. placeholder {0}: sideBonus.revoltBunkerCopyBonusPercent
 #: src/components/_military/battle/BattleDamageBonuses.tsx:263
 msgid "<0>{0}</0> from Fanatic Pacifist ethics (revolt copies enemy bunker)"
-msgstr ""
+msgstr "<0>{0}</0> durch die Ethik Fanatischer Pazifist (Revolte kopiert den gegnerischen Bunker)"
 
 #. placeholder {0}: sideBonus.patrioticBonusPercent
 #: src/components/_military/battle/BattleDamageBonuses.tsx:73
@@ -1424,7 +1424,7 @@ msgstr "Fortgeschrittene Hose"
 #: src/components/_political/party/party.frontConfig.tsx:355
 #: src/components/_political/party/party.frontConfig.tsx:372
 msgid "Agrarian"
-msgstr "Agrarisch"
+msgstr "Agrarier"
 
 #: src/components/_military/battle/ActiveBattlesList.tsx:132
 #: src/components/_military/battle/EndedBattlesList.tsx:78
@@ -1612,7 +1612,7 @@ msgstr "Ein anderes Land hat ein Verteidigungsbündnis vorgeschlagen"
 
 #: src/components/_other/shop/skinPack.frontConfig.tsx:40
 msgid "Anti Terrorist Pack"
-msgstr ""
+msgstr "Anti-Terror-Einheit-Paket"
 
 #: src/components/_common/GameRules.tsx:61
 msgid "Any attempts to bypass these rules can result in the removal of sharing status, fines and temporary or permanent bans."
@@ -1753,23 +1753,23 @@ msgstr "Artikel von <0/>"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:305
 msgid "AT Ammo"
-msgstr ""
+msgstr "AT Munition"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:296
 msgid "AT Armored Tank"
-msgstr ""
+msgstr "AT Panzerfahrzeug"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:290
 msgid "AT Assault Rifle"
-msgstr ""
+msgstr "AT Sturmgewehr"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:299
 msgid "AT Combat Helicopter"
-msgstr ""
+msgstr "AT Kampfhubschrauber"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:308
 msgid "AT Heavy Ammo"
-msgstr ""
+msgstr "AT Schwere Munition"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:8
 msgid "At least you tried"
@@ -1777,39 +1777,39 @@ msgstr "Du hast es zumindest versucht"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:302
 msgid "AT Light Ammo"
-msgstr ""
+msgstr "AT leichte Munition"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:287
 msgid "AT Pistol"
-msgstr ""
+msgstr "AT Pistole"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:293
 msgid "AT Sniper Rifle"
-msgstr ""
+msgstr "AT Scharfschützengewehr"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:317
 msgid "AT Tactical Boots"
-msgstr ""
+msgstr "AT taktische Schuhe"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:323
 msgid "AT Tactical Gloves"
-msgstr ""
+msgstr "AT taktische Handschuhe"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:311
 msgid "AT Tactical Helmet"
-msgstr ""
+msgstr "AT taktischer Helm"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:320
 msgid "AT Tactical Pants"
-msgstr ""
+msgstr "AT taktische Hose"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:284
 msgid "AT Tactical Shield"
-msgstr ""
+msgstr "AT taktisches Schild"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:314
 msgid "AT Tactical Vest"
-msgstr ""
+msgstr "AT taktische Weste"
 
 #: src/components/_military/battle/BattleSystem.tsx:615
 msgid "At the end of the timer <0>{actualTickPoints}</0> will be assigned to the side with the most damages."
@@ -1918,7 +1918,7 @@ msgstr "Ausgeglichen - Keine Modifikatoren"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:359
 msgid "Ball"
-msgstr ""
+msgstr "Ball"
 
 #: src/components/_political/event/EventList.tsx:73
 msgid "Bankruptcy"
@@ -1981,7 +1981,7 @@ msgstr "Schlacht"
 
 #: src/pages/alliance/[allianceId]/index.tsx:41
 msgid "Battle damage bonus"
-msgstr ""
+msgstr "Bonusschaden bei Kämpfen"
 
 #: src/components/_political/event/EventList.tsx:65
 #: src/components/_user/notification/notification.frontConfig.tsx:2026
@@ -2091,7 +2091,7 @@ msgstr "Unschärfe"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:242
 msgid "Bone Club"
-msgstr ""
+msgstr "Knochenkeule"
 
 #: src/components/_military/battle/BattleDamageBonuses.tsx:62
 #: src/components/_political/law/law.frontConfig.tsx:235
@@ -2283,7 +2283,7 @@ msgstr "Kann keinen Vizepräsidenten oder Minister haben."
 
 #: src/components/_political/party/party.frontConfig.tsx:426
 msgid "Cannot have any treaty (sworn enemy, defensive pact or alliance)."
-msgstr ""
+msgstr "Beherrscht keinerlei Diplomatie (kein Erzfeind, kein Verteidigungsbündnis und keine Allianz)."
 
 #: src/components/_political/party/party.frontConfig.tsx:67
 msgid "Cannot have sworn enemies."
@@ -2327,7 +2327,7 @@ msgstr "Katapult"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:269
 msgid "Cave Bear Headdress"
-msgstr ""
+msgstr "Höhlenbären-Kopfschmuck"
 
 #: src/components/_user/user/skills.frontConfig.tsx:152
 msgid "Chance per hit to instantly loot:<0/>Each <1>1%</1> gives<2>1%</2> and <3>0.01%</3> to loot cases per hit."
@@ -2362,7 +2362,7 @@ msgstr "Farbe ändern in <0>{0}</0>"
 
 #: src/components/_military/mu/MuSettings.tsx:87
 msgid "Change nationality"
-msgstr ""
+msgstr "Staatsbürgerschaft ändern"
 
 #: src/components/_economy/company/CompanyChangeItemFormModal.tsx:67
 #: src/components/_economy/company/CompanyChangeItemFormModal.tsx:82
@@ -2520,11 +2520,11 @@ msgstr "Schließen"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:266
 msgid "Clovis Point"
-msgstr ""
+msgstr "Clovis-Pfeilspitze"
 
 #: src/components/_other/shop/skinPack.frontConfig.tsx:37
 msgid "Cold af"
-msgstr ""
+msgstr "Arschkalt"
 
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:106
 msgid "Colonel"
@@ -2536,7 +2536,7 @@ msgstr "Farbschema"
 
 #: src/components/_layout/LayoutOptions.tsx:167
 msgid "Colorblind mode"
-msgstr ""
+msgstr "Modus für Farbenblinde"
 
 #: src/components/_military/mu/MuMemberList.tsx:327
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:155
@@ -2971,7 +2971,7 @@ msgstr "Armbrust"
 
 #: src/components/_political/alliance/AllianceBattleBonus.tsx:75
 msgid "Current alliance battle damage bonus → <0/>"
-msgstr ""
+msgstr "Aktueller Allianz-Schadensbonus → <0/>"
 
 #: src/components/_political/alliance/AllianceHeader.tsx:96
 msgid "Current development"
@@ -3187,7 +3187,7 @@ msgstr "Verteidigungspakt unterzeichnet"
 #. placeholder {0}: ts.paper
 #: src/components/_military/battle/SetOrderFormModal.tsx:427
 msgid "Defensive pact: orders supporting your pact partner cost {orderDiscountPercent}% less <0>{0}</0>"
-msgstr ""
+msgstr "Verteidigungsbündnis: Befehle zur Unterstützung eines Partners kosten {orderDiscountPercent}% weniger <0>{0}</0>"
 
 #: src/components/_political/law/law.frontConfig.tsx:228
 msgid "Define <0/> as an enemy, increasing damages when fighting them"
@@ -3306,12 +3306,12 @@ msgstr "Diplomatie"
 #: src/components/_political/party/party.frontConfig.tsx:195
 #: src/components/_political/party/party.frontConfig.tsx:244
 msgid "Diplomatic"
-msgstr "Diplomatisch"
+msgstr "Diplomat"
 
 #. placeholder {0}: ts.paper
 #: src/components/_political/law/LawEthicEffects.tsx:173
 msgid "Diplomatic: defensive pact maintenance costs {less}% less <0>{0}</0>."
-msgstr ""
+msgstr "Diplomatisch: Wartungskosten des Verteidigungsbündnis werden um {less}% reduziert <0>{0}</0>."
 
 #: src/components/_economy/company/CompanyDropdown.tsx:267
 msgid "Disable company"
@@ -3647,7 +3647,7 @@ msgstr "Jeder nimmt automatisch teil"
 #: src/components/_political/party/party.frontConfig.tsx:91
 #: src/components/_political/party/party.frontConfig.tsx:130
 msgid "Expansionist"
-msgstr ""
+msgstr "Expansionist"
 
 #: src/components/_military/mercenaryContract/MercenaryAuctionItem.tsx:73
 #: src/components/_military/mercenaryContract/MercenaryContractItemContent.tsx:236
@@ -3721,7 +3721,7 @@ msgstr "Fanatischer Agrarier"
 
 #: src/components/_political/law/LawEthicEffects.tsx:58
 msgid "Fanatic Agrarian countries cannot pick a specialization — this law cannot be enacted."
-msgstr ""
+msgstr "Fanatisch-agrarische Länder können keine Spezialisierung wählen – dieses Gesetz kann nicht erlassen werden"
 
 #: src/components/_political/party/party.frontConfig.tsx:211
 msgid "Fanatic Diplomatic"
@@ -3730,12 +3730,12 @@ msgstr "Fanatischer Diplomat"
 #. placeholder {0}: ts.paper
 #: src/components/_political/law/LawEthicEffects.tsx:160
 msgid "Fanatic Diplomatic: defensive pact maintenance costs {less}% less <0>{0}</0>."
-msgstr ""
+msgstr "Fanatischer Diplomat: Wartungskosten des Verteidigungsbündnis kosten {less}% weniger <0>{0}</0>."
 
 #. placeholder {0}: ts.paper
 #: src/components/_political/law/LawEthicEffects.tsx:143
 msgid "Fanatic Diplomatic: sworn enemy maintenance costs {more}% more <0>{0}</0>."
-msgstr ""
+msgstr "Fanatischer Diplomat: Wartungskosten für Erzfeinde betragen {more} % mehr <0>{0}</0>."
 
 #: src/components/_political/party/party.frontConfig.tsx:105
 msgid "Fanatic Expansionist"
@@ -3756,11 +3756,11 @@ msgstr "Fanatischer Isolationist"
 #. placeholder {0}: ts.paper
 #: src/components/_political/law/LawEthicEffects.tsx:188
 msgid "Fanatic Isolationist: all treaty maintenance costs {more}% more <0>{0}</0>."
-msgstr ""
+msgstr "Fanatischer Isolationist: Alle Vertragserhaltungskosten werden um {more}% erhöht <0>{0}</0>."
 
 #: src/components/_political/law/LawEthicEffects.tsx:114
 msgid "Fanatic Isolationist: this sworn enemy starts at {start}% bonus and grows +{perDay}% per day."
-msgstr ""
+msgstr "Fanatischer Isolationist: Erzfeinde starten mit {start}% Bonus, steigt täglich um +{perDay}%."
 
 #: src/components/_political/party/party.frontConfig.tsx:56
 msgid "Fanatic Pacifist"
@@ -3768,7 +3768,7 @@ msgstr "Fanatischer Pazifist"
 
 #: src/components/_political/law/LawEthicEffects.tsx:94
 msgid "Fanatic Pacifist countries cannot have sworn enemies — this law cannot be enacted."
-msgstr ""
+msgstr "Fanatisch pazifistische Länder können keine Erzfeinde haben – dieses Gesetz kann nicht erlassen werden"
 
 #: src/components/_political/party/party.frontConfig.tsx:251
 msgid "Fanatic Republican"
@@ -3967,19 +3967,19 @@ msgstr "Fun Fact: Die Bank gewinnt immer"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:275
 msgid "Fur Boots"
-msgstr ""
+msgstr "Pelzstiefel"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:278
 msgid "Fur Loincloth"
-msgstr ""
+msgstr "Lendenschurz aus Fell"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:281
 msgid "Fur Mittens"
-msgstr ""
+msgstr "Pelz-Handschuhe"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:272
 msgid "Fur Tunic"
-msgstr ""
+msgstr "Fell-Tunika"
 
 #: src/components/_common/GameRules.tsx:234
 msgid "g. The use of profiles (picture, description, name) related to aforementioned ideologies and movements as well as political figures linked to ongoing real-world wars and armed conflicts. Humoristic names, descriptions and pictures are tolerated, with the exception of any content related to nazism and neo-nazism."
@@ -4211,55 +4211,55 @@ msgstr "Bodenpunkte"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:338
 msgid "GSG9 Armored Tank"
-msgstr ""
+msgstr "GSG9 Panzerfahrzeug"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:332
 msgid "GSG9 Assault Rifle"
-msgstr ""
+msgstr "GSG9 Sturmgewehr"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:341
 msgid "GSG9 Combat Helicopter"
-msgstr ""
+msgstr "GSG9 Kampfhubschrauber"
 
 #: src/components/_other/shop/skinPack.frontConfig.tsx:44
 msgid "GSG9 Pack"
-msgstr ""
+msgstr "GSG9 Paket"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:329
 msgid "GSG9 Pistol"
-msgstr ""
+msgstr "GSG9 Pistole"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:335
 msgid "GSG9 Sniper Rifle"
-msgstr ""
+msgstr "GSG 9 Diensthund"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:350
 msgid "GSG9 Tactical Boots"
-msgstr ""
+msgstr "GSG9 taktische Schuhe"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:356
 msgid "GSG9 Tactical Gloves"
-msgstr ""
+msgstr "GSG9 taktische Handschuhe"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:344
 msgid "GSG9 Tactical Helmet"
-msgstr ""
+msgstr "GSG9 taktischer Helm"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:353
 msgid "GSG9 Tactical Pants"
-msgstr ""
+msgstr "GSG9 taktische Hose"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:326
 msgid "GSG9 Tactical Shield"
-msgstr ""
+msgstr "GSG9 Schlagstock"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:347
 msgid "GSG9 Tactical Vest"
-msgstr ""
+msgstr "GSG9 taktische Weste"
 
 #: src/utils/translations.tsx:23
 msgid "Gun"
-msgstr "Gewehr"
+msgstr "Pistole"
 
 #: src/components/_common/GameRules.tsx:243
 msgid "h. Glorification, promotion or encouragement of rule-breaking or cheating"
@@ -4409,7 +4409,7 @@ msgstr "Imperialismus vs. Republikanismus"
 #: src/components/_political/party/party.frontConfig.tsx:290
 #: src/components/_political/party/party.frontConfig.tsx:327
 msgid "Imperialist"
-msgstr "Imperialistisch"
+msgstr "Imperialist"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:52
 msgid "Impressive"
@@ -4467,7 +4467,7 @@ msgstr "Industrialismus vs. Agrarierthum"
 #: src/components/_political/party/party.frontConfig.tsx:377
 #: src/components/_political/party/party.frontConfig.tsx:405
 msgid "Industrialist"
-msgstr "Industriell"
+msgstr "Industrieller"
 
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:11
 msgid "Initiate"
@@ -4522,11 +4522,11 @@ msgstr "Isolationismus vs. Diplomatie"
 #: src/components/_political/party/party.frontConfig.tsx:173
 #: src/components/_political/party/party.frontConfig.tsx:190
 msgid "Isolationist"
-msgstr "Isolationistisch"
+msgstr "Isolationist"
 
 #: src/components/_political/law/LawEthicEffects.tsx:128
 msgid "Isolationist: this sworn enemy starts at {start}% bonus and grows +{perDay}% per day."
-msgstr ""
+msgstr "Isolationist: Erzfeinde starten mit {start}% Bonus, steigt täglich um +{perDay}%."
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:9
 msgid "It only gets better… maybe"
@@ -4654,7 +4654,7 @@ msgstr "Mitglied entfernen"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:263
 msgid "Knapped Flints"
-msgstr ""
+msgstr "Feuerstein-Pfeilspitzen"
 
 #: src/utils/translations.tsx:22
 msgid "Knife"
@@ -4738,7 +4738,7 @@ msgstr "Blei"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:248
 msgid "Leather Sling"
-msgstr ""
+msgstr "Leder-Steinschleuder"
 
 #: src/components/_economy/company/CompanyDropdown.tsx:299
 msgid "Leave"
@@ -5174,7 +5174,7 @@ msgstr "Militärbasis"
 #: src/components/_political/party/party.frontConfig.tsx:95
 #: src/components/_political/party/party.frontConfig.tsx:109
 msgid "Military bases can be upgraded or downgraded every <0>{0} hours</0>."
-msgstr ""
+msgstr "Militärbasen können alle <0>{0} Stunden</0> verbessert oder zurückgestuft werden."
 
 #: src/components/_political/law/LawTypeSelect.tsx:76
 msgid "Military laws"
@@ -5426,7 +5426,7 @@ msgstr "Nationale Landesbefehle kosten das Doppelte."
 
 #: src/components/_political/party/party.frontConfig.tsx:419
 msgid "National battle orders give <0>double</0> the priority damage bonus (<1>+10%</1> / <2>+20%</2> / <3>+30%</3>)."
-msgstr ""
+msgstr "Kampfbefehle geben <0>double</0> Kampfbonus (<1>+10%</1> / <2>+20%</2> / <3>+30%</3>)."
 
 #: src/components/_military/battle/BattleSystem.tsx:798
 msgid "National bounty"
@@ -5616,11 +5616,11 @@ msgstr "Keine aktiven Kriege"
 
 #: src/components/_military/battle/BattleDamageBonuses.tsx:101
 msgid "No alliance bonus: the allied country's membership is suspended for unpaid alliance maintenance."
-msgstr ""
+msgstr "Kein Allianzbonus: Die Mitgliedschaft des verbündeten Landes wird wegen nicht bezahlter Beiträge ausgesetzt."
 
 #: src/components/_military/battle/BattleDamageBonuses.tsx:96
 msgid "No alliance bonus: your country's membership is suspended for unpaid alliance maintenance."
-msgstr ""
+msgstr "Kein Allianzbonus: Die Mitgliedschaft deines Landes ist wegen ausstehender Beiträge ausgesetzt."
 
 #: src/components/_political/allianceLaw/AllianceLawList.tsx:50
 msgid "No alliance laws yet"
@@ -5672,7 +5672,7 @@ msgstr "Noch keine Boden-Rangliste."
 
 #: src/components/_user/kits/KitsPopover.tsx:130
 msgid "No kits yet - add one to quick-equip a full loadout."
-msgstr ""
+msgstr "Keine Ausrüstungs-Sets - Füge eins hinzu um eine komplette Ausrüstung schnell anzulegen."
 
 #: src/components/_political/law/LawList.tsx:66
 msgid "No laws yet"
@@ -6022,7 +6022,7 @@ msgstr "Befriedungszentrum"
 
 #: src/components/_political/party/party.frontConfig.tsx:88
 msgid "Pacifism vs Expansionism"
-msgstr ""
+msgstr "Pazifismus gegen Expansionismus"
 
 #: src/components/_political/party/party.frontConfig.tsx:71
 #: src/components/_political/party/party.frontConfig.tsx:86
@@ -6032,7 +6032,7 @@ msgstr "Pazifist"
 #. placeholder {0}: ts.paper
 #: src/components/_military/battle/SetOrderFormModal.tsx:439
 msgid "Pacifist: orders defending your core regions or revolts cost {orderDiscountPercent}% less <0>{0}</0>"
-msgstr ""
+msgstr "Pazifist: Befehle zur Verteidigung deiner Kernregionen sowie Aufstände kosten {orderDiscountPercent} % weniger <0>{0}</0>"
 
 #: src/components/_other/shop/ShopHeader.tsx:29
 msgid "Packs"
@@ -6248,7 +6248,7 @@ msgstr "Beliebter Artikel"
 #: src/components/_political/government/AnnouncementForm.tsx:17
 #: src/pages/country/[countryId]/government.tsx:177
 msgid "Post announcement"
-msgstr ""
+msgstr "Ankündigung veröffentlichen"
 
 #: src/components/_user/user/skills.frontConfig.tsx:130
 #: src/components/_user/user/skills.frontConfig.tsx:131
@@ -6257,7 +6257,7 @@ msgstr "Präzision"
 
 #: src/components/_other/shop/skinPack.frontConfig.tsx:32
 msgid "Prehistoric Pack"
-msgstr ""
+msgstr "Urgeschichtliches Paket"
 
 #: src/pages/shop/index.tsx:171
 msgid "Premium"
@@ -6318,7 +6318,7 @@ msgstr "Präsidentschaftswahlen"
 
 #: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:430
 msgid "Price auto-matches existing orders"
-msgstr ""
+msgstr "Preis wird automatisch an bestehende Bestellungen angepasst"
 
 #: src/components/_political/election/election.frontConfig.tsx:43
 msgid "Primary election"
@@ -6697,7 +6697,7 @@ msgstr "Regionstransfer"
 #. placeholder {0}: formatMultiplierDelta( ethicsBonuses.imperialism[2].upgradeMaintenanceMultiplier, )
 #: src/components/_political/party/party.frontConfig.tsx:316
 msgid "Region upgrade maintenance costs are increased by <0>{0}</0>."
-msgstr ""
+msgstr "Wartungskosten für Regions-Upgrades erhöhen sich um <0>{0}</0>."
 
 #: src/components/_layout/LoadingScreenContent.tsx:20
 msgid "regions"
@@ -7335,7 +7335,7 @@ msgstr "Shop"
 #. placeholder {0}: Math.min(step, remaining)
 #: src/components/_political/party/PartyMembers.tsx:217
 msgid "Show {0} more ({remaining} remaining)"
-msgstr ""
+msgstr "Zeige {0} mehr an ({remaining} verbleibend)"
 
 #. placeholder {0}: auction.bids.length
 #: src/components/_military/mercenaryContract/MercenaryAuctionItem.tsx:277
@@ -7437,7 +7437,7 @@ msgstr "Tutorial überspringen"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:260
 msgid "Sling Stones"
-msgstr ""
+msgstr "Steine für die Schleuder"
 
 #: src/utils/translations.tsx:25
 msgid "Sniper"
@@ -7584,7 +7584,7 @@ msgstr "Stahl"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:245
 msgid "Stone Maul"
-msgstr ""
+msgstr "Steinhammer"
 
 #: src/components/_economy/company/CompanyTags.tsx:107
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:83
@@ -7687,7 +7687,7 @@ msgstr "Erzfeind"
 #. placeholder {0}: formatMultiplierDelta( ethicsBonuses.isolationism[2].enemyMaintenanceMultiplier, )
 #: src/components/_political/party/party.frontConfig.tsx:233
 msgid "Sworn enemy maintenance costs are increased by <0>{0}</0>."
-msgstr ""
+msgstr "Die Unterhaltskosten für Erzfeinde werden um <0>{0}</0> erhöht."
 
 #. placeholder {0}: ethicsBonuses.isolationism['-1'].enemyFidelityStart
 #. placeholder {0}: ethicsBonuses.isolationism['-2'].enemyFidelityStart
@@ -7696,12 +7696,12 @@ msgstr ""
 #: src/components/_political/party/party.frontConfig.tsx:141
 #: src/components/_political/party/party.frontConfig.tsx:177
 msgid "Sworn enemy treaties start at <0>{0} fidelity</0> and gain <1>{1}</1> each day."
-msgstr ""
+msgstr "Boni gegen Erzfeinde beginnen bei <0>{0} Treue</0> und steigen täglich um <1>{1}</1>.“"
 
 #. placeholder {0}: ts.paper
 #: src/components/_military/battle/SetOrderFormModal.tsx:433
 msgid "Sworn enemy: orders against your sworn enemy cost {orderDiscountPercent}% less <0>{0}</0>"
-msgstr ""
+msgstr "Erzfeind: Befehle gegen Erzfeinde kosten {orderDiscountPercent}% weniger<0>{0}</0>."
 
 #: src/components/_political/event/EventList.tsx:72
 msgid "System revolt"
@@ -7799,7 +7799,7 @@ msgstr "Der Vertrag wurde zurückgesetzt. <0>{0}</0> gingen zurück an <1/>."
 
 #: src/components/_political/law/LawCostExplanation.tsx:32
 msgid "The cost is the law's base cost scaled by your country's average development."
-msgstr ""
+msgstr "Die Kosten entsprechen den im Gesetz festgelegten Grundkosten, skaliert mit der durchschnittlichen Entwicklung des Landes"
 
 #: src/components/_user/user/skills.frontConfig.tsx:59
 msgid "The damage factor increase of critical hits over normal hits"
@@ -7819,7 +7819,7 @@ msgstr "Die Wirkung deiner verbrauchten Buffs ist beendet. Die Debuff-Phase hat 
 
 #: src/components/_political/alliance/AllianceBattleBonus.tsx:53
 msgid "The full bonus of <0/> applies up to <1/> share of global <2>Development</2>. Above that, the bonus drops by <3/> per percentage point of share over the plateau, down to <4/>."
-msgstr ""
+msgstr "Der gesamte Bonus von <0/> gilt bis zu einem Anteil von <1/> der weltweiten <2>Entwicklung</2>. Darüber hinaus sinkt der Bonus um <3/> mit jedem Prozentpunkt der über diesem Wert liegt, bis auf <4/>."
 
 #. placeholder {0}: Math.round(contract.moneyPool * 10) / 100
 #: src/components/_military/mercenaryContract/MercenaryContractItem.tsx:85
@@ -7869,7 +7869,7 @@ msgstr "Dieses Land hat keinen Präsidenten oder aktives Kongressmitglied, du ka
 
 #: src/components/_political/government/Government.tsx:72
 msgid "This country is Fanatic Imperialist: it cannot have ministers, only a president and vice president. Minister nominations will be rejected."
-msgstr ""
+msgstr "Dieses Land ist fanatisch-imperialistisch: Es gibt keine Minister, nur einen Präsidenten und einen Vizepräsidenten. Ministerkandidaturen werden abgelehnt."
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:42
 msgid "This equipment is green and so is grass"
@@ -8106,11 +8106,11 @@ msgstr "Insgesamt gespendet:"
 
 #: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:484
 msgid "Total of <0/>"
-msgstr ""
+msgstr "Insgesamt <0/>"
 
 #: src/components/_political/country/CountryDiplomacyGrid.tsx:399
 msgid "Total of <0>{totalMaintenanceCostPerDay}</0>/day"
-msgstr ""
+msgstr "Insgesamt <0>{totalMaintenanceCostPerDay}</0>/Tag"
 
 #: src/components/_user/badgeCollection/Badge.tsx:57
 msgid "Total reward"
@@ -8185,7 +8185,7 @@ msgstr "Transaktionen"
 
 #: src/components/_political/law/law.frontConfig.tsx:408
 msgid "Transfer <0/> to <1/>"
-msgstr ""
+msgstr "Überweise <0/> an <1/>"
 
 #: src/components/_political/law/law.frontConfig.tsx:402
 #: src/components/_political/law/lawNames.tsx:28
@@ -8222,7 +8222,7 @@ msgstr "Tutorials zurückgesetzt"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:257
 msgid "Tyrannosaurus Rex"
-msgstr ""
+msgstr "Tyrannosaurus Rex"
 
 #: src/components/_layout/LayoutOptions.tsx:148
 msgid "UI"
@@ -8725,11 +8725,11 @@ msgstr "Willkommen in deiner Wirtschaft!"
 #. placeholder {0}: formatPercent( ethicsBonuses.militarism[2].pacificationDefenseBonusPerLevel, )
 #: src/components/_political/party/party.frontConfig.tsx:116
 msgid "When defending a revolt, gain an additional <0>{0}</0> battle bonus per Pacification Center level."
-msgstr ""
+msgstr "Bei der Abwehr einer Revolte, erhalte einen zusätzlichen Kamfbonus von <0>{0}</0> pro Level des Befriedungszentrums."
 
 #: src/components/_political/party/party.frontConfig.tsx:63
 msgid "When revolting, you copy the enemy's defensive battle bonus from Bunker region upgrades."
-msgstr ""
+msgstr "Bei einer Revolte wird der Verteidigungsbonus des Gegners aus den Verbesserungen des Bunkers übernommen"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:156
 msgid "When your <0>Health</0> runs out, open this menu to restore it with food."
@@ -8750,7 +8750,7 @@ msgstr "Warum möchtest du dieses Gesetz vorschlagen?"
 
 #: src/components/_other/shop/skinPack.frontConfig.tsx:36
 msgid "Winter Soldier Pack"
-msgstr ""
+msgstr "Wintersoldaten-Paket"
 
 #: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:185
 msgid "with bonus"
@@ -8779,11 +8779,11 @@ msgstr "Holz"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:251
 msgid "Wooden Self Bow"
-msgstr ""
+msgstr "Holzbogen"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:254
 msgid "Woolly Mammoth"
-msgstr ""
+msgstr "Wollhaarmammut"
 
 #: src/components/_economy/company/WorkButton.tsx:245
 #: src/components/_user/mission/mission.frontConfig.tsx:87
@@ -9329,7 +9329,7 @@ msgstr "Name deiner Militäreinheit"
 
 #: src/components/_military/mu/MuSettings.tsx:53
 msgid "Your military unit nationality is the country it represents. Changing it is free and can only be done once every {cooldownDays} days."
-msgstr ""
+msgstr "Die Nationalität deiner Militäreinheit ist das Land, das sie vertritt. Die Änderung ist kostenlos und kann nur einmal alle {cooldownDays} Tage vorgenommen werden."
 
 #: src/components/_military/mercenaryContract/BuyMercenaryReputationButton.tsx:50
 msgid "Your MU has <0/> reputation and cannot bid on mercenary contracts. Pay to buy back reputation (once per day)."
