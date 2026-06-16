@@ -4997,7 +4997,7 @@ msgstr "إبراز الخريطة"
 
 #: src/components/_layout/LayoutOptions.tsx:142
 msgid "Map icons"
-msgstr ""
+msgstr "ايقونات الخريطة"
 
 #: src/components/_economy/market/MarketHeader.tsx:37
 #: src/components/_layout/LayoutMenu.tsx:189
