@@ -50,7 +50,7 @@ msgstr ""
 msgid " - Using outside market standards or manipulated trade prices"
 msgstr ""
 
-#: src/components/_user/premium/PremiumActions.tsx:71
+#: src/components/_user/premium/PremiumActions.tsx:74
 msgid " Gift a sub"
 msgstr " Подарить подписку"
 
@@ -732,19 +732,19 @@ msgstr ""
 msgid "<0>{0}</0>/day"
 msgstr "<0>{0}</0>/день"
 
-#: src/components/_economy/company/CompanyProductionBonusTag.tsx:75
+#: src/components/_economy/company/CompanyProductionBonusTag.tsx:78
 msgid "<0>{depositBonus}</0> from deposit resources in <1/>."
 msgstr "<0>{depositBonus}</0> от залежей ресурса в <1/>."
 
-#: src/components/_economy/company/CompanyProductionBonusTag.tsx:86
+#: src/components/_economy/company/CompanyProductionBonusTag.tsx:89
 msgid "<0>{ethicDepositBonus}</0> from <1/> agrarian ethics deposit bonus."
 msgstr "<0>{ethicDepositBonus}</0> от <1/> бонуса на залежи от аграрных принципов."
 
-#: src/components/_economy/company/CompanyProductionBonusTag.tsx:64
+#: src/components/_economy/company/CompanyProductionBonusTag.tsx:67
 msgid "<0>{ethicSpecializationBonus}</0> from <1/> industrialist ethics specialization bonus."
 msgstr "<0>{ethicSpecializationBonus}</0> бонуса к производству от индустриальных принципов <1/>."
 
-#: src/components/_economy/company/CompanyProductionBonusTag.tsx:53
+#: src/components/_economy/company/CompanyProductionBonusTag.tsx:56
 msgid "<0>{strategicBonus}</0> from <1/> strategic resources production bonus."
 msgstr "<0>{strategicBonus}</0> бонуса к производству от стратегических ресурсов в <1/>."
 
@@ -1638,7 +1638,7 @@ msgstr "API токены"
 msgid "API tokens allow external applications to access the API on your behalf. Use the token in the <0>X-API-Key</0> header. Each token has a rate limit of 200 requests per minute."
 msgstr "API токены открывают внешним приложениям доступ к API с вашей стороны. Используйте токен в заголовке <0>X-API-Key</0>. Каждый токен имеет лимит — 200 запросов в минуту."
 
-#: src/components/_layout/LayoutOptions.tsx:257
+#: src/components/_layout/LayoutOptions.tsx:262
 msgid "App pattern"
 msgstr "Узор в приложении"
 
@@ -1856,7 +1856,7 @@ msgstr ""
 msgid "Auto approval"
 msgstr "Авто-одобрение"
 
-#: src/components/_layout/LayoutOptions.tsx:190
+#: src/components/_layout/LayoutOptions.tsx:195
 #: src/components/_user/kits/KitsPopover.tsx:220
 msgid "Auto-equip when item breaks"
 msgstr ""
@@ -2060,7 +2060,7 @@ msgstr "Битвы Выиграны"
 msgid "Become a Candidate"
 msgstr "Выдвинуть кандидатуру"
 
-#: src/components/_layout/LayoutOptions.tsx:210
+#: src/components/_layout/LayoutOptions.tsx:215
 #: src/components/_user/kits/KitsPopover.tsx:244
 msgid "Best"
 msgstr ""
@@ -2085,7 +2085,7 @@ msgstr "Заблокировать (скрыть контент)"
 msgid "Blue Staff"
 msgstr ""
 
-#: src/components/_layout/LayoutOptions.tsx:151
+#: src/components/_layout/LayoutOptions.tsx:156
 msgid "Blur"
 msgstr ""
 
@@ -2534,7 +2534,7 @@ msgstr "Полковник"
 msgid "Color scheme"
 msgstr "Цветовая схема"
 
-#: src/components/_layout/LayoutOptions.tsx:167
+#: src/components/_layout/LayoutOptions.tsx:172
 msgid "Colorblind mode"
 msgstr ""
 
@@ -2589,7 +2589,7 @@ msgstr "Компания выключена!"
 msgid "Company enabled!"
 msgstr "Компания включена!"
 
-#: src/components/_economy/company/MoveCompanyForm.tsx:55
+#: src/components/_economy/company/MoveCompanyForm.tsx:58
 msgid "Company moved"
 msgstr "Компания перенесена"
 
@@ -3061,7 +3061,7 @@ msgstr ""
 msgid "Dark Era Pack"
 msgstr ""
 
-#: src/components/_layout/LayoutOptions.tsx:142
+#: src/components/_layout/LayoutOptions.tsx:147
 msgid "Dark map"
 msgstr "Тёмная карта"
 
@@ -3589,7 +3589,7 @@ msgid "Entrepreneurship"
 msgstr "Предпринимательство"
 
 #: src/components/_economy/inventory/case/RarityChances.tsx:50
-#: src/components/_layout/LayoutOptions.tsx:187
+#: src/components/_layout/LayoutOptions.tsx:192
 #: src/components/_user/user/WealthPanel.tsx:56
 #: src/pages/market/index.tsx:81
 #: src/pages/user/[userId]/index.tsx:92
@@ -3932,11 +3932,11 @@ msgstr "Флаги"
 msgid "Flail"
 msgstr ""
 
-#: src/components/_layout/LayoutOptions.tsx:227
+#: src/components/_layout/LayoutOptions.tsx:232
 msgid "Font"
 msgstr "Шрифт"
 
-#: src/components/_layout/LayoutOptions.tsx:239
+#: src/components/_layout/LayoutOptions.tsx:244
 msgid "Font size"
 msgstr "Размер шрифта"
 
@@ -4668,7 +4668,7 @@ msgstr "Ножи нельзя использовать с боеприпасам
 msgid "Land <0>{count}</0> critical hits"
 msgstr "Нанесите критический урон <0>{count}</0> раз"
 
-#: src/components/_layout/LayoutOptions.tsx:180
+#: src/components/_layout/LayoutOptions.tsx:185
 #: src/components/_user/auth/WelcomeModal.tsx:152
 msgid "Language"
 msgstr "Язык"
@@ -4875,7 +4875,7 @@ msgstr "Ограничивает потребление еды"
 msgid "Limited:"
 msgstr ""
 
-#: src/components/_layout/LayoutOptions.tsx:269
+#: src/components/_layout/LayoutOptions.tsx:274
 msgid "Line"
 msgstr "Линии"
 
@@ -4972,7 +4972,7 @@ msgstr "Майор"
 msgid "Make <0/> the new alliance leader. The leader can edit the alliance avatar and color scheme directly."
 msgstr ""
 
-#: src/components/_user/premium/PremiumActions.tsx:81
+#: src/components/_user/premium/PremiumActions.tsx:84
 msgid "Manage Subscription"
 msgstr "Управление подпиской"
 
@@ -4994,6 +4994,10 @@ msgstr ""
 #: src/components/_political/law/LawFormModal.tsx:292
 msgid "Map Accent"
 msgstr "Оттенок на карте"
+
+#: src/components/_layout/LayoutOptions.tsx:142
+msgid "Map icons"
+msgstr ""
 
 #: src/components/_economy/market/MarketHeader.tsx:37
 #: src/components/_layout/LayoutMenu.tsx:189
@@ -5236,7 +5240,7 @@ msgstr "Министр Экономики"
 msgid "Minister of Foreign Affairs"
 msgstr "Министр Иностранных Дел"
 
-#: src/components/_layout/LayoutOptions.tsx:175
+#: src/components/_layout/LayoutOptions.tsx:180
 msgid "Mission tags"
 msgstr ""
 
@@ -5313,7 +5317,7 @@ msgid "Move a company to another region"
 msgstr "Перенести компанию в другой регион"
 
 #: src/components/_economy/company/CompanyDropdown.tsx:186
-#: src/components/_economy/company/MoveCompanyForm.tsx:64
+#: src/components/_economy/company/MoveCompanyForm.tsx:67
 msgid "Move company"
 msgstr "Перенести компанию"
 
@@ -5321,7 +5325,7 @@ msgstr "Перенести компанию"
 msgid "Move Company"
 msgstr "Перенести компанию"
 
-#: src/components/_economy/company/MoveCompanyForm.tsx:89
+#: src/components/_economy/company/MoveCompanyForm.tsx:92
 msgid "Move the company"
 msgstr "Перенести компанию"
 
@@ -5500,7 +5504,7 @@ msgstr "Новое предложение работы"
 msgid "New leader"
 msgstr ""
 
-#: src/components/_economy/company/MoveCompanyForm.tsx:78
+#: src/components/_economy/company/MoveCompanyForm.tsx:81
 msgid "New location"
 msgstr "Новая локация"
 
@@ -6377,7 +6381,7 @@ msgstr "Производимый предмет изменен!"
 msgid "Production"
 msgstr "Производство"
 
-#: src/components/_economy/company/CompanyProductionBonusTag.tsx:48
+#: src/components/_economy/company/CompanyProductionBonusTag.tsx:51
 #: src/components/_economy/company/RecommendedCompanyRegions.tsx:99
 #: src/pages/region/[regionId]/index.tsx:69
 msgid "Production bonus"
@@ -7202,7 +7206,7 @@ msgstr "Заявки на продажу"
 msgid "Sell price:"
 msgstr "Рыночная цена:"
 
-#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:155
+#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:158
 msgid "sells"
 msgstr "продает"
 
@@ -7451,7 +7455,7 @@ msgstr ""
 msgid "Some of your companies are disabled."
 msgstr "Некоторые ваши компании выключены."
 
-#: src/components/_layout/LayoutOptions.tsx:159
+#: src/components/_layout/LayoutOptions.tsx:164
 msgid "Sound effects"
 msgstr "Звуковые эффекты"
 
@@ -7627,7 +7631,7 @@ msgstr ""
 msgid "Sugar Daddy"
 msgstr ""
 
-#: src/components/_user/premium/PremiumActions.tsx:57
+#: src/components/_user/premium/PremiumActions.tsx:60
 msgid "Support the game"
 msgstr "Поддержи игру"
 
@@ -7759,7 +7763,7 @@ msgstr "Сроки"
 msgid "Terms of Service"
 msgstr ""
 
-#: src/components/_layout/LayoutOptions.tsx:280
+#: src/components/_layout/LayoutOptions.tsx:285
 msgid "Texture"
 msgstr "Текстура"
 
@@ -8224,7 +8228,7 @@ msgstr "Обучение сброшено"
 msgid "Tyrannosaurus Rex"
 msgstr ""
 
-#: src/components/_layout/LayoutOptions.tsx:148
+#: src/components/_layout/LayoutOptions.tsx:153
 msgid "UI"
 msgstr ""
 
@@ -8642,7 +8646,7 @@ msgstr "Ожидание уровня {0}"
 msgid "Waiting for the worker to accept or reject the wage reduction. You cannot change the wage until they respond."
 msgstr "Ожидайте, пока работник примет или отклонит снижение зарплаты. Вы не можете изменить зарплату, пока он не ответит."
 
-#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:155
+#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:158
 msgid "wants"
 msgstr "покупает"
 
@@ -8823,7 +8827,7 @@ msgstr "Работа на других — отличный способ зар�
 msgid "World <0/>"
 msgstr ""
 
-#: src/components/_layout/LayoutOptions.tsx:222
+#: src/components/_layout/LayoutOptions.tsx:227
 #: src/components/_user/kits/KitsPopover.tsx:258
 msgid "Worst"
 msgstr ""
@@ -9054,10 +9058,6 @@ msgstr "Вы должны быть как минимум {0} уровня, чт�
 msgid "You must be at least level {0} to vote."
 msgstr ""
 
-#: src/components/_user/premium/PremiumActions.tsx:42
-msgid "You must be on web to subscribe"
-msgstr "Оформить подписку можно только через веб-версию"
-
 #: src/components/_political/government/PoliticalEthicsSelect.tsx:115
 msgid "You must spend all 3 ethics points ({pointsRemaining} remaining)"
 msgstr "Вы должны потратить все 3 очка этики ({pointsRemaining} осталось)"
@@ -9274,7 +9274,7 @@ msgstr "Ваша страна начала восстание в <0/> проти
 msgid "Your current job"
 msgstr "Ваша текущая работа"
 
-#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:146
+#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:149
 msgid "Your current order"
 msgstr "Ваш текущий ордер"
 

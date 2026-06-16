@@ -50,7 +50,7 @@ msgstr ""
 msgid " - Using outside market standards or manipulated trade prices"
 msgstr ""
 
-#: src/components/_user/premium/PremiumActions.tsx:71
+#: src/components/_user/premium/PremiumActions.tsx:74
 msgid " Gift a sub"
 msgstr " Podaruj subskrypcję"
 
@@ -732,19 +732,19 @@ msgstr ""
 msgid "<0>{0}</0>/day"
 msgstr "<0>{0}</0>/dzień"
 
-#: src/components/_economy/company/CompanyProductionBonusTag.tsx:75
+#: src/components/_economy/company/CompanyProductionBonusTag.tsx:78
 msgid "<0>{depositBonus}</0> from deposit resources in <1/>."
 msgstr "<0>{depositBonus}</0> z zasobów złoża w <1/>."
 
-#: src/components/_economy/company/CompanyProductionBonusTag.tsx:86
+#: src/components/_economy/company/CompanyProductionBonusTag.tsx:89
 msgid "<0>{ethicDepositBonus}</0> from <1/> agrarian ethics deposit bonus."
 msgstr ""
 
-#: src/components/_economy/company/CompanyProductionBonusTag.tsx:64
+#: src/components/_economy/company/CompanyProductionBonusTag.tsx:67
 msgid "<0>{ethicSpecializationBonus}</0> from <1/> industrialist ethics specialization bonus."
 msgstr ""
 
-#: src/components/_economy/company/CompanyProductionBonusTag.tsx:53
+#: src/components/_economy/company/CompanyProductionBonusTag.tsx:56
 msgid "<0>{strategicBonus}</0> from <1/> strategic resources production bonus."
 msgstr "<0>{strategicBonus}</0> z bonusu produkcji zasobów strategicznych <1/>."
 
@@ -1638,7 +1638,7 @@ msgstr "Tokeny API"
 msgid "API tokens allow external applications to access the API on your behalf. Use the token in the <0>X-API-Key</0> header. Each token has a rate limit of 200 requests per minute."
 msgstr "Tokeny API pozwalają zewnętrznym aplikacjom na dostęp do API w Twoim imieniu. Użyj tokenu w nagłówku <0>X-API-Key</0>. Każdy token ma limit 200 żądań na minutę."
 
-#: src/components/_layout/LayoutOptions.tsx:257
+#: src/components/_layout/LayoutOptions.tsx:262
 msgid "App pattern"
 msgstr "Wzór aplikacji"
 
@@ -1856,7 +1856,7 @@ msgstr ""
 msgid "Auto approval"
 msgstr "Automatyczne zatwierdzanie"
 
-#: src/components/_layout/LayoutOptions.tsx:190
+#: src/components/_layout/LayoutOptions.tsx:195
 #: src/components/_user/kits/KitsPopover.tsx:220
 msgid "Auto-equip when item breaks"
 msgstr ""
@@ -2060,7 +2060,7 @@ msgstr "Wygrane Bitwy"
 msgid "Become a Candidate"
 msgstr "Zostań kandydatem"
 
-#: src/components/_layout/LayoutOptions.tsx:210
+#: src/components/_layout/LayoutOptions.tsx:215
 #: src/components/_user/kits/KitsPopover.tsx:244
 msgid "Best"
 msgstr ""
@@ -2085,7 +2085,7 @@ msgstr "Zablokuj (ukryj treści)"
 msgid "Blue Staff"
 msgstr ""
 
-#: src/components/_layout/LayoutOptions.tsx:151
+#: src/components/_layout/LayoutOptions.tsx:156
 msgid "Blur"
 msgstr ""
 
@@ -2534,7 +2534,7 @@ msgstr "Pułkownik"
 msgid "Color scheme"
 msgstr "Schemat kolorów"
 
-#: src/components/_layout/LayoutOptions.tsx:167
+#: src/components/_layout/LayoutOptions.tsx:172
 msgid "Colorblind mode"
 msgstr ""
 
@@ -2589,7 +2589,7 @@ msgstr "Firma wyłączona!"
 msgid "Company enabled!"
 msgstr "Firma włączona!"
 
-#: src/components/_economy/company/MoveCompanyForm.tsx:55
+#: src/components/_economy/company/MoveCompanyForm.tsx:58
 msgid "Company moved"
 msgstr "Firma przeniesiona"
 
@@ -3061,7 +3061,7 @@ msgstr ""
 msgid "Dark Era Pack"
 msgstr ""
 
-#: src/components/_layout/LayoutOptions.tsx:142
+#: src/components/_layout/LayoutOptions.tsx:147
 msgid "Dark map"
 msgstr "Ciemna mapa"
 
@@ -3589,7 +3589,7 @@ msgid "Entrepreneurship"
 msgstr "Przedsiębiorczość"
 
 #: src/components/_economy/inventory/case/RarityChances.tsx:50
-#: src/components/_layout/LayoutOptions.tsx:187
+#: src/components/_layout/LayoutOptions.tsx:192
 #: src/components/_user/user/WealthPanel.tsx:56
 #: src/pages/market/index.tsx:81
 #: src/pages/user/[userId]/index.tsx:92
@@ -3932,11 +3932,11 @@ msgstr "Flagi"
 msgid "Flail"
 msgstr ""
 
-#: src/components/_layout/LayoutOptions.tsx:227
+#: src/components/_layout/LayoutOptions.tsx:232
 msgid "Font"
 msgstr "Czcionka"
 
-#: src/components/_layout/LayoutOptions.tsx:239
+#: src/components/_layout/LayoutOptions.tsx:244
 msgid "Font size"
 msgstr "Rozmiar czcionki"
 
@@ -4668,7 +4668,7 @@ msgstr "Noże nie używają amunicji"
 msgid "Land <0>{count}</0> critical hits"
 msgstr "Zadaj <0>{count}</0> trafień krytycznych"
 
-#: src/components/_layout/LayoutOptions.tsx:180
+#: src/components/_layout/LayoutOptions.tsx:185
 #: src/components/_user/auth/WelcomeModal.tsx:152
 msgid "Language"
 msgstr "Język"
@@ -4875,7 +4875,7 @@ msgstr "Limit spożycia jedzenia"
 msgid "Limited:"
 msgstr ""
 
-#: src/components/_layout/LayoutOptions.tsx:269
+#: src/components/_layout/LayoutOptions.tsx:274
 msgid "Line"
 msgstr "Linia"
 
@@ -4972,7 +4972,7 @@ msgstr "Major"
 msgid "Make <0/> the new alliance leader. The leader can edit the alliance avatar and color scheme directly."
 msgstr ""
 
-#: src/components/_user/premium/PremiumActions.tsx:81
+#: src/components/_user/premium/PremiumActions.tsx:84
 msgid "Manage Subscription"
 msgstr "Zarządzaj subskrypcją"
 
@@ -4994,6 +4994,10 @@ msgstr ""
 #: src/components/_political/law/LawFormModal.tsx:292
 msgid "Map Accent"
 msgstr "Akcent mapy"
+
+#: src/components/_layout/LayoutOptions.tsx:142
+msgid "Map icons"
+msgstr ""
 
 #: src/components/_economy/market/MarketHeader.tsx:37
 #: src/components/_layout/LayoutMenu.tsx:189
@@ -5236,7 +5240,7 @@ msgstr "Minister Gospodarki"
 msgid "Minister of Foreign Affairs"
 msgstr "Minister Spraw Zagranicznych"
 
-#: src/components/_layout/LayoutOptions.tsx:175
+#: src/components/_layout/LayoutOptions.tsx:180
 msgid "Mission tags"
 msgstr ""
 
@@ -5313,7 +5317,7 @@ msgid "Move a company to another region"
 msgstr "Przenieś firmę do innego regionu"
 
 #: src/components/_economy/company/CompanyDropdown.tsx:186
-#: src/components/_economy/company/MoveCompanyForm.tsx:64
+#: src/components/_economy/company/MoveCompanyForm.tsx:67
 msgid "Move company"
 msgstr "Przenieś firmę"
 
@@ -5321,7 +5325,7 @@ msgstr "Przenieś firmę"
 msgid "Move Company"
 msgstr "Przenieś firmę"
 
-#: src/components/_economy/company/MoveCompanyForm.tsx:89
+#: src/components/_economy/company/MoveCompanyForm.tsx:92
 msgid "Move the company"
 msgstr "Przenieś firmę"
 
@@ -5500,7 +5504,7 @@ msgstr "Nowa oferta pracy"
 msgid "New leader"
 msgstr ""
 
-#: src/components/_economy/company/MoveCompanyForm.tsx:78
+#: src/components/_economy/company/MoveCompanyForm.tsx:81
 msgid "New location"
 msgstr "Nowa lokalizacja"
 
@@ -6377,7 +6381,7 @@ msgstr "Zmieniono produkowany przedmiot!"
 msgid "Production"
 msgstr "Produkcja"
 
-#: src/components/_economy/company/CompanyProductionBonusTag.tsx:48
+#: src/components/_economy/company/CompanyProductionBonusTag.tsx:51
 #: src/components/_economy/company/RecommendedCompanyRegions.tsx:99
 #: src/pages/region/[regionId]/index.tsx:69
 msgid "Production bonus"
@@ -7202,7 +7206,7 @@ msgstr "Zamówienia sprzedaży"
 msgid "Sell price:"
 msgstr ""
 
-#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:155
+#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:158
 msgid "sells"
 msgstr "sprzedaje"
 
@@ -7451,7 +7455,7 @@ msgstr ""
 msgid "Some of your companies are disabled."
 msgstr "Niektóre z twoich firm są wyłączone."
 
-#: src/components/_layout/LayoutOptions.tsx:159
+#: src/components/_layout/LayoutOptions.tsx:164
 msgid "Sound effects"
 msgstr "Efekty dźwiękowe"
 
@@ -7627,7 +7631,7 @@ msgstr ""
 msgid "Sugar Daddy"
 msgstr ""
 
-#: src/components/_user/premium/PremiumActions.tsx:57
+#: src/components/_user/premium/PremiumActions.tsx:60
 msgid "Support the game"
 msgstr "Wesprzyj grę"
 
@@ -7759,7 +7763,7 @@ msgstr "Warunki"
 msgid "Terms of Service"
 msgstr ""
 
-#: src/components/_layout/LayoutOptions.tsx:280
+#: src/components/_layout/LayoutOptions.tsx:285
 msgid "Texture"
 msgstr "Tekstura"
 
@@ -8224,7 +8228,7 @@ msgstr "Samouczki zresetowane"
 msgid "Tyrannosaurus Rex"
 msgstr ""
 
-#: src/components/_layout/LayoutOptions.tsx:148
+#: src/components/_layout/LayoutOptions.tsx:153
 msgid "UI"
 msgstr ""
 
@@ -8642,7 +8646,7 @@ msgstr "Oczekuje na poziom {0}"
 msgid "Waiting for the worker to accept or reject the wage reduction. You cannot change the wage until they respond."
 msgstr "Oczekiwanie na akceptację lub odrzucenie obniżki wynagrodzenia przez pracownika. Nie możesz zmienić wynagrodzenia, dopóki nie odpowie."
 
-#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:155
+#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:158
 msgid "wants"
 msgstr "chce"
 
@@ -8823,7 +8827,7 @@ msgstr "Praca dla innych to świetny sposób na zarabianie pieniędzy na począt
 msgid "World <0/>"
 msgstr ""
 
-#: src/components/_layout/LayoutOptions.tsx:222
+#: src/components/_layout/LayoutOptions.tsx:227
 #: src/components/_user/kits/KitsPopover.tsx:258
 msgid "Worst"
 msgstr ""
@@ -9054,10 +9058,6 @@ msgstr ""
 msgid "You must be at least level {0} to vote."
 msgstr ""
 
-#: src/components/_user/premium/PremiumActions.tsx:42
-msgid "You must be on web to subscribe"
-msgstr "Musisz być na stronie internetowej, aby się zapisać"
-
 #: src/components/_political/government/PoliticalEthicsSelect.tsx:115
 msgid "You must spend all 3 ethics points ({pointsRemaining} remaining)"
 msgstr ""
@@ -9274,7 +9274,7 @@ msgstr "Twój kraj rozpoczął bunt w <0/> przeciwko <1/>"
 msgid "Your current job"
 msgstr "Twoja obecna praca"
 
-#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:146
+#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:149
 msgid "Your current order"
 msgstr "Twoje obecne zamówienie"
 

@@ -50,7 +50,7 @@ msgstr " - Cikkek ismételt borravalózása"
 msgid " - Using outside market standards or manipulated trade prices"
 msgstr " - Külső piaci standardok vagy manipulált kereskedési árak használata"
 
-#: src/components/_user/premium/PremiumActions.tsx:71
+#: src/components/_user/premium/PremiumActions.tsx:74
 msgid " Gift a sub"
 msgstr " Előfizetés ajándékozása"
 
@@ -732,19 +732,19 @@ msgstr "<0>{0}</0> Raktárkapacitás"
 msgid "<0>{0}</0>/day"
 msgstr "<0>{0}</0>/nap"
 
-#: src/components/_economy/company/CompanyProductionBonusTag.tsx:75
+#: src/components/_economy/company/CompanyProductionBonusTag.tsx:78
 msgid "<0>{depositBonus}</0> from deposit resources in <1/>."
 msgstr "<0>{depositBonus}</0> a lelőhely erőforrásokból itt: <1/>."
 
-#: src/components/_economy/company/CompanyProductionBonusTag.tsx:86
+#: src/components/_economy/company/CompanyProductionBonusTag.tsx:89
 msgid "<0>{ethicDepositBonus}</0> from <1/> agrarian ethics deposit bonus."
 msgstr "<0>{ethicDepositBonus}</0> a(z) <1/> Agrár etika lelőhely bónuszából."
 
-#: src/components/_economy/company/CompanyProductionBonusTag.tsx:64
+#: src/components/_economy/company/CompanyProductionBonusTag.tsx:67
 msgid "<0>{ethicSpecializationBonus}</0> from <1/> industrialist ethics specialization bonus."
 msgstr "<0>{ethicSpecializationBonus}</0> az <1/> Iparos etika specializációs bónuszából."
 
-#: src/components/_economy/company/CompanyProductionBonusTag.tsx:53
+#: src/components/_economy/company/CompanyProductionBonusTag.tsx:56
 msgid "<0>{strategicBonus}</0> from <1/> strategic resources production bonus."
 msgstr "<0>{strategicBonus}</0> az <1/> stratégiai erőforrások termelési bónuszából."
 
@@ -1638,7 +1638,7 @@ msgstr "API Tokenek"
 msgid "API tokens allow external applications to access the API on your behalf. Use the token in the <0>X-API-Key</0> header. Each token has a rate limit of 200 requests per minute."
 msgstr "Az API tokenek lehetővé teszik külső alkalmazások számára, hogy a nevedben hozzáférjenek az API-hoz. Használd a tokent az <0>X-API-Key</0> fejlécben. Minden token percenként legfeljebb 200 kérést képes kezelni."
 
-#: src/components/_layout/LayoutOptions.tsx:257
+#: src/components/_layout/LayoutOptions.tsx:262
 msgid "App pattern"
 msgstr "Alkalmazás minta"
 
@@ -1856,7 +1856,7 @@ msgstr "Hitelesítés sikertelen. Kérlek, próbáld újra."
 msgid "Auto approval"
 msgstr "Automatikus jóváhagyás"
 
-#: src/components/_layout/LayoutOptions.tsx:190
+#: src/components/_layout/LayoutOptions.tsx:195
 #: src/components/_user/kits/KitsPopover.tsx:220
 msgid "Auto-equip when item breaks"
 msgstr ""
@@ -2060,7 +2060,7 @@ msgstr "Nyert csaták"
 msgid "Become a Candidate"
 msgstr "Jelöltté válás"
 
-#: src/components/_layout/LayoutOptions.tsx:210
+#: src/components/_layout/LayoutOptions.tsx:215
 #: src/components/_user/kits/KitsPopover.tsx:244
 msgid "Best"
 msgstr ""
@@ -2085,7 +2085,7 @@ msgstr "Blokkolás (tartalom elrejtése)"
 msgid "Blue Staff"
 msgstr "Kék bot"
 
-#: src/components/_layout/LayoutOptions.tsx:151
+#: src/components/_layout/LayoutOptions.tsx:156
 msgid "Blur"
 msgstr ""
 
@@ -2534,7 +2534,7 @@ msgstr "Ezredes"
 msgid "Color scheme"
 msgstr "Színséma"
 
-#: src/components/_layout/LayoutOptions.tsx:167
+#: src/components/_layout/LayoutOptions.tsx:172
 msgid "Colorblind mode"
 msgstr ""
 
@@ -2589,7 +2589,7 @@ msgstr "Vállalat kikapcsolva!"
 msgid "Company enabled!"
 msgstr "Vállalat bekapcsolva!"
 
-#: src/components/_economy/company/MoveCompanyForm.tsx:55
+#: src/components/_economy/company/MoveCompanyForm.tsx:58
 msgid "Company moved"
 msgstr "Vállalat áthelyezve"
 
@@ -3061,7 +3061,7 @@ msgstr "Sötét Korszak"
 msgid "Dark Era Pack"
 msgstr "Sötét Korszak Csomag"
 
-#: src/components/_layout/LayoutOptions.tsx:142
+#: src/components/_layout/LayoutOptions.tsx:147
 msgid "Dark map"
 msgstr "Sötét térkép"
 
@@ -3589,7 +3589,7 @@ msgid "Entrepreneurship"
 msgstr "Vállalkozás"
 
 #: src/components/_economy/inventory/case/RarityChances.tsx:50
-#: src/components/_layout/LayoutOptions.tsx:187
+#: src/components/_layout/LayoutOptions.tsx:192
 #: src/components/_user/user/WealthPanel.tsx:56
 #: src/pages/market/index.tsx:81
 #: src/pages/user/[userId]/index.tsx:92
@@ -3932,11 +3932,11 @@ msgstr "Zászlók"
 msgid "Flail"
 msgstr "Láncos buzogány"
 
-#: src/components/_layout/LayoutOptions.tsx:227
+#: src/components/_layout/LayoutOptions.tsx:232
 msgid "Font"
 msgstr "Betűtípus"
 
-#: src/components/_layout/LayoutOptions.tsx:239
+#: src/components/_layout/LayoutOptions.tsx:244
 msgid "Font size"
 msgstr "Betűméret"
 
@@ -4668,7 +4668,7 @@ msgstr "A kések nem használnak lőszert"
 msgid "Land <0>{count}</0> critical hits"
 msgstr "Mérj <0>{count}</0> kritikus találatot"
 
-#: src/components/_layout/LayoutOptions.tsx:180
+#: src/components/_layout/LayoutOptions.tsx:185
 #: src/components/_user/auth/WelcomeModal.tsx:152
 msgid "Language"
 msgstr "Nyelv"
@@ -4875,7 +4875,7 @@ msgstr "Élelemfogyasztás korlátja"
 msgid "Limited:"
 msgstr "Korlátozott:"
 
-#: src/components/_layout/LayoutOptions.tsx:269
+#: src/components/_layout/LayoutOptions.tsx:274
 msgid "Line"
 msgstr "Vonal"
 
@@ -4972,7 +4972,7 @@ msgstr "Őrnagy"
 msgid "Make <0/> the new alliance leader. The leader can edit the alliance avatar and color scheme directly."
 msgstr ""
 
-#: src/components/_user/premium/PremiumActions.tsx:81
+#: src/components/_user/premium/PremiumActions.tsx:84
 msgid "Manage Subscription"
 msgstr "Előfizetés kezelése"
 
@@ -4994,6 +4994,10 @@ msgstr ""
 #: src/components/_political/law/LawFormModal.tsx:292
 msgid "Map Accent"
 msgstr "Térkép kiemelés"
+
+#: src/components/_layout/LayoutOptions.tsx:142
+msgid "Map icons"
+msgstr ""
 
 #: src/components/_economy/market/MarketHeader.tsx:37
 #: src/components/_layout/LayoutMenu.tsx:189
@@ -5236,7 +5240,7 @@ msgstr "Gazdasági miniszter"
 msgid "Minister of Foreign Affairs"
 msgstr "Külügyminiszter"
 
-#: src/components/_layout/LayoutOptions.tsx:175
+#: src/components/_layout/LayoutOptions.tsx:180
 msgid "Mission tags"
 msgstr ""
 
@@ -5313,7 +5317,7 @@ msgid "Move a company to another region"
 msgstr "Helyezz át egy vállalatot egy másik régióba"
 
 #: src/components/_economy/company/CompanyDropdown.tsx:186
-#: src/components/_economy/company/MoveCompanyForm.tsx:64
+#: src/components/_economy/company/MoveCompanyForm.tsx:67
 msgid "Move company"
 msgstr "Vállalat áthelyezése"
 
@@ -5321,7 +5325,7 @@ msgstr "Vállalat áthelyezése"
 msgid "Move Company"
 msgstr "Vállalat áthelyezése"
 
-#: src/components/_economy/company/MoveCompanyForm.tsx:89
+#: src/components/_economy/company/MoveCompanyForm.tsx:92
 msgid "Move the company"
 msgstr "A vállalat áthelyezése"
 
@@ -5500,7 +5504,7 @@ msgstr "Új állásajánlat"
 msgid "New leader"
 msgstr ""
 
-#: src/components/_economy/company/MoveCompanyForm.tsx:78
+#: src/components/_economy/company/MoveCompanyForm.tsx:81
 msgid "New location"
 msgstr "Új helyszín"
 
@@ -6377,7 +6381,7 @@ msgstr "Termelt tárgy megváltoztatva!"
 msgid "Production"
 msgstr "Termelés"
 
-#: src/components/_economy/company/CompanyProductionBonusTag.tsx:48
+#: src/components/_economy/company/CompanyProductionBonusTag.tsx:51
 #: src/components/_economy/company/RecommendedCompanyRegions.tsx:99
 #: src/pages/region/[regionId]/index.tsx:69
 msgid "Production bonus"
@@ -7202,7 +7206,7 @@ msgstr "Eladási megbízások"
 msgid "Sell price:"
 msgstr "Eladási ár:"
 
-#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:155
+#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:158
 msgid "sells"
 msgstr "elad"
 
@@ -7451,7 +7455,7 @@ msgstr "Közösségi és üzenetek"
 msgid "Some of your companies are disabled."
 msgstr "Néhány vállalatod le van tiltva."
 
-#: src/components/_layout/LayoutOptions.tsx:159
+#: src/components/_layout/LayoutOptions.tsx:164
 msgid "Sound effects"
 msgstr "Hangeffektusok"
 
@@ -7627,7 +7631,7 @@ msgstr "Sikeres bejelentkezés!"
 msgid "Sugar Daddy"
 msgstr "Nagylelkű Mecénás"
 
-#: src/components/_user/premium/PremiumActions.tsx:57
+#: src/components/_user/premium/PremiumActions.tsx:60
 msgid "Support the game"
 msgstr "Támogasd a játékot"
 
@@ -7759,7 +7763,7 @@ msgstr "Feltételek"
 msgid "Terms of Service"
 msgstr "Felhasználási Feltételek"
 
-#: src/components/_layout/LayoutOptions.tsx:280
+#: src/components/_layout/LayoutOptions.tsx:285
 msgid "Texture"
 msgstr "Textúra"
 
@@ -8224,7 +8228,7 @@ msgstr "Oktatóanyagok visszaállítva"
 msgid "Tyrannosaurus Rex"
 msgstr ""
 
-#: src/components/_layout/LayoutOptions.tsx:148
+#: src/components/_layout/LayoutOptions.tsx:153
 msgid "UI"
 msgstr ""
 
@@ -8642,7 +8646,7 @@ msgstr "Várakozás a(z) {0}. szintre"
 msgid "Waiting for the worker to accept or reject the wage reduction. You cannot change the wage until they respond."
 msgstr "Várakozás arra, hogy a munkás elfogadja vagy elutasítsa a bércsökkentést. Nem változtathatod meg a bért, amíg nem válaszol."
 
-#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:155
+#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:158
 msgid "wants"
 msgstr "szeretne"
 
@@ -8823,7 +8827,7 @@ msgstr "Másoknak dolgozni remek módja a pénzkeresésnek kezdéskor."
 msgid "World <0/>"
 msgstr ""
 
-#: src/components/_layout/LayoutOptions.tsx:222
+#: src/components/_layout/LayoutOptions.tsx:227
 #: src/components/_user/kits/KitsPopover.tsx:258
 msgid "Worst"
 msgstr ""
@@ -9054,10 +9058,6 @@ msgstr "Legalább {0} szintűnek kell lenned, hogy hozzájárulj."
 msgid "You must be at least level {0} to vote."
 msgstr ""
 
-#: src/components/_user/premium/PremiumActions.tsx:42
-msgid "You must be on web to subscribe"
-msgstr "A webes verzióban kell lenned az előfizetéshez"
-
 #: src/components/_political/government/PoliticalEthicsSelect.tsx:115
 msgid "You must spend all 3 ethics points ({pointsRemaining} remaining)"
 msgstr "Mind a 3 etikai pontot el kell költened ({pointsRemaining} maradt)"
@@ -9274,7 +9274,7 @@ msgstr "Az országod felkelést kezdett <0/> területén <1/> ellen"
 msgid "Your current job"
 msgstr "Jelenlegi munkád"
 
-#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:146
+#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:149
 msgid "Your current order"
 msgstr "Jelenlegi megrendelésed"
 
