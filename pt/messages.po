@@ -7845,11 +7845,11 @@ msgstr "O recurso estratégico será redistribuído em."
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1357
 msgid "The tournament has ended for your team <0/>. Check the results!"
-msgstr "O torneio terminou para sua equipe <0/>. Confira os resultados!"
+msgstr "O torneio acabou para a tua equipa <0/>. Consulta os resultados!"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:12
 msgid "The universe owes you something big"
-msgstr "O universo te deve algo grande"
+msgstr "Já merecias que a vida te sorrisse."
 
 #: src/components/_common/GameRules.tsx:73
 msgid "The use of bots, scripts, or any form of automation to gain an advantage over other players is strictly forbidden. This includes, but is not limited to, web scraping and creating scripts that bypass the game intended functionality or restrictions."
