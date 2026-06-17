@@ -31,7 +31,7 @@ msgstr " - Схеми об’єднання спорядження *"
 
 #: src/components/_common/GameRules.tsx:117
 msgid " - Low-wage labor (lower than 0.8x and above 1.2x the normal salary)"
-msgstr ""
+msgstr " - Низькооплачувана робота (нижче за 0,8х та вище за 1,2х від середньої зарплати)"
 
 #. placeholder {0}: user.data.mute.reason
 #: src/components/_user/user/UserHeader.tsx:422
@@ -1753,23 +1753,23 @@ msgstr "Статті <0/>"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:305
 msgid "AT Ammo"
-msgstr ""
+msgstr "Набої АТ"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:296
 msgid "AT Armored Tank"
-msgstr ""
+msgstr "Бронемашина АТ"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:290
 msgid "AT Assault Rifle"
-msgstr ""
+msgstr "Автомат АТ"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:299
 msgid "AT Combat Helicopter"
-msgstr ""
+msgstr "Бойовий вертоліт АТ"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:308
 msgid "AT Heavy Ammo"
-msgstr ""
+msgstr "Важкі набої АТ"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:8
 msgid "At least you tried"
@@ -2091,7 +2091,7 @@ msgstr "Розмиття"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:242
 msgid "Bone Club"
-msgstr ""
+msgstr "Кістяна булава"
 
 #: src/components/_military/battle/BattleDamageBonuses.tsx:62
 #: src/components/_political/law/law.frontConfig.tsx:235
@@ -2327,7 +2327,7 @@ msgstr "Катапульта"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:269
 msgid "Cave Bear Headdress"
-msgstr ""
+msgstr "Печерна накидка з ведмедя"
 
 #: src/components/_user/user/skills.frontConfig.tsx:152
 msgid "Chance per hit to instantly loot:<0/>Each <1>1%</1> gives<2>1%</2> and <3>0.01%</3> to loot cases per hit."
@@ -2520,7 +2520,7 @@ msgstr "Закрити"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:266
 msgid "Clovis Point"
-msgstr ""
+msgstr "Наконечник Кловіс"
 
 #: src/components/_other/shop/skinPack.frontConfig.tsx:37
 msgid "Cold af"
@@ -3967,19 +3967,19 @@ msgstr "Цікавий факт: заклад завжди у виграші"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:275
 msgid "Fur Boots"
-msgstr ""
+msgstr "Хутряні чоботи"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:278
 msgid "Fur Loincloth"
-msgstr ""
+msgstr "Хутряний набедреник"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:281
 msgid "Fur Mittens"
-msgstr ""
+msgstr "Хутряні рукавиці"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:272
 msgid "Fur Tunic"
-msgstr ""
+msgstr "Хутряна туніка"
 
 #: src/components/_common/GameRules.tsx:234
 msgid "g. The use of profiles (picture, description, name) related to aforementioned ideologies and movements as well as political figures linked to ongoing real-world wars and armed conflicts. Humoristic names, descriptions and pictures are tolerated, with the exception of any content related to nazism and neo-nazism."
@@ -4211,51 +4211,51 @@ msgstr "Бали контролю"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:338
 msgid "GSG9 Armored Tank"
-msgstr ""
+msgstr "Броньований автомобіль GSG9"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:332
 msgid "GSG9 Assault Rifle"
-msgstr ""
+msgstr "Автомат GSG9"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:341
 msgid "GSG9 Combat Helicopter"
-msgstr ""
+msgstr "Бойовий вертоліт GSG9"
 
 #: src/components/_other/shop/skinPack.frontConfig.tsx:44
 msgid "GSG9 Pack"
-msgstr ""
+msgstr "Набір GSG9"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:329
 msgid "GSG9 Pistol"
-msgstr ""
+msgstr "Пістолет GSG9"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:335
 msgid "GSG9 Sniper Rifle"
-msgstr ""
+msgstr "Снайперка GSG9"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:350
 msgid "GSG9 Tactical Boots"
-msgstr ""
+msgstr "Тактичні чоботи GSG9"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:356
 msgid "GSG9 Tactical Gloves"
-msgstr ""
+msgstr "Тактичні рукавиці GSG9"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:344
 msgid "GSG9 Tactical Helmet"
-msgstr ""
+msgstr "Тактичний шолом GSG9"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:353
 msgid "GSG9 Tactical Pants"
-msgstr ""
+msgstr "Тактичні штани GSG9"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:326
 msgid "GSG9 Tactical Shield"
-msgstr ""
+msgstr "Тактичний щит GSG9"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:347
 msgid "GSG9 Tactical Vest"
-msgstr ""
+msgstr "Тактичний жилет GSG9"
 
 #: src/utils/translations.tsx:23
 msgid "Gun"
@@ -4654,7 +4654,7 @@ msgstr "Вигнати бійця"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:263
 msgid "Knapped Flints"
-msgstr ""
+msgstr "Колотий кремінь"
 
 #: src/utils/translations.tsx:22
 msgid "Knife"
@@ -4738,7 +4738,7 @@ msgstr "Свинець"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:248
 msgid "Leather Sling"
-msgstr ""
+msgstr "Шкіряна праща"
 
 #: src/components/_economy/company/CompanyDropdown.tsx:299
 msgid "Leave"
@@ -5426,15 +5426,15 @@ msgstr "Назва"
 
 #: src/components/_political/party/party.frontConfig.tsx:425
 msgid "National battle orders cost double."
-msgstr "Національні бойові накази коштують удвічі більше."
+msgstr "Державні бойові накази коштують удвічі більше."
 
 #: src/components/_political/party/party.frontConfig.tsx:419
 msgid "National battle orders give <0>double</0> the priority damage bonus (<1>+10%</1> / <2>+20%</2> / <3>+30%</3>)."
-msgstr ""
+msgstr "Державні накази дають <0>подвійний</0> бонус до шкоди (<1>+10%</1> / <2>+20%</2> / <3>+30%</3>)."
 
 #: src/components/_military/battle/BattleSystem.tsx:798
 msgid "National bounty"
-msgstr "Національна винагорода"
+msgstr "Державна винагорода"
 
 #: src/components/_military/mu/MuSettings.tsx:30
 msgid "Nationality updated"
@@ -5446,7 +5446,7 @@ msgstr "Потрібна робота?"
 
 #: src/components/_economy/inventory/ItemRecipe.tsx:59
 msgid "Needs more <0/> to produce"
-msgstr ""
+msgstr "Недостатньо <0/> для виробництва"
 
 #: src/components/_military/mercenaryContract/BuyMercenaryReputationButton.tsx:47
 msgid "Negative mercenary reputation"
@@ -7445,7 +7445,7 @@ msgstr "Пропустити навчання"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:260
 msgid "Sling Stones"
-msgstr ""
+msgstr "Камінці для пращі"
 
 #: src/utils/translations.tsx:25
 msgid "Sniper"
@@ -7489,7 +7489,7 @@ msgstr "Витрати"
 
 #: src/components/_political/country/CountryHeader.tsx:186
 msgid "Stable, conquest-proof strength. Still used for unrest, government wages and revolution cost. Other costs use <0>Average development</0>."
-msgstr ""
+msgstr "Стабільна, захищена від завоювань сила. Все ще використовується для спротиву, урядових зарплат та вартості революції. Інші ціни розраховуються через <0>Середній розвиток</0>."
 
 #: src/components/_political/law/law.frontConfig.tsx:169
 #: src/components/_political/law/law.frontConfig.tsx:171
@@ -7592,7 +7592,7 @@ msgstr "Сталь"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:245
 msgid "Stone Maul"
-msgstr ""
+msgstr "Кам'яна киянка"
 
 #: src/components/_economy/company/CompanyTags.tsx:107
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:83
@@ -7695,7 +7695,7 @@ msgstr "Заклятий ворог"
 #. placeholder {0}: formatMultiplierDelta( ethicsBonuses.isolationism[2].enemyMaintenanceMultiplier, )
 #: src/components/_political/party/party.frontConfig.tsx:233
 msgid "Sworn enemy maintenance costs are increased by <0>{0}</0>."
-msgstr ""
+msgstr "Вартість утримання заклятого ворога збільшена на <0>{0}</0>."
 
 #. placeholder {0}: ethicsBonuses.isolationism['-1'].enemyFidelityStart
 #. placeholder {0}: ethicsBonuses.isolationism['-2'].enemyFidelityStart
@@ -7709,7 +7709,7 @@ msgstr ""
 #. placeholder {0}: ts.paper
 #: src/components/_military/battle/SetOrderFormModal.tsx:433
 msgid "Sworn enemy: orders against your sworn enemy cost {orderDiscountPercent}% less <0>{0}</0>"
-msgstr ""
+msgstr "Заклятий ворог: накази проти вашого заклятого ворога коштують на <0>{0}</0> менше {orderDiscountPercent}%"
 
 #: src/components/_political/event/EventList.tsx:72
 msgid "System revolt"
@@ -7807,7 +7807,7 @@ msgstr ""
 
 #: src/components/_political/law/LawCostExplanation.tsx:32
 msgid "The cost is the law's base cost scaled by your country's average development."
-msgstr ""
+msgstr "Ціною є базова вартість закону, змінена середнім розвитком вашої держави."
 
 #: src/components/_user/user/skills.frontConfig.tsx:59
 msgid "The damage factor increase of critical hits over normal hits"
@@ -7877,7 +7877,7 @@ msgstr "Ця держава не має активного президента 
 
 #: src/components/_political/government/Government.tsx:72
 msgid "This country is Fanatic Imperialist: it cannot have ministers, only a president and vice president. Minister nominations will be rejected."
-msgstr ""
+msgstr "Ця держава є фанатично імперіалістською: вона не може мати міністрів, лише президента та віцепрезидента. Призначення міністрів буде відхилено."
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:42
 msgid "This equipment is green and so is grass"
@@ -7893,7 +7893,7 @@ msgstr "Це підсумок здобичі, яку ви отримали у ц
 
 #: src/components/_political/country/CountryHeader.tsx:215
 msgid "This is the value used to calculate most costs: battle orders, alliance, sworn enemy and defensive pact maintenance, laws and upgrade upkeep."
-msgstr ""
+msgstr "Це значення, яке використовується для розрахунку більшості вартостей: бойових наказів, альянсів, заклятого ворога, договору про захист, законів та утримання покращень."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:27
 msgid "This is your company hub. Here you can produce items and build your empire."
@@ -7930,7 +7930,7 @@ msgstr "Цей гравець не є членом жодної сімейної
 
 #: src/components/_economy/inventory/ConsumeItems.tsx:237
 msgid "This will give you a buff for {cocainBuffHours}h then cause a malus for {cocainDebuffHours}h"
-msgstr ""
+msgstr "Це дасть вам посилання на {cocainBuffHours} годин, після чого спричинить послаблення на {cocainDebuffHours} годин"
 
 #: src/components/_user/user/UserDropdown.tsx:350
 msgid "This will require the user to verify their mobile phone number."
@@ -8138,7 +8138,7 @@ msgstr "Турнір"
 
 #: src/components/_military/battle/BattleName.tsx:160
 msgid "Tournament battle for {tournamentName} {score}"
-msgstr ""
+msgstr "Турнірна битва у {tournamentName} {score}"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:2052
 msgid "Tournament Created"
@@ -8193,7 +8193,7 @@ msgstr "Транзакції"
 
 #: src/components/_political/law/law.frontConfig.tsx:408
 msgid "Transfer <0/> to <1/>"
-msgstr "Передати <0/> до <1/>"
+msgstr "Переказати <0/> до <1/>"
 
 #: src/components/_political/law/law.frontConfig.tsx:402
 #: src/components/_political/law/lawNames.tsx:28
@@ -8246,21 +8246,21 @@ msgstr "Зняти все"
 
 #: src/components/_political/party/party.frontConfig.tsx:415
 msgid "Unethical"
-msgstr "Неетичний"
+msgstr "Безпринципний"
 
 #: src/components/_political/law/LawEthicEffects.tsx:79
 msgid "Unethical countries cannot hold any treaty — this law cannot be enacted."
-msgstr "Неетичні держави не можуть мати ніяких угод — цей закон неможна прийняти."
+msgstr "Безпринципці держави не можуть мати ніяких угод — цей закон неможна прийняти."
 
 #. placeholder {0}: ts.paper
 #: src/components/_military/battle/SetOrderFormModal.tsx:457
 msgid "Unethical: capital occupied, national orders give only the regular bonus but still cost ×2 <0>{0}</0>"
-msgstr "Неетична: столиця окупована, державні накази дають звичайний бонус, але все ще коштують удвічі більше <0>{0}</0>"
+msgstr "Безпринципна: столиця окупована, державні накази дають звичайний бонус, але все ще коштують удвічі більше <0>{0}</0>"
 
 #. placeholder {0}: ts.paper
 #: src/components/_military/battle/SetOrderFormModal.tsx:452
 msgid "Unethical: national orders deal ×2 damage but cost ×2 <0>{0}</0>"
-msgstr "Неетична: державні накази дають ×2 бонусної шкоди, але коштують удвічі більше <0>{0}</0>"
+msgstr "Безпринципна: державні накази дають ×2 бонусної шкоди, але коштують удвічі більше <0>{0}</0>"
 
 #: src/pages/region/[regionId]/index.tsx:200
 msgid "Unlinked"
@@ -8733,11 +8733,11 @@ msgstr "Ласкаво просимо до вашої економіки!"
 #. placeholder {0}: formatPercent( ethicsBonuses.militarism[2].pacificationDefenseBonusPerLevel, )
 #: src/components/_political/party/party.frontConfig.tsx:116
 msgid "When defending a revolt, gain an additional <0>{0}</0> battle bonus per Pacification Center level."
-msgstr ""
+msgstr "Захищаючись у повстаннях отримуэ додтакові <0>{0}</0> бойового бонусу за кожен рівень центру умиротворення."
 
 #: src/components/_political/party/party.frontConfig.tsx:63
 msgid "When revolting, you copy the enemy's defensive battle bonus from Bunker region upgrades."
-msgstr ""
+msgstr "Під час повстань ви копіюєте ворожий бойовий бонус від бункеру у цьому регіоні."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:156
 msgid "When your <0>Health</0> runs out, open this menu to restore it with food."
@@ -8758,7 +8758,7 @@ msgstr "Чому ви хочете запропонувати цей закон?
 
 #: src/components/_other/shop/skinPack.frontConfig.tsx:36
 msgid "Winter Soldier Pack"
-msgstr ""
+msgstr "Набір зимового солдата"
 
 #: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:185
 msgid "with bonus"
@@ -8791,7 +8791,7 @@ msgstr ""
 
 #: src/components/_other/shop/skin.frontConfig.tsx:254
 msgid "Woolly Mammoth"
-msgstr ""
+msgstr "Шерстяний мамут"
 
 #: src/components/_economy/company/WorkButton.tsx:245
 #: src/components/_user/mission/mission.frontConfig.tsx:87
@@ -9048,7 +9048,7 @@ msgstr "Ви звільнились!"
 #. placeholder {0}: gameConfig.election.candidateMinLevel
 #: src/components/_political/election/Election.tsx:133
 msgid "You must be at least level {0} to become a candidate."
-msgstr ""
+msgstr "Досягніть {0} рівня, щоб подати кандидатуру."
 
 #. placeholder {0}: gameConfig.region.resistanceContributionMinLevel
 #. placeholder {0}: gameConfig.unrest.contributionMinLevel
@@ -9060,7 +9060,7 @@ msgstr "Досягніть {0} рівня, щоб сприяти."
 #. placeholder {0}: gameConfig.election.voteMinLevel
 #: src/components/_political/election/Election.tsx:226
 msgid "You must be at least level {0} to vote."
-msgstr ""
+msgstr "Досягніть {0}, щоб голосувати."
 
 #: src/components/_political/government/PoliticalEthicsSelect.tsx:115
 msgid "You must spend all 3 ethics points ({pointsRemaining} remaining)"
@@ -9234,7 +9234,7 @@ msgstr "Твої предки пишаються тобою"
 
 #: src/components/_political/government/AnnouncementForm.tsx:23
 msgid "Your announcement to the country..."
-msgstr ""
+msgstr "Ваше оголошення до всіх громадян..."
 
 #: src/components/_user/notification/notification.frontConfig.tsx:367
 #: src/components/_user/notification/notification.frontConfig.tsx:1067
@@ -9333,11 +9333,11 @@ msgstr "Назва вашого підрозділу"
 
 #: src/components/_military/mu/MuSettings.tsx:53
 msgid "Your military unit nationality is the country it represents. Changing it is free and can only be done once every {cooldownDays} days."
-msgstr ""
+msgstr "Національність вашого підрозділу показує, яку державу він представляє. Зміна національності безкоштовна і може бути здійснена кожні {cooldownDays} днів."
 
 #: src/components/_military/mercenaryContract/BuyMercenaryReputationButton.tsx:50
 msgid "Your MU has <0/> reputation and cannot bid on mercenary contracts. Pay to buy back reputation (once per day)."
-msgstr ""
+msgstr "Ваш ВП має <0/> репутації і не може робити ставки на найманські контракти. Оплатіть покупку репутації (один раз на день)."
 
 #: src/components/_military/mercenaryContract/MercenaryAuctionItem.tsx:230
 msgid "Your MU must have enough money to cover the acceptance fee to bid. Payment is only deducted if you win, and refunded on contract completion."
