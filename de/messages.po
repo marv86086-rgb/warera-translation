@@ -2809,7 +2809,7 @@ msgstr "Zu entfernendes Ratsmitglied"
 
 #: src/components/_other/shop/skinPack.frontConfig.tsx:41
 msgid "Counter-strike the enemy"
-msgstr ""
+msgstr "Den Feind zurückschlagen"
 
 #: src/components/_layout/LoadingScreenContent.tsx:19
 msgid "countries"
@@ -2845,7 +2845,7 @@ msgstr "Land hat Allianz verlassen"
 
 #: src/components/_economy/transaction/TransactionList.tsx:102
 msgid "Country Money Transfer"
-msgstr ""
+msgstr "Auslandsüberweisung"
 
 #: src/components/_military/battle/BattleSideOrdersModal.tsx:62
 msgid "Country Orders"
@@ -2866,7 +2866,7 @@ msgstr "Landes-Produktionsbonus"
 
 #: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:141
 msgid "Country to invite"
-msgstr ""
+msgstr "Einzuladendes Land"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:181
 msgid "Country Tournament Winner"
@@ -3502,7 +3502,7 @@ msgstr "Elite-Brustplatte"
 
 #: src/components/_other/shop/skinPack.frontConfig.tsx:45
 msgid "Elite counter-terrorism unit"
-msgstr ""
+msgstr "Elite Anti-Terror Einheit"
 
 #: src/utils/translations.tsx:215
 msgid "Elite Gloves"
@@ -4231,7 +4231,7 @@ msgstr "GSG9 Pistole"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:335
 msgid "GSG9 Sniper Rifle"
-msgstr "GSG 9 Diensthund"
+msgstr "GSG9 Diensthund"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:350
 msgid "GSG9 Tactical Boots"
@@ -4496,11 +4496,11 @@ msgstr "Einladungen"
 
 #: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:46
 msgid "Invite <0/>"
-msgstr "Lade <0/> ein"
+msgstr "<0/> einladen"
 
 #: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:55
 msgid "Invite <0/> to join the alliance. If accepted, the target country's government must also accept a system law before joining takes effect."
-msgstr "Lade <0/> ein, der Allianz beizutreten. Wenn die Einladung innerhalb der Allianz akzeptiert wird, muss die Regierung des Landes ein Gesetz akzeptieren, bevor es beitritt."
+msgstr "<0/> einladen, der Allianz beizutreten. Wenn die Einladung innerhalb der Allianz akzeptiert wird, muss die Regierung des Landes ein Gesetz akzeptieren, bevor es beitritt."
 
 #: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:39
 msgid "Invite a country to join the alliance. A confirmation law is created in the target country."
@@ -4509,7 +4509,7 @@ msgstr "Lade ein Land ein, der Allianz beizutreten. Ein Gesetzesentwurf wird in 
 #: src/components/_political/alliance/alliance.frontConfig.tsx:15
 #: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:37
 msgid "Invite country"
-msgstr "Lade Land ein"
+msgstr "Land einladen"
 
 #: src/utils/translations.tsx:53
 msgid "Iron"
@@ -4997,7 +4997,7 @@ msgstr "Karten-Akzent"
 
 #: src/components/_layout/LayoutOptions.tsx:142
 msgid "Map icons"
-msgstr ""
+msgstr "Kartensymbole"
 
 #: src/components/_economy/market/MarketHeader.tsx:37
 #: src/components/_layout/LayoutMenu.tsx:189
@@ -5023,7 +5023,7 @@ msgstr "Maximales Level erreicht!"
 #: src/components/_economy/company/CompanyDropdown.tsx:221
 #: src/components/_economy/company/CompanyDropdown.tsx:239
 msgid "Maxed!"
-msgstr ""
+msgstr "Maximiert!"
 
 #. placeholder {0}: levelConfig.stats.members
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:109
@@ -5102,7 +5102,7 @@ msgstr "Mitgliedsländer"
 
 #: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:153
 msgid "Member country to kick"
-msgstr ""
+msgstr "Mitgliedsland entfernen"
 
 #: src/components/_military/mu/MuMemberList.tsx:116
 msgid "Member demoted from commander"
@@ -5242,7 +5242,7 @@ msgstr "Außenminister"
 
 #: src/components/_layout/LayoutOptions.tsx:180
 msgid "Mission tags"
-msgstr ""
+msgstr "Missionssymbole"
 
 #: src/components/_layout/LayoutRightIcons.tsx:173
 #: src/components/_layout/MoreButtonNav.tsx:105
@@ -5446,7 +5446,7 @@ msgstr "Brauchst du einen Job?"
 
 #: src/components/_economy/inventory/ItemRecipe.tsx:59
 msgid "Needs more <0/> to produce"
-msgstr ""
+msgstr "Zum Produzieren wird mehr <0/> benötigt."
 
 #: src/components/_military/mercenaryContract/BuyMercenaryReputationButton.tsx:47
 msgid "Negative mercenary reputation"
@@ -7216,7 +7216,7 @@ msgstr "verkauft"
 
 #: src/components/_political/law/law.frontConfig.tsx:418
 msgid "Send <0/> to <1/>"
-msgstr ""
+msgstr "<0/> an <1/> senden"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:386
 msgid "Send <0>{count}</0> messages"
@@ -7489,7 +7489,7 @@ msgstr "Ausgaben"
 
 #: src/components/_political/country/CountryHeader.tsx:186
 msgid "Stable, conquest-proof strength. Still used for unrest, government wages and revolution cost. Other costs use <0>Average development</0>."
-msgstr ""
+msgstr "Zuverlässige, eroberungssichere Stärke. Wird für Unruhen, Regierungsgehälter und Revolutionskosten verwendet. Für andere Kosten gilt die <0>Durchschnittliche Entwicklung</0>."
 
 #: src/components/_political/law/law.frontConfig.tsx:169
 #: src/components/_political/law/law.frontConfig.tsx:171
@@ -7682,7 +7682,7 @@ msgstr "Supporter-Plan"
 
 #: src/components/_user/kits/KitsPopover.tsx:209
 msgid "Supporter Plan: up to {premiumMax} kits"
-msgstr ""
+msgstr "Supporter-Plan: Bis zu {premiumMax} Sets"
 
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:161
 msgid "Supreme Commander"
@@ -8733,7 +8733,7 @@ msgstr "Willkommen in deiner Wirtschaft!"
 #. placeholder {0}: formatPercent( ethicsBonuses.militarism[2].pacificationDefenseBonusPerLevel, )
 #: src/components/_political/party/party.frontConfig.tsx:116
 msgid "When defending a revolt, gain an additional <0>{0}</0> battle bonus per Pacification Center level."
-msgstr "Bei der Abwehr einer Revolte, erhalte einen zusätzlichen Kamfbonus von <0>{0}</0> pro Level des Befriedungszentrums."
+msgstr "Bei der Abwehr einer Revolte, erhalte einen zusätzlichen Kampfbonus von <0>{0}</0> pro Level des Befriedungszentrums."
 
 #: src/components/_political/party/party.frontConfig.tsx:63
 msgid "When revolting, you copy the enemy's defensive battle bonus from Bunker region upgrades."
@@ -9404,8 +9404,8 @@ msgstr "Deine"
 
 #: src/components/_layout/LayoutLeftIcons.tsx:85
 msgid "Zoom in"
-msgstr ""
+msgstr "Vergrößern"
 
 #: src/components/_layout/LayoutLeftIcons.tsx:93
 msgid "Zoom out"
-msgstr ""
+msgstr "Verkleinern"
