@@ -258,7 +258,7 @@ msgstr "<0/> gynėsi <1/>"
 #. placeholder {0}: data.amount
 #: src/components/_user/notification/notification.frontConfig.tsx:1168
 msgid "<0/> donated <1>{0}</1> to <2/>"
-msgstr "<0/> paaukojo <1>{0}</1> žaidėjui <2/>"
+msgstr "<0/> paaukojo <1>{0}</1> <2/>"
 
 #. placeholder {0}: ts[data.caseCode]
 #: src/components/_political/message/systemMessage.frontConfig.tsx:124
