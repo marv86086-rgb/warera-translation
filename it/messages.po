@@ -624,7 +624,7 @@ msgstr "<0>{0}</0> contro il nemico di <1/>"
 #. placeholder {0}: levelConfig.stats.attackBonus || 0
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:49
 msgid "<0>{0}</0> Attack bonus when attacking from this region.<1/>Citizens get the full bonus, allied countries get half."
-msgstr "<0>{0}<0> Bonus di attacco da questa regione. <1/>I cittadini ottengono l'intero bonus, le nazioni alleate solo metà"
+msgstr "<0>{0}</0> Bonus di attacco da questa regione. <1/>I cittadini ottengono l'intero bonus, le nazioni alleate solo metà"
 
 #. placeholder {0}: sideBonus.regionNotLinkedToCapitalMalusPercent
 #: src/components/_military/battle/BattleDamageBonuses.tsx:209
