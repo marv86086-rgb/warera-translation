@@ -1226,7 +1226,7 @@ msgstr "7. Bendruomenės elgesys"
 
 #: src/components/_user/premium/PremiumFeatureList.tsx:79
 msgid "A <0>supporter badge</0>"
-msgstr "<0>rėmėjo ženklelis</0>"
+msgstr "<0>Rėmėjo ženklelis</0>"
 
 #: src/components/_user/premium/PremiumFeatureList.tsx:84
 msgid "A beautiful colored username that will make you very popular"
