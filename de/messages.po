@@ -5430,7 +5430,7 @@ msgstr "Nationale Landesbefehle kosten das Doppelte."
 
 #: src/components/_political/party/party.frontConfig.tsx:419
 msgid "National battle orders give <0>double</0> the priority damage bonus (<1>+10%</1> / <2>+20%</2> / <3>+30%</3>)."
-msgstr "Kampfbefehle geben <0>double</0> Kampfbonus (<1>+10%</1> / <2>+20%</2> / <3>+30%</3>)."
+msgstr "Kampfbefehle geben <0>doppelten</0> Kampfbonus (<1>+10%</1> / <2>+20%</2> / <3>+30%</3>)."
 
 #: src/components/_military/battle/BattleSystem.tsx:798
 msgid "National bounty"
@@ -7048,7 +7048,7 @@ msgstr "Runde beendet"
 #: src/components/_military/battle/BattleSystem.tsx:465
 #: src/components/_military/battle/BattleSystem.tsx:502
 msgid "Round ETA"
-msgstr "Runden-ETA"
+msgstr "verbleibende Rundenzeit"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:79
 msgid "Round Hero"
