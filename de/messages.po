@@ -7704,7 +7704,7 @@ msgstr "Die Unterhaltskosten für Erzfeinde werden um <0>{0}</0> erhöht."
 #: src/components/_political/party/party.frontConfig.tsx:141
 #: src/components/_political/party/party.frontConfig.tsx:177
 msgid "Sworn enemy treaties start at <0>{0} fidelity</0> and gain <1>{1}</1> each day."
-msgstr "Boni gegen Erzfeinde beginnen bei <0>{0} Treue</0> und steigen täglich um <1>{1}</1>.“"
+msgstr "Boni gegen Erzfeinde beginnen bei <0>{0} Treue</0> und steigen täglich um <1>{1}</1>."
 
 #. placeholder {0}: ts.paper
 #: src/components/_military/battle/SetOrderFormModal.tsx:433
